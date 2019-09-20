@@ -1,0 +1,10 @@
+C:\Users\admin\Desktop\ADOdotNET\test0410_Data\test0410_Data\bin\Debug\test0410_Data.exe.config
+C:\Users\admin\Desktop\ADOdotNET\test0410_Data\test0410_Data\bin\Debug\test0410_Data.exe
+C:\Users\admin\Desktop\ADOdotNET\test0410_Data\test0410_Data\bin\Debug\test0410_Data.pdb
+C:\Users\admin\Desktop\ADOdotNET\test0410_Data\test0410_Data\obj\Debug\test0410_Data.Form1.resources
+C:\Users\admin\Desktop\ADOdotNET\test0410_Data\test0410_Data\obj\Debug\test0410_Data.Properties.Resources.resources
+C:\Users\admin\Desktop\ADOdotNET\test0410_Data\test0410_Data\obj\Debug\test0410_Data.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\ADOdotNET\test0410_Data\test0410_Data\obj\Debug\test0410_Data.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\ADOdotNET\test0410_Data\test0410_Data\obj\Debug\test0410_Data.exe
+C:\Users\admin\Desktop\ADOdotNET\test0410_Data\test0410_Data\obj\Debug\test0410_Data.pdb
+C:\Users\admin\Desktop\ADOdotNET\test0410_Data\test0410_Data\obj\Debug\test0410_Data.csprojAssemblyReference.cache

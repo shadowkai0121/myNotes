@@ -1,0 +1,296 @@
+<!--1. Hello JavaScript-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript</title>
+</head>
+
+<body>
+
+    <script type="text/javascript">
+        alert("Hello JavaScript!!!");
+    </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+<!--2. use button say Hello JavaScript-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript</title>
+</head>
+
+<body>
+
+    <a href="http://www.w3schools.com/js/js_events.asp">w3school事件清單</a> <br> <br>
+
+    <button onclick="showMessage()">點我會提示訊息喔!!(function)</button>
+
+    <script type="text/javascript">
+    function showMessage() {
+        alert("Hello JavaScript!!!");
+    }
+    </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+<!--3. input and show-->
+<!-- 3-1 var -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript</title>
+</head>
+
+<body>
+
+    <button onclick="showMessage()">點我印出Apple!!</button>
+
+    <script type="text/javascript">
+
+    function showMessage() {
+
+        var name = "apple";
+
+        alert(name);
+    }
+
+    </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+<!-- 3-2 prompt -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript</title>
+</head>
+
+<body>
+
+    <button onclick="showMessage()">點我提示輸入文字，然後顯示!!</button>
+
+    <script type="text/javascript">
+
+    function showMessage() {
+
+        var name = prompt("請輸入名字", "Apple");
+
+        alert(name);
+    }
+
+    </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+<!--4. input and show -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript</title>
+</head>
+
+<body>
+
+    <button onclick="showMessage()">點我提示輸入文字，然後顯示!!</button>
+
+    <script type="text/javascript">
+
+    function showMessage() {
+
+        // 1. 試試看，宣告兩個變數【lastname、firstname】，接收兩個prompt【"請輸入姓氏"、"請輸入名字"】
+
+        // 2. 再宣告一個變數【name】，把【lastname、firstname】組合起來 (+);
+
+        // 3. 最後用alert把【name】印出來
+    }
+
+    </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+<!--5. input and show - error!! -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript</title>
+</head>
+
+<body>
+
+    <button onclick="showMessage()">加法運算</button>
+
+    <script type="text/javascript">
+
+    function showMessage() {
+
+        // 1. 試試看，宣告兩個變數【x、y】，接收兩個prompt【"加法運算，請輸入x"、"加法運算，請輸入y"】
+
+        // 2. 再宣告一個變數【result】，把【x、y】相加的結果放到【result】 (+);
+
+        // 3. 最後用alert把【result】印出來
+
+    }
+
+    </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+<!-- 6. input and show - parseInt()、parseFloat() 與 Number() -->
+<!-- http://www.w3schools.com/jsref/jsref_obj_global.asp -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript</title>
+</head>
+
+<body>
+
+    <a href="http://www.w3schools.com/jsref/jsref_obj_global.asp">javascript 全域的屬性與變數</a>
+
+    <button onclick="showMessage()">加法運算</button>
+
+    <script type="text/javascript">
+
+    function showMessage() {
+
+        var x = prompt("加法運算，請輸入x", 0);
+        var y = prompt("加法運算，請輸入y", 0);
+
+        // 延續上一題
+        
+        // 1. 試試看把x變數的型別印出來看看 => alert(typeof(x));
+
+        // 2. 透過parseInt()函式，把變數x、y，轉型成數值；再把轉型後的 x 和 y 相加
+
+        // 3. 最後用alert把【result】印出來
+
+    }
+
+    </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+<!--7. try it - parseInt()、parseFloat() 與 Number() -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript</title>
+</head>
+
+<body>
+
+    <button onclick="showMessage()">加法運算</button>
+
+    <script type="text/javascript">
+
+    function showMessage() {
+
+        // 試著把下面函數與值列出來，比較看看結果
+
+        // parseInt(true);               // NaN
+        // parseInt(false);              // NaN
+        // parseInt("20");               // 20
+        // parseInt("30.00");            // 30
+        // parseInt("10.68");            // 10
+        // parseInt("12 22 32");         // 12 
+        // parseInt("        80   ");    // 80
+        // parseInt("378abc");           // 378
+        // parseInt("abc378");           // NaN
+                                                      
+        // parseFloat(true);              // NaN
+        // parseFloat(false);             // NaN
+        // parseFloat("20");              // 20
+        // parseFloat("30.00");           // 30
+        // parseFloat("10.68");           // 10.68
+        // parseFloat("12 22 32");        // 12
+        // parseFloat("        80   ");   // 80
+        // parseFloat("378abc");          // 378 
+        // parseFloat("abc378");          // NaN
+                                    
+                                    
+        // Number(true);                  // 1
+        // Number(false);                 // 0
+        // Number("20");                  // 20
+        // Number("30.00");               // 30
+        // Number("10.68");               // 10.68
+        // Number("12 22 32");            // NaN
+        // Number("        80   ");       // 80
+        // Number("378abc");              // NaN
+        // Number("abc378");              // NaN
+     
+        var result = Number("378abc");  
+
+        alert(result);
+    }
+
+    </script>
+
+</body>
+
+</html>

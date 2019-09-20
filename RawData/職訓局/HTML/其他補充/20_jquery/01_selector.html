@@ -1,0 +1,44 @@
+<!-- 和css概念很像的選擇器 -->
+<!-- 使用jQuery的注意事項：引用、選擇器、大小寫 -->
+<!-- w3c參考資料：http://www.w3schools.com/jquery/jquery_selectors.asp -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <style type="text/css">
+        .bgred{background-color:red;}
+        .bgblue{background-color:blue;}
+        .bggreen{background-color:green;}
+        .bgorange{background-color:orange;}
+        .bgpink{background-color:pink;}
+    </style>
+</head>
+
+<body>
+    <button id="btn1">div裡面的p</button>
+    <button id="btn2">整個div</button>
+    <button id="btn3">div後面第1個p</button>
+    <button id="btn4">div後面所有p</button>
+    <button id="btn5">所有的div和p</button>
+
+    <button id="btnRemove">移除class</button>
+    <hr>
+
+    <div id="div1">div1
+        <p>p1：我在div裡面的p</p>
+    </div>
+    <p>p2：我在div後面</p>
+    <p>p3：我在div後面的後面</p>
+    <h3>這是一個假動作</h3>
+
+    <script>
+    // 試試看 addClass、removeClass，以及各種selector
+
+    </script>
+</body>
+
+</html>
+

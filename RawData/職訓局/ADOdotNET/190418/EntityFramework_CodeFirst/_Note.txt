@@ -1,0 +1,35 @@
+﻿Entity Framework - Code First
+
+
+1. 開啟 PDF 檔，或連往網站:
+http://msdn.microsoft.com/en-us/data/jj193542
+
+2. 依照文件的操作說明進行練習。
+
+
+建議習作環境: VS Express 2012 for Desktop
+           或 VS Express 2013 for Desktop
+
+
+<Note>
+
+1. 必要時，請在 App.config 檔加入 <connectionStrings> (置於 configuration 根元素之下)
+   並且設定 ConnectionString 的內容。
+
+  <connectionStrings>
+    <add
+      name="BloggingContext"
+      connectionString="data source=(local);initial catalog=CodeFirstBloggingDB;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework"
+      providerName="System.Data.SqlClient" />
+  </connectionStrings>
+
+
+2. 修改 DBContext 類別，加入下列建構元，要求使用名稱為 BloggingContext 的連線字串:
+        public class BloggingContext : DbContext
+        {
+            public BloggingContext() : base("name=BloggingContext") 
+            {
+
+            }
+	// ...
+

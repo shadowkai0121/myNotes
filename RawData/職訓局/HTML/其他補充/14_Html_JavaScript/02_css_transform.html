@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>doge</title>
+    <style type="text/css">
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body onkeydown="moveDoge(event)">
+
+    <img id="dog" src="img/doge.gif">
+    <img id="dogUp" src="img/doge.gif">
+    <img id="dogDown" src="img/doge.gif">
+    <img id="dogLeft" src="img/doge.gif">
+    <img id="dogRight" src="img/doge.gif">
+
+    <script type="text/javascript">
+        document.getElementById("dogUp").style.transform = "rotateX(180deg)";
+        document.getElementById("dogDown").style.transform = "rotateX(80deg)";
+        document.getElementById("dogLeft").style.transform = "rotateY(80deg)";
+        document.getElementById("dogRight").style.transform = "rotateY(180deg)";
+    </script>
+</body>
+
+</html>

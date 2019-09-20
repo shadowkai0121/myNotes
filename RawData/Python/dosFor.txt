@@ -1,0 +1,89 @@
+¹ï¤@²ÕÀÉ®×¤¤ªº¨C­ÓÀÉ®×°õ¦æ«ü©wªº©R¥O¡C
+
+FOR %variable IN (set) DO ©R¥O [command-parameters]
+
+%variable  «ü©w¤@­Ó¥i¥H¨ú¥Nªº°Ñ¼Æ¡C
+
+(set)      «ü©w¥Ñ¤@©Î¦h­ÓÀÉ®×²Õ¦¨ªºÀÉ®×²Õ¡C±z¥i¨Ï¥Î³q°t¦r¤¸¡C
+
+command    «ü©w©R¥O¨Ó°õ¦æ¨C¤@­ÓÀÉ®×¡C
+
+command-parameters¬°©Ò«ü©wªº©R¥O«ü©wÅÜ¼Æ©Î°Ñ¼Æ¡C
+
+¦pªG­n¦b§å¦¸µ{¦¡¤¤¨Ï¥Î FOR ©R¥O¡A½Ğ«ü©w %%variable¡A¦Ó¤£­n«ü©w
+%variable¡CÅÜ¼Æ¦WºÙ¦³¤j¤p¼gªº°Ï¤À¡A©Ò¥H %i ¤£¦P©ó %I¡C
+
+¦pªG±z±Ò¥ÎÂX¥R©R¥O¡A«hÃB¥~¤ä´©¤U¦Cªº FOR ©R¥O®æ¦¡:
+
+FOR /D %variable IN (set) DO command  [command-parameters]
+
+¦pªG set ¤¤¥]§t¸U¥Î¦r¤¸¡A«h«ü©w»P¥Ø¿ı¦WºÙ¬Û²Å¡A
+¦Ó¤£¬O»PÀÉ®×¦WºÙ¬Û²Å¡C
+
+FOR /R [[drive:]path] %variable IN (set) DO command  [command-parameters]
+
+¦b¾ğª¬¥Ø¿ı¤¤¤Á´« [drive:] ¸ô®|¡A¨Ã©ó¾ğª¬¥Ø¿ıªº¨C¤@­Ó¥Ø¿ı¤U°õ¦æ FOR ³¯­z¦¡¡C¦pªG¥¼¦b /R ¤§«á«ü©w¥Ø¿ı³W®æ¡A«h±Ä¥Î¥Ø«eªº¥Ø¿ı¡C¦pªG set ¥u¬O³æ¤@¥yÂI (.) ¦r¤¸¡A«h¥¦¥u·|¦CÁ|¾ğª¬¥Ø¿ı¡C
+
+FOR /L %variable IN (start,step,end) DO command [command-parameters]
+
+set ¬O±q¶}ÀY¨ìµ²§À¤@¦¸¸õ¤@¨Bªº³sÄò¼Æ¦r¡C©Ò¥H (1,1,5) ·|²£¥Í³sÄò­È (1 2 3 4 5) ¦Ó (5,-1,1) ·|²£¥Í³sÄò­È (5 4 3 2 1)
+
+FOR /F ["options"] %variable IN (file-set) DO command [command-parameters]
+FOR /F ["options"] %variable IN ("string") DO command [command-parameters]
+FOR /F ["options"] %variable IN ('command') DO command [command-parameters]
+
+    ©Î¡A¦pªG¨Ï¥Î usebackq ¿ï¶µ:
+
+FOR /F ["options"] %variable IN (file-set) DO command [command-parameters]
+FOR /F ["options"] %variable IN ('string') DO command [command-parameters]
+FOR /F ["options"] %variable IN (`command`) DO command [command-parameters]
+
+file-set ¥i¥H¬O¤@©Î¦h­ÓÀÉ®×¦WºÙ¡CÄ~Äò¶i¦æ file-set ¤¤ªº¤U­Ó
+ÀÉ®×¤§«e¡Am¤w¶}±Ò¡BÅª¨ú¤Î³B²z¹L¨C­ÓÀÉ®×¡C³B²zµ{§Ç¥]¬AÅª¨úÀÉ®×¡B±N¥¦¤À³Î¦¨¿W¥ßªº¤å¦r¦æ¡AµM«á±N¨C¤@¦æ­åªR¦¨¹s©Î¦h­Ó»y ªk¡C¨Ï¥Î¤w³]¦¨§ä¨ì¤§»yªk¦r¦êªºÅÜ¼Æ­È¡A©I¥s For °j°éªº¤º®e¡C¨Ì·Ó¹w³]¡A/F ·|±q¨C­ÓÀÉ®×ªº¨C¤@¦æ¶Ç°e²Ä¤@­Ó¥HªÅ®æ¤À¹jªºÅv§ú¡CªÅ¥Õ¦æ·|³Q²¤¹L¡C±z¥i¥H«ü©w¿ï¾Ü©Êªº "options" °Ñ¼Æ¨ÓÂĞ¼g¹w³]ªº­åªR¦æ¬°¡C³o¬O¦³¤Ş¸¹ªº¦r¦ê¡A¥]§t¤@©Î¦h­Ó«ü©w¤£¦P­åªR¿ï¶µªºÃöÁä¦r¡CÃöÁä¦r¬O:
+    
+eol=c           - «ü©w¤@­Ó¦æ§Àµù¸Ñ¦r¤¸ (¥u¦³¤@­Ó)
+skip=n          - «ü©w¦bÀÉ®×¶}ÀY­n²¤¹Lªº¦æ¼Æ¡C
+delims=xxx      - «ü©w¤À¹j²Å¸¹¶°¡C³o·|¨ú¥N¹w³]ªºªÅ®æ»P©w¦ì¦r¤¸ªº¤À¹j²Å¸¹¶°¡C
+tokens=x,y,m-n  - «ü©w¨C¤@¦æªº­ş¨Ç»yªkÀ³¸Ó³Q¶Ç¨ì for ªº¤º³¡¥H¶i¦æ¨C¤@­Ó­«½Æ¾Ş§@¡C³o·|³y¦¨°t¸mÃB¥~ªºÅÜ¼Æ¦WºÙ¡Cm-n ®æ¦¡¥Nªí ¤@­Ó½d³ò¡A«ü©w¤F²Ä m ­Ó¨ì²Ä n ­ÓÅv§ú¡C¦pªG tokens= ¦r¦êªº³Ì«á¤@­Ó¦r¤¸¬O¬P¸¹¡A«h·|°t¸m¤@­ÓÃB¥~ªºÅÜ¼Æ¨Ã¦b³Ì«á¤@­Ó»yªk³Q­åªR«á±µ¦¬¸Ó¦æ¤¤ªº¨ä¥L¤å¦r¡C
+usebackq        - «ü©w·s»y¸q¶}©l§@¥Î¡C¨ä¤¤¤Ï¬A¸¹ªº¦r¦ê·|³Q·í§@©R¥O¨Ó°õ¦æ¡A¦Ó³æ¤Ş¸¹¦r¦ê¬O¯Â¤å¦r¦r¦ê©R¥O¡A¨Ã¥B¤¹³\¨Ï¥ÎÂù¤Ş¸¹¨Ó¤Ş¥Î file-set ¤¤ªºÀÉ¦W¡C
+    
+¥H¤U¬O¤@­Ó½d¨Ò:
+
+FOR /F "eol=; tokens=2,3* delims=, " %i in (myfile.txt) do @echo %i %j %k
+
+³o·|­åªR myfile.txt ÀÉ®×¤¤ªº¨C¤@¦æ¡A¥¦¤£·|¥hºŞ¥H¤À¸¹¶}ÀYªº¦æ¼Æ¡Aª½±µ±N²Ä 2 ­Ó¤Î²Ä 3 ­Ó»yªk±q¨C¤@¦æ¶Ç¨ì for ¥DÅé¡A¦Ó¨ä»yªk¬O¥Î³r¸¹©M/©ÎªÅ®æ¤À¶}ªº¡C½Ğª`·N¡Afor ¥DÅé³¯­z¦¡°Ñ·Ó %i ¥H¨ú±o²Ä¤G­Ó»yªk¡A°Ñ·Ó %j ¥H¨ú±o²Ä¤T­Ó»yªk¡A¨Ï¥Î %k ¨ú±o²Ä¤T­Ó»yªk¤§«áªº³Ñ¾l¦r¦ê¡C¦]¬°ÀÉ®×¦WºÙ§t¦³ªÅ®æ¡A±z¥²¶·¥ÎÂù¤Ş¸¹¨Ó¬A¦íÀÉ®×¦WºÙ¡C­n³o¼Ë¨Ï¥ÎÂù¤Ş¸¹¡A±z¥²¶·¨Ï¥Î usebackq °Ñ¼Æ¡C§_«hÂù¤Ş¸¹·|³Q¸ÑÄ¶¦¨¥Î¨Ó©w¸q¤@¯ë¤å¦r¡C
+    
+¨Ï¥Î %i ©ú¥Õ¦a¦b for ³¯­z¦¡¤¤«Å§i¡A¨Ã³z¹L tokens= option ¨Ï¥Î%j §@·t¥Ü©Êªº«Å§i¡C±z¥i¥HÂÇ¥Ñ tokens= line ¨Ó«ü©w³Ì¦h 26 ­Ó»yªk¡A«e´£¬O¥¦«Å§iªºÅÜ¼Æ¤£¯à°ª©ó¦r¥À 'z' ©Î 'Z'¡C½Ğ°O¦í¡AFOR ÅÜ¼Æ¬O³æ¤@¦r¤¸ªº¡A¦P®É¦b¥ô¤@®É¶¡¤º¡A±z¤£¯à¦P®É¨Ï¥Î¶W¹L 52 ­Ó FORÅÜ¼Æ¡C
+    
+±z¤]¥i¥H¨Ï¥Î FOR /F ©R¥O¦b¥ß§Y¦r¦ê¤¤­åªRÅŞ¿è¡A¤èªk¬O±N¬A©·¤§¶¡ªº file-set ÅÜ¦¨¤@­Ó¤Ş¸¹¦r¦ê¡C¥¦·|³Qµø¬°±qÀÉ®×¿é¤Jªº³æ¦æ¡A¨Ã¥[¥H­åªR¡C
+    
+³Ì«á¡A±z¥i¥H¨Ï¥Î FOR /F ©R¥O¨Ó­åªR¤@­Ó©R¥Oªº¿é¥X¡C¤èªk¬O±N¬A©·¤ºªº file-set ÅÜ¦¨³æ¤Ş¸¹¦r¦ê¡C¥¦±N³Qµø¬°¤@­Ó©R¥O¦C¡A³o­Ó©R¥O¦æ±N·|¶Ç¨ì¤l CMD.EXE¡A¦Ó¿é¥X±N·|³QÂ^¨ú¨ì°O¾ĞÅé¤¤¡A·í¦¨ÀÉ®×¨Ó¤ÀªR¡C©Ò¥H¤U¦Cªº½d¨Ò:
+    
+FOR /F "delims==" %i IN ('set') DO @echo %i
+±N¦CÁ|¥Ø«eÀô¹Ò¤¤ªºÀô¹ÒÅÜ¼Æ¦WºÙ¡C
+
+¦¹¥~¡A¤w¸g¥[±j¤F FOR ÅÜ¼Æ°Ñ¦Òªº¨ú¥N¥\¯à¡C
+±z²{¦b¥i¥H¿ï¥Î¤U¦C¿ï¾Ü©Êªº»yªk:
+
+%~I         - ®i¶} %I ¥B²¾°£¥]³òªº¤Ş¸¹ (")
+%~fI        - ®i¶} %I ¬°¤@­Ó§¹¾ã¦X®æ¸ô®|¦WºÙ
+%~dI        - ¥u®i¶} %I ¬°ºÏºĞ¾÷¥N¸¹
+%~pI        - ¥u®i¶} %I ¬°¸ô®|
+%~nI        - ¥u®i¶} %I ¬°ÀÉ¦W
+%~xI        - ¥u®i¶} %I ¬°°ÆÀÉ¦W
+%~sI        - ®i¶}ªº¸ô®|¥u¥]§tµuÀÉ¦W
+%~aI        - ®i¶} %I ¬°ÀÉ®×ªºÀÉ®×Äİ©Ê
+%~tI        - ®i¶} %I ¬°ÀÉ®×ªº¤é´Á/®É¶¡
+%~zI        - ®i¶} %I ÀÉ®×ªºªø«×
+%~$PATH:I   - ·j´M©Ò¦³¦C¦b PATH Àô¹ÒÅÜ¼Æ¤ºªº¥Ø¿ı¥B®i¶} %I
+¬°²Ä¤@­Ó§ä¨ìªº§¹¥ş²Å¦XÀÉ¦W¡C¦pªG¨S¦³©w¸qÀô¹ÒÅÜ¼Æ¦WºÙ©Î¬O·j´M§ä¤£¨ìÀÉ®×¡A«h³o­Ó­×¹¢¤¸·|®i¶}¬°ªÅ¦r¦ê¡C
+
+­×¹¢¤¸¥i¥H¦X¨Ö¨Ï¥Î¥HÀò±oºî¦Xªºµ²ªG:
+
+%~dpI       - ¥u®i¶} %I ¬°ºÏºĞ¾÷¥N¸¹»P¸ô®|
+%~nxI       - ¥u®i¶} %I ¬°ÀÉ¦W»P°ÆÀÉ¦W
+%~fsI       - ¥u®i¶} %I ¬°§tµuÀÉ¦Wªº§¹¥ş¸ô®|
+%~dp$PATH:I - ¬° %I ·j´M©Ò¦³¦C¦b PATH Àô¹ÒÅÜ¼Æ¤ºªº¥Ø¿ı¥B®i¶}²Ä¤@­Ó§ä¨ìªº¶µ¥Ø¬°ºÏºĞ¾÷¥N¸¹¤Î¸ô®|¡C
+%~ftzaI     - ®i¶} %I ¬°¹³ DIR ¤@¼Ëªº¿é¥X¦æ
+
+¦b¤W­±ªº½d¨Ò¤¤ %I ©M PATH ¯à¥Î¨ä¥Lªº¦Xªk­È¨ú¥N¡C%~ »yªk¬O¥Ñ¦XªkªºFOR ÅÜ¼Æ¦WºÙ¨Ó²×¤î¡C¦pªG¿ï¥Î¹³ %I ªº¤j¼g¦WºÙ¥i¥H¼W¥[¥iÅª©Ê¦Ó¥BÁ×§K©M­×¹¢¤¸ªº²V²c¡A¦]¬°³o¨Ç¨Ã¤£°Ï¤À¤j¤p¼g¡C

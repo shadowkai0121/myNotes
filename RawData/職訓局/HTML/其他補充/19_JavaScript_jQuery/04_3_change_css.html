@@ -1,0 +1,55 @@
+<!-- javascript版 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Change HTML Styles (CSS)</title>
+</head>
+
+<body>
+    <p id="memo">點選圖片放大人物~</p>
+    <img id="imgOP" onclick="changeImage()" src="../02_Table/img/01.jpg">
+
+    <script>
+    function changeImage() {
+        var image = document.getElementById('imgOP');
+
+        image.style.width = "330px";
+        image.style.height = "500px" ;
+
+        // 試試看 改變 <p> 的 文字大小 5em
+        // 1. 透過 id (memo) 取得 元素
+        // 2. 元素改變字型大小的css屬性是?
+        var desc = document.getElementById('memo');
+        desc.style.fontSize = "5em";
+    }
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+<!-- jQuery版 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <p id="memo">點選圖片放大人物~</p>
+    <img id="imgOP" src="../02_Table/img/01.jpg">
+    <script>
+        // 試著改寫看看
+    </script>
+</body>
+
+</html>

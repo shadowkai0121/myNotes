@@ -1,0 +1,7 @@
+mkdir 新增目錄
+
+npm NodeJS套件管理程式
+
+const brain = require('brain.js'); // 引用brain.js
+
+let model = new brain.NeuralNetwork();

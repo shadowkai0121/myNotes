@@ -1,0 +1,14 @@
+C:\Users\admin\Desktop\C#\判斷是否為三角形\bin\Debug\判斷是否為三角形.exe.config
+C:\Users\admin\Desktop\C#\判斷是否為三角形\bin\Debug\判斷是否為三角形.exe
+C:\Users\admin\Desktop\C#\判斷是否為三角形\bin\Debug\判斷是否為三角形.pdb
+C:\Users\admin\Desktop\C#\判斷是否為三角形\obj\Debug\判斷是否為三角形.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\C#\判斷是否為三角形\obj\Debug\判斷是否為三角形.exe
+C:\Users\admin\Desktop\C#\判斷是否為三角形\obj\Debug\判斷是否為三角形.pdb
+C:\Users\admin\Desktop\C#\判斷是否為三角形\obj\Debug\判斷是否為三角形.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\職訓局\C#\判斷是否為三角形\bin\Debug\判斷是否為三角形.exe.config
+C:\Users\admin\Desktop\職訓局\C#\判斷是否為三角形\bin\Debug\判斷是否為三角形.exe
+C:\Users\admin\Desktop\職訓局\C#\判斷是否為三角形\bin\Debug\判斷是否為三角形.pdb
+C:\Users\admin\Desktop\職訓局\C#\判斷是否為三角形\obj\Debug\判斷是否為三角形.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\職訓局\C#\判斷是否為三角形\obj\Debug\判斷是否為三角形.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\職訓局\C#\判斷是否為三角形\obj\Debug\判斷是否為三角形.exe
+C:\Users\admin\Desktop\職訓局\C#\判斷是否為三角形\obj\Debug\判斷是否為三角形.pdb

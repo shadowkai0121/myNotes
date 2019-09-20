@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>word-wrap</title>
+    <style type="text/css">
+    div {
+
+        border-width: 5px;
+        border-color: #FFB84D;
+        border-style: solid;
+        margin: 20px;
+
+
+        width: 220px;
+
+		/*word-wrap: break-word;*/
+        
+        /* 1. word-wrap -> 會盡量讓段字在同一行 */
+        /* 		break-word：可以任意斷字，不依循音節規則。 */
+		/* 		normal：長字會維持原狀，超出邊界，此為預設值。 */
+        
+
+        /*word-break: break-all;*/
+        
+        /* 2. word-break -> 依照寬度，該換行的時候就會換行 */
+        /*		keep-all：必須保留完整單字，例如遇到半形空格才能換行。（不可以在單字的字母換行）*/
+		/*		break-all：不一定要完整單字才能換行。（可以在單字的字母換行）*/
+
+    }
+    </style>
+</head>
+
+<body>
+    <!-- 神奇氣象播報員：http://forgetfulbc.blogspot.com/2015/09/weatherman.html -->
+    <div>(蘭韋爾普爾古因吉爾戈格里惠爾恩德羅布爾蘭蒂西利奧戈戈戈赫)是威爾斯安格爾西島上的一個小鎮，為英國官方承認的最長地名</div>
+
+    <div>Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch</div>
+</body>
+
+</html>

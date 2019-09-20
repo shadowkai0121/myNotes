@@ -1,0 +1,10 @@
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0416_WriteXML\test0416_WriteXML\bin\Debug\test0416_WriteXML.exe.config
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0416_WriteXML\test0416_WriteXML\bin\Debug\test0416_WriteXML.exe
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0416_WriteXML\test0416_WriteXML\bin\Debug\test0416_WriteXML.pdb
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0416_WriteXML\test0416_WriteXML\obj\Debug\test0416_WriteXML.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0416_WriteXML\test0416_WriteXML\obj\Debug\test0416_WriteXML.Form1.resources
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0416_WriteXML\test0416_WriteXML\obj\Debug\test0416_WriteXML.Properties.Resources.resources
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0416_WriteXML\test0416_WriteXML\obj\Debug\test0416_WriteXML.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0416_WriteXML\test0416_WriteXML\obj\Debug\test0416_WriteXML.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0416_WriteXML\test0416_WriteXML\obj\Debug\test0416_WriteXML.exe
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0416_WriteXML\test0416_WriteXML\obj\Debug\test0416_WriteXML.pdb

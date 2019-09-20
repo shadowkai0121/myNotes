@@ -1,0 +1,10 @@
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0418_var\test0418_var\bin\Debug\test0418_var.exe.config
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0418_var\test0418_var\bin\Debug\test0418_var.exe
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0418_var\test0418_var\bin\Debug\test0418_var.pdb
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0418_var\test0418_var\obj\Debug\test0418_var.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0418_var\test0418_var\obj\Debug\test0418_var.Form1.resources
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0418_var\test0418_var\obj\Debug\test0418_var.Properties.Resources.resources
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0418_var\test0418_var\obj\Debug\test0418_var.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0418_var\test0418_var\obj\Debug\test0418_var.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0418_var\test0418_var\obj\Debug\test0418_var.exe
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0418_var\test0418_var\obj\Debug\test0418_var.pdb

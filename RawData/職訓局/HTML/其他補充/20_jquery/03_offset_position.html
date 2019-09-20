@@ -1,0 +1,49 @@
+<!-- p 4-68 定位 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <style type="text/css">
+    #outside {
+        background-color: #5D9CEC;
+        width: 600px;
+        height: 200px;
+        padding: 30px;
+        position: relative;
+
+        left: 70px;
+    }
+    
+    #bag {
+        background-color: #ED5565;
+        width: 100px;
+        height: 100px;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="outside">
+        <div id="bag"></div>
+    </div>
+    <p>
+        <button id="offset">offset()</button>
+        <button id="position">position()</button>
+    </p>
+    <p id="output"></p>
+    <script type="text/javascript">
+    // 取得相對於整份文件的位置 (relative to the document)
+    $('#offset').click(function() {
+        $('#output').text('offset top: ' + $('#bag').offset().top + ', left: ' + $('#bag').offset().left);
+    });
+
+    // 取得相對於父容器的位置 (relative to its parent element)
+    $('#position').click(function() {
+        $('#output').text('position top: ' + $('#bag').position().top + ', left: ' + $('#bag').position().left);
+    });
+    </script>
+</body>
+
+</html>

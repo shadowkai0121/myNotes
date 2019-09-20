@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <style type="text/css">
+        table,
+        td {
+            border: 1px solid #AC915D;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="newtable"></table>
+    <script>
+        $(function() {
+            //在body上新增按鈕
+            $('body').append('<button id="btn">click me</button>');
+            //按鈕按下去時
+            $('#btn').click(function() {
+                console.log("I'm clicked!");
+
+                for (var row = 0; row <= 2; row++) {
+                    //在#newtable裡面插入<tr id=trrow>;
+                    $('#newtable').append('<tr id="tr' + row + '">');
+                    for (var col = 0; col <= 3; col++) {
+                        //在tr裡面插入<td>row~col</td>;
+                        $('#tr' + row).append("<td>" + row + '~' + col + "</td>");
+                    }
+                    //結尾插入</tr>
+                    $('#newtable').append('</tr>');
+                }
+            });
+        })
+    </script>
+</body>
+
+</html>

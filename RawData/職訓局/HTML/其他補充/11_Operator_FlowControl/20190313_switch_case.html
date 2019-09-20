@@ -1,0 +1,68 @@
+<!-- 3. switch ... case -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FlowControl</title>
+</head>
+
+<body>
+    x: <input type="text" id="inputX" value="5">
+    <br>
+    y: <input type="text" id="inputY" value="3">
+
+    <br>
+    <button id="btnAdd" onclick="myCalculate(this)">加法計算結果</button>
+    <br>
+    <button id="btnMinus" onclick="myCalculate(this)">減法計算結果</button>
+    <br>
+    <button id="btnTimes" onclick="myCalculate(this)">乘法計算結果</button>
+    <br>
+    <button id="btnDivide" onclick="myCalculate(this)">除法計算結果</button>
+    <br>
+
+    <script type="text/javascript">
+        function myCalculate(obj) {
+            var result;
+
+            var x = parseFloat(document.getElementById("inputX").value);
+            var y = parseFloat(document.getElementById("inputY").value);
+
+            // 把剛剛的 if...else 試著用 switch ... case 改寫看看
+            switch (obj.id) {
+                case "btnAdd":
+                    result = x + y;
+                    break;
+                case "btnMinus":
+                    result = x - y;
+                    break;
+                case "btnTimes":
+                    result = x * y;
+                    break;
+                case "btnDivide":
+                    result = x / y;
+                    break;
+                default:
+                    result = "你按到的不是加減乘除的按鈕";
+                    break;
+            }
+
+//             if (obj.id == "btnAdd") {
+//                 result = x + y;
+//             } else if (obj.id == "btnMinus") {
+//                 result = x - y;
+//             } else if (obj.id == "btnTimes") {
+//                 result = x * y;
+//             } else if (obj.id == "btnDivide") {
+//                 result = x / y;
+//             } else {
+//                 result = "你按到的不是+-*/按鈕";
+//             }        
+
+            alert(result);
+        }
+
+    </script>
+</body>
+
+</html>

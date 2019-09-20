@@ -1,0 +1,338 @@
+
+
+<!-- 【中文亂碼】 -->
+<!-- 1. chrome → 偏好設定 → 顯示進階設定 → 網頁內容 → 自訂字型 → 編碼方式(big5，改UTF-8) (在最下方) -->
+<!-- 2. brackets設定 → 在網頁的右下角，可以選擇編碼方式，預設為UTF-8 -->
+<!-- 3. HTML <head> 區段內加上編碼方式 → <meta charset="UTF-8"> -->
+
+
+
+<!--1. HTML 架構 -- >
+<!--http://www.w3schools.com/html/html_intro.asp-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <head> .. </head>這一個區塊會放網頁相關資訊、引用資料等等-->
+
+        <!-- 底下的說明範例部分來自w3c，https://www.w3schools.com/tags/tag_meta.asp-->
+        <meta charset="UTF-8">
+
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="John Doe">
+        
+        <!-- 針對 mata tag "keywords"，我們聽聽google的開發人員怎麼說-->
+        <!-- https://webmasters.googleblog.com/2009/09/google-does-not-use-keywords-meta-tag.html-->
+        
+        <!-- 在看看這一份資料(網頁開啟後搜尋文字：『建立可準確傳達內容的獨特網頁標題 』)：https://support.google.com/webmasters/answer/7451184?hl=zh-Hant-->
+    </head>
+
+    <body>
+        <!-- <body> .. </body> 定義網頁內容-->
+    </body>
+</html>
+
+
+
+
+
+<!--2. Hello HTML!!-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title> HTML - Basic </title>
+</head>
+
+<body>
+    Hello HTML!!
+</body>
+</html>
+
+
+
+
+
+<!--3. Hello HTML!!-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title> HTML - Basic </title>
+</head>
+
+<body>
+    <!--大部分的情況下，瀏覽器會忽略空白字元或換行符號-->
+    <!--所以請盡量使用，讓HTML原始碼排列整齊好閱讀-->
+    Hello 
+
+
+    HTML!!
+</body>
+</html>
+
+
+
+
+
+<!--4. 標籤(tag)-->
+<!--http://www.w3schools.com/tags/-->
+
+
+
+
+
+<!--4-1. 文字格式標籤 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> HTML - Basic </title>
+</head>
+
+<body>
+    Hello HTML!!
+
+    <!--字體效果-->
+    <!--<b> <em> <strong> <i>-->
+
+    <!--換行符號-->
+    <!--<br>-->
+    
+    <!--標題-->
+    <!--<h1>~<h6>-->
+
+    <!--刪除線、底線-->
+    <!--到w3c查查看，他們對<s>這個標籤，說明了什麼？-->
+    <!--<s> <u>-->
+</body>
+
+</html>
+
+
+
+
+
+
+
+<!--4-2. 段落/區塊標籤-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> HTML - Basic </title>
+</head>
+
+<body>
+    <!--段落<p>:paragraph 預設換行符號-->
+
+    <!--在<pre>標籤中間的文字，格式會被保留下來-->
+    Speed is only useful if you're running in the right direction. — Joel Barker.
+    當你方向正確的時候，加速才有用
+
+    <!--水平分隔線-->
+    <!-- <hr> -->
+
+    <!--<div>：division 會在元素的前後換行，區塊元素(block level)-->
+    banana
+    orange
+
+    <!--<span>：不會在元素的前後換行，行內元素/層級(inline level)-->
+    三原色有，紅、綠、藍三種顏色
+    
+</body>
+
+</html>
+
+
+
+
+
+
+<!--4-3. HTML5 新增的結構元素-->
+
+<!--4-3-1. 有「語意」的標籤-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> HTML - Basic </title>
+</head>
+
+<body>
+    <article>
+        <hgroup>
+            <header>header1</header>
+            <header>header2</header>
+        </hgroup>
+        <section>section</section>
+        <footer>footer</footer>
+    </article>
+</body>
+
+</html>
+
+
+
+
+
+
+<!--補：<nav> Navigation 導覽列、<aside>側邊欄 也都是只有語意而已。-->
+
+
+
+
+
+
+<!--4-3-2. 結構元素，加入先前提到的文字格式標籤試試看!!-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> HTML - Basic </title>
+</head>
+
+<body>
+    <!--<article>一篇文章 (新聞、blog等等)-->
+
+    <!--<hgroup>主標題-->
+
+    <!--<section>分割文章的段落-->
+
+    <!--<section>分割文章的段落-->
+
+    <!--<footer>網頁底部，用來說明網頁資訊等等-->
+    
+    
+    
+    
+    <!--請將這些文字使用上面的標籤排版完成巴！-->
+    BRACKETS 入門
+    讓我為您好好介紹!
+    歡迎使用 Brackets，這是個很懂網頁設計的現代化開放原始碼程式編輯器。 輕巧又不失威力，整合多項視覺化的編輯功能，在需要時提供您適當的協助。
+
+    Brackets 與眾不同。 Brackets 提供「快速編輯」、「即時預覽」等別的編輯器沒有的獨家功能。 而且 Brackets 是用 JavaScript, HTML 及 CSS 寫出來的。這代表大多數使用 Brackets 的人都有能力修改及擴充它。 事實上，Brackets 本身就是我們用 Brackets 一天天打造出來的。 如果您想學會如何使用這些功能，請繼續看下去。
+
+    Brackets 中的「專案」
+    只要開啟包含您程式碼的資料夾，就能使用 Brackets 來編輯。 Brackets 會將目前開啟的資料夾視為一個「專案」，「程式提示」、「即時預覽」及「快速編輯」等功能都只會參考到專案裡的檔案。
+
+    CSS 及 JavaScript 快速編輯
+    別再因為不斷切換檔案而一直分神失焦了。編輯 HTML 時，按下 Cmd/Ctrl + E 快速鍵就地開啟編輯器，秀出所有相關的 CSS 規則。 調好 CSS 樣式後按 ESC 馬上就能回到 HTML 繼續編輯。 此外，也可以放手讓那些 CSS 規則一直開在 HTML 編輯器裡。 只要在快速編輯器的範圍外按下 ESC 鍵，就能關掉所有快速編輯器。 快速編輯也能找到定義在 LESS 及 SCSS 檔案中的規則，就算是巢狀規則也沒問題。  
+  
+</body>
+
+</html>
+
+
+
+
+
+
+<!--4-4. 和結構元素有點相近的 項目符號及項目編號 / 清單 元素 -->
+
+<!-- 4-4-1. 無排序的項目 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> HTML - Basic </title>
+</head>
+
+<body>
+    <!-- ul：unordered list -->
+    清新福全
+    茶湯會
+    大苑子
+    WHO'S TEA 鬍子茶
+    布萊恩紅茶
+    老虎堂 TIGER SUGAR
+    拾覺細做輕飲
+    甘蔗泡
+    迷客夏
+    良辰吉時
+    小確幸紅茶牛奶合作社
+</body>
+
+</html>
+
+
+
+
+
+
+
+<!-- 4-4-2. 試試看，如果想要改變項目符號的圖示，要幫ul設定哪一項屬性? 有哪幾種圖示?-->
+
+
+
+
+
+<!-- 4-4-3. 可以排序的項目-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> HTML - Basic </title>
+</head>
+
+<body>
+    <!-- ol：ordered list -->
+    課程期間目標：
+    累積作品
+    準備個人履歷
+    不斷練習口語表達能力
+</body>
+
+</html>
+
+
+
+
+
+
+<!-- 4-4-4. 試試看，能不能改變清單編號類型? 從123改成ABC或者其他? 只能從1號開始編嗎?-->
+
+
+
+
+
+
+<!-- 4-4-5. 清單-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> HTML - Basic </title>
+</head>
+
+<body>
+    <!-- dl：defines a description list -->
+    <!-- dt：defines a term/name in a description list -->
+    <!-- dd：defines a description/value of a term in a description list -->
+    台中餐廳清單
+
+    大墩路
+        太初
+
+    公益路
+        日出拉麵
+        鼎王
+        輕井澤
+        無老鍋
+        
+</body>
+
+</html>
+
+
+
+
+
+
+<!-- 補充資料： -->
+<!-- 1. 如何在網頁上顯示特殊符號：https://www.w3schools.com/html/html_entities.asp-->
+
+
+
+<!-- 快捷鍵： -->
+<!-- CTRL + N：開啟新頁面-->
+<!-- CTRL + ALT + B：美化版面（在beautify套件有安裝成功的情況下）-->
+<!-- -->

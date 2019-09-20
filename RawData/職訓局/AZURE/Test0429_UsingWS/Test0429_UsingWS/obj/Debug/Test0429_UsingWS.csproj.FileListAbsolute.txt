@@ -1,0 +1,10 @@
+C:\Users\admin\Desktop\SMIT09\AZURE\Test0429_UsingWS\Test0429_UsingWS\bin\Debug\Test0429_UsingWS.exe.config
+C:\Users\admin\Desktop\SMIT09\AZURE\Test0429_UsingWS\Test0429_UsingWS\bin\Debug\Test0429_UsingWS.exe
+C:\Users\admin\Desktop\SMIT09\AZURE\Test0429_UsingWS\Test0429_UsingWS\bin\Debug\Test0429_UsingWS.pdb
+C:\Users\admin\Desktop\SMIT09\AZURE\Test0429_UsingWS\Test0429_UsingWS\obj\Debug\Test0429_UsingWS.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\SMIT09\AZURE\Test0429_UsingWS\Test0429_UsingWS\obj\Debug\Test0429_UsingWS.Form1.resources
+C:\Users\admin\Desktop\SMIT09\AZURE\Test0429_UsingWS\Test0429_UsingWS\obj\Debug\Test0429_UsingWS.Properties.Resources.resources
+C:\Users\admin\Desktop\SMIT09\AZURE\Test0429_UsingWS\Test0429_UsingWS\obj\Debug\Test0429_UsingWS.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\SMIT09\AZURE\Test0429_UsingWS\Test0429_UsingWS\obj\Debug\Test0429_UsingWS.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\SMIT09\AZURE\Test0429_UsingWS\Test0429_UsingWS\obj\Debug\Test0429_UsingWS.exe
+C:\Users\admin\Desktop\SMIT09\AZURE\Test0429_UsingWS\Test0429_UsingWS\obj\Debug\Test0429_UsingWS.pdb

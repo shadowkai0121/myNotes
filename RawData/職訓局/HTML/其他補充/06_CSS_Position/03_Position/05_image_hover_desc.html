@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>image hover</title>
+    <style type="text/css">
+        img {
+            width: 477px;
+        }
+
+        .desc {
+            border: 8px solid #FF9966;
+            /*1. 試試看用 visibility: hidden; */
+
+            /*4. 要怎麼樣跳脫現有的元素流找到定位?*/
+            
+        }
+
+        img:hover+.desc {
+            /*2. 試試看用 visibility:visible; */
+            
+        }
+
+        #divMainBag {
+            /*3. 這裡要先變成?底下的元素才能依附上來*/
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--
+     figure & figcaption 語意化：表示帶標題的圖片 
+    <figure id="figMain">
+        <img src="sunny.jpg">
+        <figcaption class="desc">千陽號海上行</figcaption>
+    </figure>
+    -->
+
+    <div id="divMainBag">
+        <img src="sunny.jpg">
+        <p class="desc">千陽號海上行</p>
+    </div>
+
+</body>
+</html>

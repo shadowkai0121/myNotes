@@ -1,0 +1,1350 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="zh-TW" class="ie6 ielt8"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="zh-TW" class="ie7 ielt8"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="zh-TW" class="ie8"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="zh-TW"> <!--<![endif]-->
+<head>
+    <!-- BEGIN LivePerson Monitor. -->
+    <script type="text/javascript">window.lpTag=window.lpTag||{},'undefined'==typeof window.lpTag._tagCount?(window.lpTag={wl:lpTag.wl||null,scp:lpTag.scp||null,site:'49269227'||'',section:lpTag.section||'',tagletSection:lpTag.tagletSection||null,autoStart:lpTag.autoStart!==!1,ovr:lpTag.ovr||{},_v:'1.10.0',_tagCount:1,protocol:'https:',events:{bind:function(t,e,i){lpTag.defer(function(){lpTag.events.bind(t,e,i)},0)},trigger:function(t,e,i){lpTag.defer(function(){lpTag.events.trigger(t,e,i)},1)}},defer:function(t,e){0===e?(this._defB=this._defB||[],this._defB.push(t)):1===e?(this._defT=this._defT||[],this._defT.push(t)):(this._defL=this._defL||[],this._defL.push(t))},load:function(t,e,i){var n=this;setTimeout(function(){n._load(t,e,i)},0)},_load:function(t,e,i){var n=t;t||(n=this.protocol+'//'+(this.ovr&&this.ovr.domain?this.ovr.domain:'lptag.liveperson.net')+'/tag/tag.js?site='+this.site);var o=document.createElement('script');o.setAttribute('charset',e?e:'UTF-8'),i&&o.setAttribute('id',i),o.setAttribute('src',n),document.getElementsByTagName('head').item(0).appendChild(o)},init:function(){this._timing=this._timing||{},this._timing.start=(new Date).getTime();var t=this;window.attachEvent?window.attachEvent('onload',function(){t._domReady('domReady')}):(window.addEventListener('DOMContentLoaded',function(){t._domReady('contReady')},!1),window.addEventListener('load',function(){t._domReady('domReady')},!1)),'undefined'===typeof window._lptStop&&this.load()},start:function(){this.autoStart=!0},_domReady:function(t){this.isDom||(this.isDom=!0,this.events.trigger('LPT','DOM_READY',{t:t})),this._timing[t]=(new Date).getTime()},vars:lpTag.vars||[],dbs:lpTag.dbs||[],ctn:lpTag.ctn||[],sdes:lpTag.sdes||[],hooks:lpTag.hooks||[],identities:lpTag.identities||[],ev:lpTag.ev||[]},lpTag.init()):window.lpTag._tagCount+=1;</script>
+    <!-- END LivePerson Monitor. -->
+    <!-- Google Tag Manager For AppledailyTW_PRD-->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W8R48TQ');</script>
+<!-- End Google Tag Manager -->  <meta charset="utf-8" />
+  <meta name="description" content="《蘋果新聞網》屬壹傳媒集團，提供即時、日報、動新聞等數位內容..." />
+  <meta name="keywords" content="蘋果日報,Apple Daily,台灣,壹傳媒,nextmedia,爽報,Apple, Animation news, Action News, Apple news, news,realtimenews,蘋果,蘋果新聞,新聞,昔日新聞,壹週刊,壹電視,蘋果基金會,蘋果慈善,動新聞,動畫新聞,新聞動畫,即時新聞,Facebook,臉書,蘋果粉絲團,plurk,留言,分享,按讚,天氣,影音新聞,行動版,手機,App,Android,iPhone,Mango,今天我最美,贈獎,贈獎活動,爆料,投稿,投訴,中獎名單,中獎,樂透,發票,統一發票,RSS,頭條,國際,娛樂,體育,運動,副刊,財經,房市,地產,論壇,專欄,生活,政治,法庭,彩券,頭彩 " />
+  <title>首頁｜蘋果新聞網｜蘋果日報</title>
+  <meta name="application-name" content="蘋果新聞網│Apple Daily"/>
+  <meta name="msapplication-TileColor" content="#00a0e9"/>
+  <meta name="msapplication-TileImage" content="//img.appledaily.com.tw/appledaily/d43e1808-3eab-4357-a882-03afb30302a7.png"/>
+    <meta property="og:title" content="首頁｜蘋果新聞網｜蘋果日報"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://img.appledaily.com.tw/appledaily/images/fbshare/appledaily_fb_600x315.png"/>
+    <meta property="og:description" content="《蘋果新聞網》屬壹傳媒集團，提供即時、日報、動新聞等數位內容..."/>
+    <meta property="og:url" content="http://tw.appledaily.com/"/>
+  <meta property="article:author" content="https://www.facebook.com/appledaily.tw " />
+  <meta property="article:publisher" content="https://www.facebook.com/appledaily.tw" />
+  <meta property="og:site_name" content="蘋果新聞網" />
+  <meta property="fb:pages" content="232633627068" />
+  <meta property="fb:pages" content="352962731493606" />
+  <meta property="fb:pages" content="135096990022831" />
+  <meta property="fb:pages" content="519401551509547" />
+  <meta property="fb:pages" content="140976386099563" />
+  <meta property="fb:pages" content="553924544645851" />
+  <meta property="fb:pages" content="538723372852293" />
+  <meta property="fb:pages" content="138778286316368" />
+  <meta property="fb:pages" content="401015456677770" />
+  <meta property="fb:pages" content="556625294388748" />
+  <meta property="fb:pages" content="504651329614905" />
+  <meta property="fb:pages" content="505786339488884" />
+  <meta property="fb:pages" content="1605773063014001" />
+  <meta property="fb:pages" content="387312897989235" />
+  <meta property="fb:pages" content="305210649936996" />
+  <meta property="fb:pages" content="1471069449788974" />
+  <meta property="fb:pages" content="962306883849285" />
+  <meta property="fb:pages" content="821249054557531" />
+  <meta property="fb:pages" content="142518809166657" />
+  <meta property="fb:pages" content="1625266031094417" />
+  <meta property="fb:pages" content="1493535890869931" />
+  <meta property="fb:pages" content="161816927191070" />
+  <meta property="fb:pages" content="1107089042747072" />
+  <meta property="fb:pages" content="188720361287030" />
+  <meta property="fb:pages" content="279867942158656" />
+  <meta property="fb:pages" content="202498459813808" />
+  <link rel="shortcut icon" href="//img.appledaily.com.tw/appledaily/pinsite/64x64.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="//img.appledaily.com.tw/appledaily/pinsite/64x64.ico">
+  <link rel="icon" type="image/ico" href="//img.appledaily.com.tw/appledaily/pinsite/64x64.ico">
+  <link rel="canonical" href="https://tw.appledaily.com"/>
+  <link rel="stylesheet" href="//img.appledaily.com.tw/appledaily/images/css/style.css">
+  <link rel="stylesheet" href="//img.appledaily.com.tw/appledaily/style.css" />
+  <link rel="stylesheet" href="//img.appledaily.com.tw/appledaily/images/css/slider.css" />
+  <script src="//img.appledaily.com.tw/www/js/html5.js"></script>
+  <script src="//img.appledaily.com.tw/appledaily/images/js/jquery-1.7.2.min.js"></script>
+  <script src="//img.appledaily.com.tw/appledaily/images/js/jquery.tools.scroll.js"></script>
+  <script src="//img.appledaily.com.tw/appledaily/images/js/jquery.tools.dateinput.js"></script>
+  <script src="//img.appledaily.com.tw/appledaily/images/js/jquery.dotdotdot.js"></script>
+  <script type="text/javascript" src="//img.appledaily.com.tw/appledaily/images/js/jquery.cookie.min.js"></script>
+  <script>  var DFPID = '/7476/'; </script>
+  <script type="text/javascript" language="JavaScript" src="//img.appledaily.com.tw/appledaily/images/js/PCGpt.js"></script>
+  <meta name="google-site-verification" content="nW_MEl50DdadfLW1VAm4vdjjbI_0Zmiom5Y_U_al7uc" />
+  <script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+    {
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+    "@id": "http://tw.appledaily.com",
+    "name": "蘋果新聞網"
+    }
+    }]
+    }</script>
+  <style>
+      .topthree {width:323px;float:left;text-align:center;margin:-5px 0px 5px 0px;}
+  </style>
+  <link rel="stylesheet" href="//img.appledaily.com.tw/appledaily/images/js/owlcarousel/owl.carousel.css">
+  <link rel="stylesheet" href="//img.appledaily.com.tw/appledaily/images/js/owlcarousel/carousel-layout.css">
+  <link rel="stylesheet" href="//img.appledaily.com.tw/appledaily/images/js/owlcarousel/assets/css/animate-custom.css">
+  <script src="//img.appledaily.com.tw/appledaily/images/js/owlcarousel/owl.carousel.fix.js"></script>
+   <script type="text/javascript" src="//img.appledaily.com.tw/pay/js/fingerprint2.min.js"></script>
+   <script type="text/javascript" src="https://static.omoplanet.com/WebSDK/v3.2.3/omo-sdk-3.2.3.min.js"></script>
+   <script type="text/javascript" src="//img.appledaily.com.tw/pay/js/omo_member.20190412.js"></script>
+    <script>
+        googletag.cmd.push(function() {
+            var mappingHeadBanner = googletag.sizeMapping().addSize([0, 0], [[1, 1], [970,90],[728,90],[970,160], [970,250] ]).build();
+            var mappingMiniLREC = googletag.sizeMapping().addSize([0, 0], [ [300,50], [300,75], [300,100] , [300,150] ]).build();
+            var mappingLREC = googletag.sizeMapping().addSize([0, 0], [ [300,250], [300,600] ]).build();
+            var mappingSkyscraper = googletag.sizeMapping().addSize([0, 0], [ [150,660], [160,600], [120,600] ]).build();
+            var mappingBottomBanner = googletag.sizeMapping().addSize([0, 0], [ [1,1], [970,250], [970,90], [728,90], [970,160] ]).build();
+            HeadBanner = googletag.defineSlot(DFPID+'TWAppleDaily/daily_index/HeadBanner', 'HeadBanner', 'leaderboard', GeoDFP).defineSizeMapping(mappingHeadBanner).setCollapseEmptyDiv(true).addService(googletag.pubads());
+            LREC1 = googletag.defineSlot(DFPID+'TWAppleDaily/daily_index/LREC1', '300x600', 'rectangleAD1', GeoDFP).defineSizeMapping(mappingLREC).setCollapseEmptyDiv(true).addService(googletag.pubads());
+            LREC2 = googletag.defineSlot(DFPID+'TWAppleDaily/daily_index/LREC2', '300x600', 'rectangleAD2', GeoDFP).defineSizeMapping(mappingLREC).setCollapseEmptyDiv(true).addService(googletag.pubads());
+            W1 = googletag.defineSlot(DFPID+'TWAppleDaily/daily_index/skyscraper1', '150x660', 'door-left', GeoDFP).defineSizeMapping(mappingSkyscraper).setCollapseEmptyDiv(true).addService(googletag.pubads());
+            W2 = googletag.defineSlot(DFPID+'TWAppleDaily/daily_index/skyscraper2', '150x660', 'door-right', GeoDFP).defineSizeMapping(mappingSkyscraper).setCollapseEmptyDiv(true).addService(googletag.pubads());
+            BottomBanner = googletag.defineSlot(DFPID+'TWAppleDaily/daily_index/BottomBanner', '1x1', 'BottomBanner', GeoDFP).defineSizeMapping(mappingBottomBanner).setCollapseEmptyDiv(true).addService(googletag.pubads());
+            Richmedia  = googletag.defineSlot(DFPID+'TWAppleDaily/daily_index/Richmedia', [1,1], 'Richmedia', GeoDFP).addService(googletag.pubads());
+            adHeaderTop  = googletag.defineSlot(DFPID+'TWAppleDaily/daily_index/adHeaderTop', [970,90], 'adHeaderTop', GeoDFP).setCollapseEmptyDiv(true).addService(googletag.pubads());
+            $.each( GeoDFP, function( key, value ) {
+                googletag.pubads().setTargeting(key,value);
+            });
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+</head>
+<body id="home">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W8R48TQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="wrapper">
+  <div class="sqrezeer">
+  <link rel="stylesheet" href="//img.appledaily.com.tw/pay/css/globalland.20180109.css" />
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "8028476" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=8028476&cv=2.0&cj=1" />
+</noscript>
+
+<!-- 1X1 -->
+<script src="https://imp.appledaily.com/js/nxm_tr_v20s.js"></script>
+<script type="text/javascript" src="//img.appledaily.com.tw/appledaily/images/js/1x1/fingerprint.js"></script>
+<script>
+function extractDomain(url) {
+    var domain;
+    //find & remove protocol (http, ftp, etc.) and get domain
+    if (url.indexOf("://") > -1) {
+        domain = url.split('/')[2];
+    }
+    else {
+        domain = url.split('/')[0];
+    }
+    //find & remove port number
+    domain = domain.split(':')[0];
+    return domain;
+}
+var ref='';
+if(document.referrer.indexOf('appledaily.com') > -1)
+{
+  ref=document.referrer.replace('http://','').replace('https://','');
+}
+else {
+  ref=extractDomain(document.referrer);
+}
+    nxmTrack.nxmAddSeg("REGION=TW");
+    nxmTrack.nxmAddSeg("PROD=ADAILY");
+    nxmTrack.nxmAddSeg("SITE=tw.appledaily.com");
+    nxmTrack.nxmAddSeg("CH=APPLEDAILY");
+    nxmTrack.nxmAddSeg("SECTION=HOMEPAGE");
+    nxmTrack.nxmAddSeg("MENU=HOME");
+    nxmTrack.nxmAddSeg("TITLE=");
+    nxmTrack.nxmAddSeg("SUBSECT=NEWS");
+    nxmTrack.nxmAddSeg("SUBSUBSECT=");
+    nxmTrack.nxmAddSeg("MEDIA=TEXT");
+    nxmTrack.nxmAddSeg("CONTENT=HOME");
+    nxmTrack.nxmAddSeg("ISSUEID=");
+    nxmTrack.nxmAddSeg("CID=");
+    nxmTrack.nxmAddSeg("CAT=NEWS");
+    nxmTrack.nxmAddSeg("NEWS=DAILY");
+    nxmTrack.nxmAddSeg("PLATFORM=WEB");
+    nxmTrack.nxmAddSeg("EDM=");
+    nxmTrack.nxmAddSeg("AUTH=");
+    nxmTrack.nxmAddSeg("KY=");
+    nxmTrack.nxmAddSeg("ACTION=PAGEVIEW");
+    nxmTrack.nxmAddSeg("REF="+ref);
+    nxmTrack.nxmAddSeg("SRC=TWAD");
+    var adblk = nxmTrack.readCookie('adisblk') || 'N';
+    nxmTrack.nxmAddSeg('BLK=' + adblk);
+    var ads = 'Y';
+    nxmTrack.nxmAddSeg("ADS="+ads);
+    if (OMOSDK) logOMOAccountProfile('seg');
+    nxmTrack.nxmAddSeg("L="+document.gtLang().toUpperCase());
+    var ngs_id = nxmTrack.readCookie('ngs_id');
+    if (ngs_id == null) ngs_id = '';
+    nxmTrack.nxmAddSeg('NGSID=' + ngs_id);
+
+    $(document).ready(function() {
+        nxmTrack.nxmSendPageDepth(0, new Date().getTime());
+        //gtm
+        C17 = 'NIL';C18 = 'NIL';
+$('nav.ndgNav_second div.ndgNav_Outbox div.ndgTag').each(function(key,value){
+    if($(this).find('a.current').length == 1){
+        C17 = $(this).find('a.current').text();
+    }
+})
+
+dataLayer.push({
+    'c1': "",
+    'c10': "",
+    'c16': "日報",
+    'c17': C17,
+    'c18': C18,
+    'c19': "NIL",
+    'c20': "NEWS",
+    'c21': "HOME",
+    'c22': "DAILY",
+    'c23': "TWAD",
+    'c24': "",
+    'c25': "",
+    'c26': "",
+    'c27': "",
+    'c28': "",
+    'c29': "WEB",
+    'c40': "TC",
+    'c45': adblk,
+    'c101': nxmTrack.readCookie('nxtu') || ''
+});    });
+</script>
+
+<style>
+    #door {position:relative; width:970px;}
+    #door-left{position:absolute;right: 975px;}
+    #door-right{position:absolute;left: 975px;}
+    #ypv {float:right;margin:-81px 135px 0px 0px;}
+    #ypv a {color:#055b94}
+    .nypv {background: url('//img.appledaily.com.tw/appledaily/images/core/iconset.png') 0px -41px no-repeat;display: inline-block;color: #055b94;width:14px;height:12px;}
+    #corpnav a {padding: 0 8px 0 8px;}
+    a.mc {left:843px;}
+    #corpgs a {top: 9px;}
+    .nxlik .nh {left: 805px;top: 18px;}
+    #corpgs .fund {background-image:url('//img.appledaily.com.tw/appledaily/images/core/foundation_top.png');width:65px;height:14px;margin-left:712px;margin-top:18px;}
+    #worldwide {top: 26px;right: 0px;}
+    /*.translate.twn {display:none}*/
+    .translate {display:inline-block;}
+    .location_translate.twn {display:none}
+    .ndgNav_top_eventBox {float:left;height:30px;overflow:hidden;top:3px;position: relative;}
+</style>
+<header>
+    <div class="gdprMessage"></div>
+    <script id="gdpr-message" src="//img.appledaily.com.tw/appledaily/images/gdpr/gdpr-v2.js?cpreg=TW&platform=WEB&v=20180629" ></script>
+    <script>
+        gdprMessage('div.gdprMessage',navigator.language);
+    </script>
+  <!--原本globalhead位置-->
+  <nav class="ndgNav_top">
+    <div class="ndgNav_top_channelBox">
+    </div>
+      
+    <div class="ndgNav_top_worldBox">
+      <div>
+        
+        <form name="searchform" id="searchform" action="https://tw.appledaily.com/search/result" method="GET">
+          <!--<input type="hidden" name="sort" value="time" />--> 
+          <!--<input type="hidden" name="key" value="SDMyWUFPc3FTWThRcTlWUnR0WG0wQT09" />--> 
+          <!--<input type="hidden" name="searchType" id="searchType" value="all" />
+          <input type="hidden" name="dateStart" data-role="none" value="2003/05/02" />
+          <input type="hidden" name="dateEnd" data-role="none" value="2019/04/17" />-->   
+          <input type="text" name="querystrS" id="search" class="ndgSearch_text" placeholder="搜尋" />
+          <input type="submit" value="" class="ndgSearch_button" />
+        </form>
+      </div>
+      <div class="ndgCal"><input name="mydate" type="date" class="DailyDate" id="DailyDate"></div>
+      <div class="ndgWorldbox_right"><a href="https://tw.appledaily.com/charity">蘋果基金會</a></div>
+      <div class="ndgWorldbox_rightGeo">
+        <a class="ndgWorldbox_Location" id="TwIndex" class="current" href="https://tw.appledaily.com">台灣</a>
+        <a class="ndgWorldbox_Location" href="http://hk.apple.nextmedia.com" >香港</a>
+        <a class="ndgWorldbox_Location" target="_blank" href="https://us.appledaily.com/?utm_source=twad_web&utm_medium=internal&utm_campaign=twad_regular_entry&utm_content=region_selector" >北美</a>
+        <!--language start-->
+        <div class="translate" id="googletranslate" style="display:none">
+          <div id="google_translate_element"></div>
+          <script type="text/javascript">
+            function googleTranslateElementInit() {
+              new google.translate.TranslateElement({
+                pageLanguage: 'zh-TW',
+                includedLanguages: 'zh-CN,zh-TW',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+              }, 'google_translate_element');
+            }
+          </script>
+          <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        </div>
+        <!--language end-->
+      </div>
+      	<style>
+        .ndgNav_top_regist {float:right;margin-left:15px;display: flex;justify-content: center;height:35px;}
+        .ndgHeadpic {float:left;width:30px;height:30px;border-radius:50%;*border:1px solid #147cc2;overflow:hidden;align-self: center;}
+        .ndgRegist {float:left;padding-left:10px;align-self: center;}
+        .ndgNav_top_regist .ndgRegist a {display:inline-block;font-size:12px;color:#147cc2;}
+            .user-panel {
+                display: inline-block;
+                border-radius: 50%;
+                border: 1px solid #eee;
+                padding: 1px;
+                background:#fff;
+            }
+            .inner {
+                background-image: url('//img.appledaily.com.tw/pay/img/omo_avatar.jpg');
+                background-size:cover;
+                background-position:center center;
+                height: 100%;
+                border-radius:50%;
+            }
+	</style>
+
+	<div class="ndgNav_top_regist">
+        <div class="ndgHeadpic user-panel" style="display: none">
+            <a class="myProfile"><div class="inner"></div></a>
+        </div>
+        <div class="ndgHeadpic login-panel">
+            <img src="//img.appledaily.com.tw/pay/img/omo_avatar.jpg" width="100%" height="100%" />
+        </div>
+        <div class="ndgRegist login-panel" id="login-button">
+            <a href="#">登入</a><a>&nbsp; | &nbsp;</a><a href="#">註冊</a>
+        </div>
+	</div>
+    </div>
+    <div class="ndgClear"></div>
+  </nav>
+    <nav class="ndgNav_second">
+        <div class="ndgNav_Outbox">
+            <div  class="ndgNav_alogo" style="margin-right:10px;width: 170px;"><a href="https://tw.appledaily.com/"><img src="https://img.appledaily.com.tw/aws/tw/appledaily/20190401-112015000000_HomePic.png" /></a></div>
+            <div class="ndgTag_front">
+                <img src="//img.appledaily.com.tw/pay/img/topnavlandleft.jpg">
+            </div>	  
+            <div class="ndgTag UsOnly" style="display: none;" >
+                <a title="北美" href="https://tw.video.appledaily.com/us">北美</a>
+                <div class="ndgMore" style="display: none;"></div>
+            </div>
+            <div class="ndgTag">
+                <a title="即時" class="" href="https://tw.appledaily.com/new/realtime">即時</a>
+                <div class="ndgMore" style="display: none;"></div>
+            </div>
+            <div class="ndgTag">
+                <a title="日報" class="" href="https://tw.appledaily.com/daily">日報</a>
+                <div class="ndgMore" style="display: none;"></div>
+            </div>
+            <div class="ndgTag">
+                <a title="動新聞" class="" href="https://tw.video.appledaily.com">動新聞</a>
+                <div class="ndgMore" style="display: none;"></div>
+            </div>
+            <div class="ndgTag TwOnly">
+                <a title="蘋果Live" class="" target="_blank" href="http://www.applelive.com.tw/livechannel">蘋果Live</a>
+                <div class="ndgMore" style="display: none;"></div>
+            </div>
+             <div class="ndgTag UsOnly" style="display: none;" >
+                <a title="暖新聞" href="https://tw.appledaily.com/statefarm" target="_blank">暖新聞</a>
+                <div class="ndgMore" style="display: none;"></div>
+            </div>
+            <div class="ndgTag">
+                <a title="娛樂蘋道" class="" href="https://tw.entertainment.appledaily.com/realtime">娛樂蘋道</a>
+                <div class="ndgMore"></div>
+            </div>
+            <div class="ndgTag TwOnly">
+            <a title="蘋果地產" class="" target="_blank" href="http://home.appledaily.com.tw">蘋果地產</a>
+                <div class="ndgMore" style="display: none;"></div>
+            </div>
+            <div class="ndgTag">
+                <a title="火線話題" class="" href="https://tw.appledaily.com/column/index">火線話題</a>
+                <div class="ndgMore"></div>
+            </div>          
+            <div class="ndgTag">
+            <a title="APPLE FASHION" class="" target="_blank" href="http://fashion.appledaily.com.tw/">APPLE FASHION</a>
+                <div class="ndgMore"></div>
+            </div>
+            <div class="ndgTag">
+                <a title="蘋論陣線" href="https://tw.appledaily.com/realtimenews/forum" class="">蘋論陣線</a>
+                <div class="ndgMore" style="display: none;"></div>
+            </div>
+            <div class="ndgTag" style="height:46px">
+                <a title="nextdigital" class="" href="http://www.nextdigital.com.hk/investor" style="line-height:43px;"><img src="//img.appledaily.com.tw/pay/img/nextdigital.jpg"></a>
+                <div class="ndgMore" style="display: none;"></div>
+            </div>
+            <div class="ndgTag_end">
+                <img src="//img.appledaily.com.tw/pay/img/topnavlandright.jpg">
+            </div>	  
+        </div>    
+    </nav>
+    <nav class="ndgNav_scrollshow" style="display:none;">
+        <div class="ndgNav_Outbox">
+            <div class="ndgNav_alogo"><a href="https://tw.appledaily.com"><img src="//img.appledaily.com.tw/appledaily/images/header/img/apple.png" /></a></div>     
+            <div class="ndgTag UsOnly" style="display: none;" >
+                <a title="北美" href="https://tw.video.appledaily.com/us">北美</a>
+                <div class="ndgMore" style="display: none;"></div>
+            </div>
+            <div class="ndgTag">
+                <a title="即時" class="" href="https://tw.appledaily.com/new/realtime">即時</a>
+                <div class="ndgMore" style="display: none;"></div>
+            </div>
+            <div class="ndgTag">
+                <a title="日報" class="" href="https://tw.appledaily.com/daily">日報</a>
+                <div class="ndgMore" style="display: none;"></div>
+            </div>
+            <div class="ndgTag">
+                <a title="動新聞" class="" href="https://tw.video.appledaily.com">動新聞</a>
+                <div class="ndgMore" style="display: none;"></div>
+            </div>
+            <div class="ndgTag UsOnly" style="display: none;" >
+                <a title="暖新聞" href="https://tw.appledaily.com/statefarm" target="_blank">暖新聞</a>
+                <div class="ndgMore" style="display: none;"></div>
+            </div>
+            <div class="ndgTag TwOnly">
+            <a title="蘋果Live" class="" target="_blank" href="http://www.applelive.com.tw/livechannel">蘋果Live</a>
+                <div class="ndgMore" style="display: none;"></div>
+            </div>
+            <div class="ndgTag">
+                <a title="娛樂蘋道" class="" href="https://tw.entertainment.appledaily.com/realtime">娛樂蘋道</a>
+                <div class="ndgMore"></div>
+            </div>
+            <div class="ndgTag TwOnly">
+            <a title="蘋果地產" class="" target="_blank" href="http://home.appledaily.com.tw">蘋果地產</a>
+                <div class="ndgMore" style="display: none;"></div>
+            </div>
+            <div class="ndgTag">
+                <a title="火線話題" class="" href="https://tw.appledaily.com/column/index">火線話題</a>
+                <div class="ndgMore"></div>
+            </div>          
+            <div class="ndgTag">
+            <a title="APPLE FASHION" class="" target="_blank" href="http://fashion.appledaily.com.tw/">APPLE FASHION</a>
+                <div class="ndgMore"></div>
+            </div>
+            <div class="ndgTag">
+                <a title="地產" href="https://tw.appledaily.com/realtimenews/forum" class="">蘋論陣線</a>
+                <div class="ndgMore" style="display: none;"></div>
+            </div>            
+            <div class="ndgTag" style="height:46px">
+                <a title="nextdigital" class="" href="http://www.nextdigital.com.hk/investor" style="line-height:43px;"><img src="//img.appledaily.com.tw/pay/img/nextdigital.jpg"></a>
+                <div class="ndgMore" style="display: none;"></div>
+            </div>            
+        </div>
+    </nav>
+
+  <script>
+    $(document).ready(function() {
+      $('.ndgNav_Outbox .ndgTag').each(function(i) {
+        var _i = i;
+        $(this).mouseenter(function() {
+          $('.ndgTag').children('.ndgMore').fadeOut().eq(_i).fadeIn();
+          $('.blackArrow').hide();
+          $('.whiteArrow').show();
+          $(this).children('a').addClass('ndgScrolldownHover');
+        });
+        $(this).mouseleave(function() {
+          $('.ndgTag').children('.ndgMore').fadeOut();
+          $('.blackArrow').show();
+          $('.whiteArrow').hide();
+          $(this).children('a').removeClass('ndgScrolldownHover');
+        })
+      });
+      $(document).scroll(function() {
+        var y = $(this).scrollTop();
+        if (y > 85) {
+          $('.ndgNav_scrollshow').slideDown();
+        } else {
+          $('.ndgNav_scrollshow').slideUp();
+        }
+      });
+    });
+  </script>
+  <!--paywall header start-->
+  <style>
+    .ndPaywallHeader {width:100%;height:35px;background-color:#e9f3ff;text-align:center;}
+    .ndPaywallHeader h2 {display:inline-block;margin:0px auto;font-size:14px;color:#259ea6;}
+    .ndPaywallHeader a {display:inline-block;margin:0px auto;color:#000;font-size:12px;text-decoration:underline;padding-left:20px;padding-right:15px;}
+    .ndPaywallHeader form {display:inline-block;margin:5px auto;}
+    .ndPaywallHeader input {font-size:12px;color:#fff;line-height:27px;width:90px;background-color:#046DAD;border-radius:10px;cursor:pointer;}  
+  </style>
+  <div class="ndPaywallHeader" style="display:none;">
+		<h2>登記成為“壹會員”瀏覽更多內容</h2>
+		<form>
+			<input type="button" value="註冊 / 登入" class="blue">
+		</form>
+  </div>
+    <nav>
+        <center>
+            <div id="adHeaderTop">
+                <script type='text/javascript'>googletag.cmd.push(function() {googletag.display('adHeaderTop');});</script>
+            </div>
+        </center>
+    </nav>
+  <!--paywall header end-->
+  <div style="width:970px;margin:0px auto;">
+    <section id="door">
+            <div id="door-left"><script type='text/javascript'>googletag.cmd.push(function() {googletag.display('door-left');})</script></div>
+            <div id="door-right"><script type='text/javascript'>googletag.cmd.push(function() {googletag.display('door-right');})</script></div>
+    </section>
+  </div>
+</header>
+
+<script type="text/javascript" src="//img.appledaily.com.tw/applemobile/js/jquery.cookie.js"></script>
+<script>
+    if ((GeoDFP['CC'] != 'TW')&&(GeoDFP['CC'] != 'HK')&&(GeoDFP['CC'] != '')) {
+        $('#googletranslate').show();
+    }
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+    var country=($.cookie('country'))?$.cookie('country'):'';
+    var date = new Date();
+    var minutes = 60;
+    date.setTime(date.getTime() + (minutes * 60 * 1000));
+    if(country==''){ 
+        $.cookie('country',  GeoDFP['CC'] ,{expires: date, path: '/'  , domain: 'appledaily.com' }); 
+        $.cookie('country',  GeoDFP['CC'] ,{expires: date, path: '/'  , domain: 'appledaily.com.tw' }); 
+        country=$.cookie('country');
+    }
+    var link='https://tw.news.appledaily.com/us/realtime';
+    if((country=='US')||(country=='CA')){ 
+      switch(GeoDFP['D']) {
+        case '803' :
+          link='https://tw.news.appledaily.com/la/realtime';
+          break;
+        case '807' :
+          link='https://tw.news.appledaily.com/sf/realtime';
+          break;
+        case '501' :
+          link='https://tw.news.appledaily.com/ny/realtime';
+          break;
+        default:
+          link='https://tw.news.appledaily.com/us/realtime';
+          break;
+      }      
+      if(country=='CA')
+      {
+        link='https://tw.news.appledaily.com/ca/realtime';
+      }
+      $('.UsOnly').show(); 
+      $('.TwOnly').hide();       
+      $('#UsIndex').addClass('current');
+      $('#TwIndex').removeClass('current');
+      $('.UsLink').attr('href',link);
+    }
+    else
+    {
+      $('.TwOnly').show();   
+      $('.UsOnly').hide();
+      $('#TwIndex').addClass('current');
+      $('#UsIndex').removeClass('current');
+    }
+    $('#TwIndex').click(function(){
+      $.cookie('country',  'TW' ,{expires: date, path: '/' , domain: 'appledaily.com' }); 
+      $.cookie('country',  'TW' ,{expires: date, path: '/' , domain: 'appledaily.com.tw' }); 
+      $('.UsOnly').hide(); 
+    });
+    $('#UsIndex').click(function(){
+        $.cookie('country',  'US' ,{expires: date, path: '/' , domain: 'appledaily.com' }); 
+        $.cookie('country',  'US' ,{expires: date, path: '/' , domain: 'appledaily.com.tw' }); 
+        window.location.href=link;
+    });     
+});
+</script>	
+  <div class="soil">
+    <section  class="ads">
+        <div id="leaderboard"><script type='text/javascript'>googletag.cmd.push(function() {googletag.display('leaderboard');})</script></div>
+        <div id="Richmedia" style="height:0px"><script type='text/javascript'>googletag.cmd.push(function() {googletag.display('Richmedia');})</script></div>
+    </section>
+    <article id="maincontent" class="vertebrae">
+        <style>#hotnewsbox {height:40px;background-color:#fbdb03;border-radius: 10px 10px 0px 0px;}</style>            <script type="text/javascript" src="//img.appledaily.com.tw/appledaily/images/js/jquery.textslider.min.js"></script>
+            <style>
+                .slideText { position: relative; overflow: hidden; height: 40px; }
+                .slideText ul, .slideText li {margin: 0;padding: 0;list-style: none;}
+                .slideText ul {position: absolute;}
+                .slideText li a {font-size:18px;color:#000000;display: block;overflow: hidden;height: 40px;line-height: 40px;text-decoration: none;}
+                .slideText li a:hover {text-decoration: underline;}
+                #hotnewsbox2 {background: url("//img.appledaily.com.tw/appledaily/images/red_recommend.gif") no-repeat;height: 36px;padding: 14px 0 0 195px;}
+            </style>
+            <script type="text/javascript">
+              $(document).ready(function(){
+                  $('.slideText').textslider({
+                      direction : 'scrollUp',
+                      scrollNum : 1,
+                      scrollSpeed : 800,
+                      pause : 3200
+                  });
+              });
+            </script>
+            <div id="hotnewsbox">
+                <div class="fastInfo">快報</div>
+                <div class="out"></div>
+                <div class="slideText">
+                    <ul>
+                        <li><a  href="https://tw.news.appledaily.com/life/realtime/20190417/1551862/?itm_source=twad_web&itm_medium=internal&itm_campaign=twad_marquee&itm_content=marquee" >【獨家】普悠瑪翻車加重懲處基層！司機尤振仲終身不得再開火車</a></li><li><a  href="https://tw.appledaily.com/local/realtime/20190417/1551706/?itm_source=twad_web&itm_medium=internal&itm_campaign=twad_marquee&itm_content=marquee" >李敖子女互告第1戰　李文敗陣遭判刑</a></li><li><a  href="https://tw.appledaily.com/politics/realtime/20190417/1551921/?itm_source=twad_web&itm_medium=internal&itm_campaign=twad_marquee&itm_content=marquee" >【有照】吳敦義將親頒榮譽狀給郭台銘　「表彰愛黨情懷」</a></li><li><a  href="https://tw.news.appledaily.com/life/realtime/20190417/1551912/?itm_source=twad_web&itm_medium=internal&itm_campaign=twad_marquee&itm_content=marquee" >北市議員踢爆彩券行變連鎖毒窟！賣毒品竟附贈吸食器</a></li><li><a  href="https://tw.appledaily.com/local/realtime/20190417/1551803/?itm_source=twad_web&itm_medium=internal&itm_campaign=twad_marquee&itm_content=marquee" >傳line預告縱火來真的　自製汽油彈尋仇情敵</a></li><li><a  href="https://tw.appledaily.com/local/realtime/20190417/1551923/?itm_source=twad_web&itm_medium=internal&itm_campaign=twad_marquee&itm_content=marquee" >白文正二房涉掏空上億　葉美麗遭搜索約談</a></li><li><a  href="https://tw.news.appledaily.com/life/realtime/20190417/1551888/?itm_source=twad_web&itm_medium=internal&itm_campaign=twad_marquee&itm_content=marquee" >郭董想選總統　柯Ｐ：處理兩岸關係比純做生意難</a></li><li><a  href="https://tw.finance.appledaily.com/realtime/20190417/1551735/?itm_source=twad_web&itm_medium=internal&itm_campaign=twad_marquee&itm_content=marquee" >郭台銘宣布參選倒數中　國民黨下午頒獎解套</a></li>                    </ul>
+                </div>
+                <div class="clearmen"></div>
+            </div>
+            <style>
+                .fastInfo {float:left;width:80px;height:40px;text-align:center;line-height:40px;font-style:italic;font-size:18.5px;}
+                .out {
+                  float:left;
+                  width:20px;
+                  height:40px;
+                  box-sizing:border-box;
+                  line-height:40px;
+                  background:
+                    linear-gradient(-68deg, transparent 45.5%, #908b72 48.5%, #908b72 50.5%, transparent 50.5%);margin-right:5px;margin-left:-10px;
+                }
+            </style>
+                 <div class="thoracis">
+          <!-- 輪撥區塊 -->
+          <section id="splash">
+            <div id="carousel">
+                                <div class="item">
+                     <a href="https://tw.finance.appledaily.com/realtime/20190417/1551744" >
+                      <img class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//img.appledaily.com.tw/images/thumbnail/other/45fd4bcd2b7cd31b8f9659488af3e816.jpg" alt="表態選總統　郭台銘：媽祖託夢「叫我一定要出來」" tcode="表態選總統　郭台銘：媽祖託夢「叫我一定要出來」" />
+                                          </a>                   
+                </div>             
+                                <div class="item">
+                     <a href="https://tw.finance.appledaily.com/realtime/20190417/1549151" >
+                      <img class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//img.appledaily.com.tw/images/thumbnail/other/ad5eaebdd3a50955ec1eab3339e3aab3.jpg" alt="《蘋果》會員衝破120萬！感謝120萬個好蘋友熱情相挺" tcode="《蘋果》會員衝破120萬！感謝120萬個好蘋友熱情相挺" />
+                                          </a>                   
+                </div>             
+                                <div class="item">
+                     <a href="https://tw.news.appledaily.com/headline/daily/20190417/38307352/" target="_blank">
+                      <img class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//img.appledaily.com.tw/images/thumbnail/other/a1888925fbf6e922d1a040c8637fd219.jpg" alt="AD:7f131ee6a8d71300fdfcadbc815ebed1" tcode="AD:7f131ee6a8d71300fdfcadbc815ebed1" />
+                                          </a>                   
+                </div>             
+                                <div class="item">
+                     <a href="https://tw.appledaily.com/life/realtime/20190417/1551862" >
+                      <img class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//img.appledaily.com.tw/images/thumbnail/other/388b6343c323d316d2c821747a12623f.jpg" alt="【獨家】普悠瑪翻車加重懲處基層！司機尤振仲列車駕照廢止終身不得再考" tcode="【獨家】普悠瑪翻車加重懲處基層！司機尤振仲列車駕照廢止終身不得再考" />
+                                          </a>                   
+                </div>             
+                                <div class="item">
+                     <a href="https://tw.entertainment.appledaily.com/realtime/20190417/1551778/" >
+                      <img class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//img.appledaily.com.tw/images/thumbnail/other/139fc5ac9b56a650af2c7dae89a8d3f0.jpg" alt="許志安偷吃痛哭懺悔　鄭秀文無言臉書封面全黑" tcode="許志安偷吃痛哭懺悔　鄭秀文無言臉書封面全黑" />
+                                          </a>                   
+                </div>             
+                                <div class="item">
+                     <a href="https://tw.lifestyle.appledaily.com/lifestyle/realtime/20190417/1551333/" target="_blank">
+                      <img class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//img.appledaily.com.tw/images/thumbnail/other/3c20f2f78790d219f3c2b12972ec4fc4.jpg" alt="AD:111d8eb5e7ce9d46feb07a67652f980d" tcode="AD:111d8eb5e7ce9d46feb07a67652f980d" />
+                                          </a>                   
+                </div>             
+                                <div class="item">
+                     <a href="https://tw.entertainment.appledaily.com/realtime/20190417/1551828" >
+                      <img class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//img.appledaily.com.tw/images/thumbnail/other/4d4b4018ab1d30462ff05fec243cf42b.jpg" alt="【閨密反目】辜莞允否認偷拍外洩裸照　女星鮪魚怒提告" tcode="【閨密反目】辜莞允否認偷拍外洩裸照　女星鮪魚怒提告" />
+                                          </a>                   
+                </div>             
+                                <div class="item">
+                     <a href="https://tw.finance.appledaily.com/realtime/20190417/1551735" >
+                      <img class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//img.appledaily.com.tw/images/thumbnail/other/009c6ece8663a021baea08e62cbca6a6.jpg" alt="郭台銘搏杯宣布參選倒數中　國民黨下午頒獎解套" tcode="郭台銘搏杯宣布參選倒數中　國民黨下午頒獎解套" />
+                                          </a>                   
+                </div>             
+                                <div class="item">
+                     <a href="https://tw.news.appledaily.com/headline/daily/20190417/38310943/" target="_blank">
+                      <img class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//img.appledaily.com.tw/images/thumbnail/other/f6e95289c47cb5ebb5064d66c1d4d0c1.jpg" alt="AD:2b264af79dcd86d4ca82060170aa405d" tcode="AD:2b264af79dcd86d4ca82060170aa405d" />
+                                          </a>                   
+                </div>             
+                                <div class="item">
+                     <a href="https://tw.entertainment.appledaily.com/realtime/20190417/1551831" >
+                      <img class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//img.appledaily.com.tw/images/thumbnail/other/73ae30dae4d0bad58eb0f8ead9dbf1b4.jpg" alt="小禎被爆「切胃」手術穿回S號" tcode="小禎被爆「切胃」手術穿回S號" />
+                                          </a>                   
+                </div>             
+                                <div class="item">
+                     <a href="https://tw.entertainment.appledaily.com/realtime/20190417/1551852" >
+                      <img class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//img.appledaily.com.tw/images/thumbnail/other/13a03225caf8eb537114a67c96e7408f.jpg" alt="【獨家】胡睿兒夜店撿屍慘變2罪　呼麻判決結果出爐" tcode="【獨家】胡睿兒夜店撿屍慘變2罪　呼麻判決結果出爐" />
+                                          </a>                   
+                </div>             
+                                <div class="item">
+                     <a href="https://lihi.cc/F6kmv" target="_blank">
+                      <img class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//img.appledaily.com.tw/images/thumbnail/other/a056bce382b91bf784100c08ce967300.jpg" alt="AD:d782ca96aff683913e2e95bbf0036205" tcode="AD:d782ca96aff683913e2e95bbf0036205" />
+                                          </a>                   
+                </div>             
+                                <div class="item">
+                     <a href="https://tw.appledaily.com/new/realtime/20190417/1551829/" >
+                      <img class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//img.appledaily.com.tw/images/thumbnail/other/f16c8005c3e08484071be47f6a6c0db1.jpg" alt="超大綠帽！女友搭小黃騷吻許志安　男星演運將狂NG" tcode="超大綠帽！女友搭小黃騷吻許志安　男星演運將狂NG" />
+                                          </a>                   
+                </div>             
+                                <div class="item">
+                     <a href="https://tw.appledaily.com/new/realtime/20190417/1551851/" >
+                      <img class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//img.appledaily.com.tw/images/thumbnail/other/7280efcadb80db1b31818d3c12e1c38d.jpg" alt="味全龍正式公布球團人事　總教練葉君璋　張泰山黃煚隆入教練團" tcode="味全龍正式公布球團人事　總教練葉君璋　張泰山黃煚隆入教練團" />
+                                          </a>                   
+                </div>             
+                                <div class="item">
+                     <a href="https://lihi.cc/QbBhZ" target="_blank">
+                      <img class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//img.appledaily.com.tw/images/thumbnail/other/c05a74d33ff897b5b704dcb5e718c8ba.jpg" alt="AD:0710141f84077eecd4a98bc494c06052" tcode="AD:0710141f84077eecd4a98bc494c06052" />
+                                          </a>                   
+                </div>             
+                                <div class="item">
+                     <a href="https://tw.entertainment.appledaily.com/realtime/20190417/1551791/" >
+                      <img class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//img.appledaily.com.tw/images/thumbnail/other/c292d277a8428eb3c0e949d083d4c265.jpg" alt="向太勸鄭秀文放下　痛譙許志安「眼皮子底下作案」" tcode="向太勸鄭秀文放下　痛譙許志安「眼皮子底下作案」" />
+                                          </a>                   
+                </div>             
+                                <div class="item">
+                     <a href="https://tw.appledaily.com/local/realtime/20190417/1549158" >
+                      <img class="owl-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="//img.appledaily.com.tw/images/thumbnail/other/b38d82559d8cc467798371c50c006d59.jpg" alt="為何要訂閱《蘋果》？　6個Q&A報你知" tcode="為何要訂閱《蘋果》？　6個Q&A報你知" />
+                                          </a>                   
+                </div>             
+                            </div>
+            <div class="xPrev">上一則</div>
+            <div class="xNext">下一則</div>
+          </section>
+          <!-- 輪撥區塊 -->            
+          <section id="realtimenews" class="rts fillup clearmen">
+            <header><h2>即時新聞&nbsp;</h2><a href="/new/realtime/" target="_blank">更多新聞</a></header>
+              <article>
+                <figure class="rtcvr"><a href="/new/realtime/20190417/1551831" target="_blank"><img src="//img.appledaily.com.tw/appledaily/images/RnewsRecommend_1555470605.jpg" alt="【獨家】小禎被爆「切胃手術」穿回S號" /><p>【獨家】小禎被爆「切胃手術」穿回S...</p></a></figure>
+              <ul class="hls">
+                                            <li class="hsv"><a href="/new/realtime/20190417/1549151" title="《蘋果》會員衝破120萬！感謝120萬個好蘋友熱情相挺" target="_blank">《蘋果》會員衝破120萬！感謝12...</a></li>
+                                            <li ><a href="/new/realtime/20190417/1551744" title="【Live】郭台銘10:30拜發跡廟慈惠宮" target="_blank">【Live】郭台銘10:30拜發跡...</a></li>
+                                            <li ><a href="/new/realtime/20190417/1551778" title="許志安偷吃　鄭秀文無言臉書封面全黑" target="_blank">許志安偷吃　鄭秀文無言臉書封面全黑</a></li>
+                                                          <li class="hsv last"><a href="/new/realtime/20190417/1551406" title="她應徵旅館房務員　卻跟老闆開房間" target="_blank">她應徵旅館房務員　卻跟老闆開房間</a></li>
+              </ul>
+              </article>
+              <aside>
+                <ul class="mrt">
+                  <li class=" hsv "><time>11:38</time><a href="/new/realtime/20190417/1551744" target="_blank">郭台銘表態參選總統　「媽祖託夢叫我...</a></li><li class=" hsv "><time>11:38</time><a href="/new/realtime/20190417/1551843" target="_blank">雙北多家彩券行被爆販毒　士林警上門...</a></li><li class=" "><time>11:38</time><a href="/new/realtime/20190417/1551939" target="_blank">Q2用戶增速減緩？NETFLIX惹...</a></li><li class=" "><time>11:37</time><a href="/new/realtime/20190417/1551535" target="_blank">楊千嬅獲Harry Winston...</a></li><li class=" "><time>11:37</time><a href="/new/realtime/20190417/1551936" target="_blank">Netflix將測試Top 10功...</a></li><li class=" "><time>11:36</time><a href="/new/realtime/20190417/1551735" target="_blank">郭台銘參拜慈惠宮表態選總統　國民黨...</a></li><li class=" "><time>11:36</time><a href="/new/realtime/20190417/1551892" target="_blank">微軟無光碟版Xbox One S ...</a></li><li class=" hsv last "><time>11:35</time><a href="/new/realtime/20190417/1551832" target="_blank">我們與死神的距離！母子險遭飛車撞幸...</a></li>                </ul>
+              </aside>
+          </section>
+                      <!--特選話題-->
+            <style>
+                #special_choice {background:url(//img.appledaily.com.tw/appledaily/images/special_choice.png) no-repeat;width:100%;height:50px;position:relative;overflow:hidden;}
+                #special_choice a {color:white}
+                #special_choice li span:hover {text-decoration:underline;}
+                #special_choice ul {position:absolute;}
+                #special_choice li span {font-size:25px;display:inline-block;width:400px;white-space: nowrap;text-overflow: ellipsis; overflow: hidden;margin: 0px 0px 0px 190px;line-height: 50px;}
+            </style>
+            <script type="text/javascript" src="//img.appledaily.com.tw/appledaily/images/js/jquery.textslider.js"></script>
+            <section id="special_choice">
+                <ul>
+                  <li><figure></figure><a target="_blank" href="/column/index/828"><span>郭台銘考慮選2020總統</span></a></li><li><figure></figure><a target="_blank" href="/column/index/834"><span>2019世界地球日</span></a></li><li><figure></figure><a target="_blank" href="/column/index/836"><span>台美關係40周年</span></a></li><li><figure></figure><a target="_blank" href="/column/index/650"><span>台北米其林 蘋果帶你吃</span></a></li><li><figure></figure><a target="_blank" href="/column/index/722"><span>柯韓網路聲量</span></a></li><li><figure></figure><a target="_blank" href="/column/index/660"><span>中美貿易戰露曙光</span></a></li><li><figure></figure><a target="_blank" href="/column/index/830"><span>文教發燒星</span></a></li><li><figure></figure><a target="_blank" href="/column/index/662"><span>孫安佐躍升網紅</span></a></li><li><figure></figure><a target="_blank" href="/column/index/826"><span>川金二會破局</span></a></li><li><figure></figure><a target="_blank" href="/column/index/686"><span>蘋果微視蘋</span></a></li>                </ul>
+                <div class="clearmen"></div>
+            </section>
+            <script>
+            $(document).ready(function(){
+                $('#special_choice').textslider({
+                    direction : 'scrollUp', // 捲動方向: scrollUp向上, scrollDown向下
+                    scrollNum : 1, // 一次捲動幾個元素
+                    scrollSpeed : 2000, // 捲動速度(ms)
+                    pause : 3000 // 停頓時間(ms)
+                });
+            });
+            </script>
+            <!--特選話題-->
+                  </div>
+        <div class="abdominis"></div>
+    </article>
+
+    <aside id="sitesidecontent" class="manu">
+        <div id="rectangleAD1" class="ads rtb rtf"><script type='text/javascript'>googletag.cmd.push(function() {googletag.display('rectangleAD1');})</script></div>
+        <div id="rectangleAD2" class="ads rtb rtf"><script type='text/javascript'>googletag.cmd.push(function() {googletag.display('rectangleAD2');})</script></div>
+      <section id="facebookbox" class="fbbx lvl clearmen">
+        <header><h2>Facebook&nbsp;</h2><a id="fblikebtn"  class="on">蘋果粉絲團</a></header>
+        <article>
+            <div id="fb-root"></div>
+            <div id="changeFBlike">
+                <script language="javascript">
+                    if (GeoDFP['CC'] == 'US' || GeoDFP['CC'] == 'CA') {
+                        document.write('<div class="fb-like-box" data-href="http://www.facebook.com/AppleDailyUS" data-show-faces="false" data-header="false" data-stream="true" data-show-border="true"></div>');
+                    }
+                    else {
+                        document.write('<div class="fb-like-box" data-href="http://www.facebook.com/appledaily.tw" data-show-faces="false" data-header="false" data-stream="true" data-show-border="true"></div>');
+                    }
+                </script>            
+            </div>
+        </article>
+      </section>
+    </aside>
+
+    <section class="aad lvl clearmen">
+      <header><h2>動新聞&nbsp;</h2><a href="https://tw.video.appledaily.com/">更多新聞</a></header>
+      <article id="videolist"></article>
+    </section>
+
+    <section id="selected" class="estd">
+      <header><h3>【火線話題】</h3></header>
+      <article class="fillup">
+        <figure><a href="http://bit.ly/2HFl9Ni" target="_blank"><img src="//img.appledaily.com.tw/aws/tw/appledaily/20190416-223628000000_MLPic1.jpg" /><p>郭董千字文： 我可以改變什麼</p><span></span></a></figure>
+        <ul class="estds">
+        <li><a href="http://bit.ly/2KPjLLA" target="_blank">【台美關係40年】學者黃奎博：美通過友台法案證明台美互動受保障</a></li><li><a href="https://goo.gl/Udm246" target="_blank">【貿易戰】打完中國打日本　美貿易代表署：貿易逆差高逾2兆 </a></li><li><a href="http://bit.ly/2xPDAfa" target="_blank">【蘋果之星】花6千萬栽培4兒不夠　巴戈曾慘遭封殺</a></li><li><a href="https://goo.gl/WH371c" target="_blank">【暖新聞】撐過癌症遠赴南美當志工　女大生助貧童抗病魔</a></li><li><a href="http://bit.ly/2rfWEfS" target="_blank">【微視蘋】一炷香耗盡40年功力　阿文師堅持台製「網」住商機</a></li>        </ul>
+      </article>
+    </section>
+    <section id="selected" class="hts">
+        <header><h3>《蘋果新聞網》</h3></header>
+        <article>
+            <a href="https://tw.appledaily.com/new/realtime/20190417/1549151/" target="_blank"><img src="//img.appledaily.com.tw/aws/tw/appledaily/20190407-125628000000_MRPic1.jpg" width="260" height="280" /></a>
+        </article>
+    </section>
+    <section  class="map lvl clearmen">
+      <header><h2>更多蘋果&nbsp;</h2></header>
+      <article>
+        <style>
+            #new_morenews .outbox {width:928px;margin:0px auto;padding: 20px 0px;}
+            #new_morenews .more figure {width:230px;overflow:hidden;}
+            #new_morenews figure img {display:block;width:100%;height:auto;}
+            #new_morenews .col_a {float:left;width:230px;margin-right:2px;height:auto;}
+            #new_morenews .col_a a {display:block;background:#ededed;}
+            #new_morenews .more {width:230px; margin-bottom:2px}
+            #new_morenews .more_text .s2:hover {color:#747474;text-decoration:underline;}
+            #new_morenews .more_text {background:#ededed;font-size:16px;line-height:20px;height: 65px;}
+            #new_morenews .more_text .s1 {padding:8px 10px;color:white;display: inline-block;}
+            #new_morenews .more_text .s2 {color:black;position: relative;display: block;padding: 0px 10px;margin-top: -23px;line-height: 25px;word-wrap: break-word;word-break: normal;overflow: hidden; width: 215px;height: 50px;}
+            #new_morenews .more_text.extend {height: 90px;}
+            #new_morenews .more_text.extend .s2 {height: 75px;}
+        </style>
+        <div id="new_morenews">
+            <div class="outbox">
+                <div class="col_a">
+                                        <a href="http://www.applelive.com.tw/livechannel/subject/41/260" target="_blank">
+                            <div class="more" >
+                                <figure >
+                                    <img src="//img.appledaily.com.tw/aws/tw/appledaily/20180111-164729000000_BPic1.jpg" />
+                                </figure>
+                                <div class="more_text">
+                                    <span class="s1" style="background:#ca1918">蘋果Live</span><span class="s2">蘋果x孫華Live 名人大平台 每周直播</span>
+                                </div>
+                            </div>
+                        </a>
+                                            <a href="https://goo.gl/ZrtRGt" target="_blank">
+                            <div class="more" >
+                                <figure >
+                                    <img src="//img.appledaily.com.tw/aws/tw/appledaily/20190417-090755000000_BPic2.jpg" />
+                                </figure>
+                                <div class="more_text">
+                                    <span class="s1" style="background:#1462c8">蘋果查真假</span><span class="s2">蘇貞昌向社會致歉　臉書粉絲團圖也撤下「假」字</span>
+                                </div>
+                            </div>
+                        </a>
+                                            <a href="http://goo.gl/avfgIy" target="_blank">
+                            <div class="more" >
+                                <figure >
+                                    <img src="//img.appledaily.com.tw/aws/tw/appledaily/20190327-144811000000_BPic3.jpg" />
+                                </figure>
+                                <div class="more_text">
+                                    <span class="s1" style="background:#ca1918">爆料拿獎金</span><span class="s2">募集爆料公民 拿爆料獎金</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div><div class="col_a">                        <a href="http://bit.ly/2TD3pVo" target="_blank">
+                            <div class="more" >
+                                <figure >
+                                    <img src="//img.appledaily.com.tw/aws/tw/appledaily/20190327-144811000000_BPic4.jpg" />
+                                </figure>
+                                <div class="more_text">
+                                    <span class="s1" style="background:#06006e">2019台北米其林</span><span class="s2">米其林認證平價美食　台北榜出爐</span>
+                                </div>
+                            </div>
+                        </a>
+                                            <a href="https://goo.gl/uxHVNq" target="_blank">
+                            <div class="more" >
+                                <figure >
+                                    <img src="//img.appledaily.com.tw/aws/tw/appledaily/20190417-090905000000_BPic5.jpg" />
+                                </figure>
+                                <div class="more_text">
+                                    <span class="s1" style="background:#8cac0d">Apple Fashion</span><span class="s2">侯佩岑 差點忘了結婚紀念日 賞卡地亞露一腿</span>
+                                </div>
+                            </div>
+                        </a>
+                                            <a href="https://tw.feature.appledaily.com/health/" target="_blank">
+                            <div class="more" >
+                                <figure >
+                                    <img src="//img.appledaily.com.tw/aws/tw/appledaily/20180424-181410000000_BPic6.jpg" />
+                                </figure>
+                                <div class="more_text">
+                                    <span class="s1" style="background:#08a4c0">健康蘋道</span><span class="s2">蘋果關心你　健康過生活</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div><div class="col_a">                        <a href="https://goo.gl/xDT4Pt" target="_blank">
+                            <div class="more" >
+                                <figure >
+                                    <img src="//img.appledaily.com.tw/aws/tw/appledaily/20190323-082555000000_BPic7.jpg" />
+                                </figure>
+                                <div class="more_text">
+                                    <span class="s1" style="background:#23b634">圖解新聞</span><span class="s2">【時尚圖解】貴婦保鮮祕招　深海祕辛成就LA MER經典乳霜傳奇</span>
+                                </div>
+                            </div>
+                        </a>
+                                            <a href="https://goo.gl/YvYRtK" target="_blank">
+                            <div class="more" >
+                                <figure >
+                                    <img src="//img.appledaily.com.tw/aws/tw/appledaily/20190417-090635000000_BPic8.jpg" />
+                                </figure>
+                                <div class="more_text">
+                                    <span class="s1" style="background:#e13e7e">愛播網</span><span class="s2">【抄網紅水表】自學加藤鷹　YouTuber金手指快台男5倍</span>
+                                </div>
+                            </div>
+                        </a>
+                                            <a href="https://goo.gl/WH371c" target="_blank">
+                            <div class="more" >
+                                <figure >
+                                    <img src="//img.appledaily.com.tw/aws/tw/appledaily/20190417-090546000000_BPic9.jpg" />
+                                </figure>
+                                <div class="more_text">
+                                    <span class="s1" style="background:#ca1918">暖蘋果</span><span class="s2">不離不棄照顧3年　新娘伴植物人新郎拍婚紗照</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div><div class="col_a">                        <a href="http://bit.ly/2GOqTAv" target="_blank">
+                            <div class="more" >
+                                <figure >
+                                    <img src="//img.appledaily.com.tw/aws/tw/appledaily/20180529-104228000000_BPic10.jpg" />
+                                </figure>
+                                <div class="more_text">
+                                    <span class="s1" style="background:#23b634">吃喝玩樂</span><span class="s2">更多好吃好玩情報報你知</span>
+                                </div>
+                            </div>
+                        </a>
+                                            <a href="https://goo.gl/E4TWc4" target="_blank">
+                            <div class="more"  style="height:320px">
+                                <figure style="height:260px">
+                                    <img src="//img.appledaily.com.tw/aws/tw/appledaily/20190417-090433000000_BPic11.jpg" />
+                                </figure>
+                                <div class="more_text">
+                                    <span class="s1" style="background:#ca1918">蘋果基金會</span><span class="s2">A4653 拾荒婆顧癌兒「怕僅剩的1個也被帶走」</span>
+                                </div>
+                            </div>
+                        </a>
+                                    </div>
+                <div class="clearmen"></div>
+            </div>
+        </div>
+        <script type="text/javascript">
+          $(document).ready(function() {
+            $("#new_morenews .more_text:last").addClass('extend');
+            $("#new_morenews .more_text .s2").each(function() {
+              var item = $(this);
+              var s1W = item.prev('.s1').width();
+              var newTI = s1W+15;
+              if (newTI>(item.width()-10)) {
+                newTI = 0;
+                item.prepend('<br>');
+              };
+              item.css('text-indent', newTI).dotdotdot({
+                ellipsis: '... ',
+                height  : item.height()
+              });
+            });
+          });
+        </script>
+
+
+      </article>
+    </section>
+    </div>
+      <div id="BottomBanner"><script type='text/javascript'>googletag.cmd.push(function() {googletag.display('BottomBanner');})</script></div>
+      <link rel="stylesheet" href="//img.appledaily.com.tw/appledaily/images/css/dateinput_skin.css" />
+<style>
+    #rt_btn {
+                background:top no-repeat url('//img.appledaily.com.tw/appledaily/images/core/realtime88x36.png');
+                width:78px; height:16px;
+                }
+    #rt_btn:hover {background:top no-repeat url('//img.appledaily.com.tw/appledaily/images/core/realtime88x36.png') #0076a4;}
+    #online_btn {
+                background:top no-repeat url('//img.appledaily.com.tw/appledaily/images/core/online124x36.png');
+                width:104px; height:16px;
+                }
+    #online_btn:hover {background:top no-repeat url('//img.appledaily.com.tw/appledaily/images/core/online124x36.png') #0076a4;}
+    #Ent_btn {
+                background:top no-repeat url('//img.appledaily.com.tw/appledaily/images/core/ent88x36.png');
+                width:78px; height:16px;
+                }
+    #Ent_btn:hover {background:top no-repeat url('//img.appledaily.com.tw/appledaily/images/core/ent88x36.png') #0076a4;}
+    #fast_btn { background:url('//img.appledaily.com.tw/appledaily/images/fast88x36.png') top no-repeat;width:78px; height:16px;}
+    #fast_btn:hover {background:top no-repeat url('//img.appledaily.com.tw/appledaily/images/fast88x36.png') #0076a4;}
+    .sbox{ background-image:none;
+                position: absolute;
+                top: 6px;
+                left: 80px;
+                width: 120px;
+                color: #fefefe;
+                font-size: 16px;
+                padding: 2px 2px 4px 2px;
+                -webkit-appearance: none;
+                -webkit-border-radius: 0;
+                }
+    .sbtn{ background:url('//img.appledaily.com.tw/appledaily/images/sbaricon.png') no-repeat 2px 2px #616161; width:24px; height:24px; left:200px}
+    #house_btn {background:no-repeat url('//img.appledaily.com.tw/appledaily/images/house77x19.png') 10px 8px;width:77px; height:16px;}
+    #house_btn:hover {background:no-repeat url('//img.appledaily.com.tw/appledaily/images/house77x19.png') 10px 8px #0076a4;}
+    .nbtn a.caltrigger {padding:8px 8px 5px 8px;}/*2014vote*/
+    .nbtn input.date {width:74px}/*2014vote*/
+    #tc_btn {
+        background: no-repeat url('//img.appledaily.com.tw/appledaily/images/core/3c.png');
+        width: 77px;
+        height: 16px;
+    }
+    #tc_btn:hover {
+        background: no-repeat url('//img.appledaily.com.tw/appledaily/images/core/3c.png') #0076a4;
+    }
+    #af_btn {
+        background: no-repeat url('//img.appledaily.com.tw/appledaily/images/core/af.png') 10px 8px;
+        width: 46px;
+        height: 16px;
+    }
+    #af_btn:hover {
+        background: no-repeat url('//img.appledaily.com.tw/appledaily/images/core/af.png')  10px 8px #0076a4;
+    }
+    .submenu .nah:hover {background-color: #ff0800;}
+    #siteusnav {
+            background: #3f3f3f url(//img.appledaily.com.tw/appledaily/images/core/gnvbg.png) top left repeat-x;
+            position: absolute;
+            top: 90px;
+            left: 0;
+            width: 100%;
+    }
+
+    #siteusnav .sqzer {
+            position: relative;
+            width: 970px;
+            margin: 0 auto;
+    }
+  </style>
+
+  <div class="abkct clearmen"><a onClick="javascript:window.scroll(0,0)" class="abktp">回到最上面</a></div>
+  <section id="extras" class="fexbr">
+    <div class="sqzer fillup">
+      <a href="https://tw.appledaily.com/index/dailyquote/" title="每日一句" class="dyw"><span data-tooltip="每天一句好話"></span>每日一句</a>
+      <a href="https://tw.appledaily.com/index/lottery" title="樂透發票" class="lnr"><span data-tooltip="看看你手氣"></span>樂透發票</a>
+      <a href="https://tw.appledaily.com/classified/" title="分類廣告" style="background-image:url('//img.appledaily.com.tw/appledaily/images/img/classad.png');"><span data-tooltip="分類廣告"></span>分類廣告</a>
+      <a href="https://tw.appledaily.com/index/weather" title="天氣" class="wkw"><span data-tooltip="今天一周天氣預報"></span>天氣</a>
+      <a href="https://tw.appledaily.com/index/complain" title="爆料投訴" class="rpter"><span data-tooltip="爆料給蘋果"></span>爆料投訴</a>
+      <a href="https://tw.appledaily.com/index/prize" title="中獎名單" class="itul"><span data-tooltip="蘋果送大獎！">中獎名單</span></a>
+      <a href="https://tw.appledaily.com/index/ticket" title="贈獎活動" class="pguss"><span data-tooltip="贈獎活動"></span>贈獎活動</a>
+      <a href="https://tw.appledaily.com/apppromo/index.html" title="行動版" class="wmvs"><span data-tooltip="行動版">行動版</span></a>
+    </div>
+  </section>
+
+  <footer class="ndgFooter_corpfoot">
+      <div class="sqzer">
+           <figure style="float:left;"><a href="http://www.nextdigital.com.hk/investor/"><img src="//img.appledaily.com.tw/images/NextDigital/logo_NextMedia_m.png" /></a></figure>
+           <div class="ndgWorldbox_rightGeo" style="float: left;position: relative;top: -2px;">
+                <a class="ndgWorldbox_Location" id="TwIndex" class="current" href="http://www.twnextdigital.com/">台灣</a>
+                <a class="ndgWorldbox_Location" href="http://hk.apple.nextmedia.com" style="border-right:0px;">香港</a>
+          </div>
+          <section id="ndgFooter_corpcompanies" class="clearmen">
+              <a href="https://tw.appledaily.com/" class="first" target="_blank"><img src="//img.appledaily.com.tw/appledaily/images/core/ft_AppleDaily_news.png" alt="蘋果新聞網 AppleDaily"  /></a>
+              <a href="https://tw.video.appledaily.com" target="_blank"><img src="//img.appledaily.com.tw/appledaily/images/core/ft_AnimatedNews.png" alt="動新聞"  /></a>
+              <a href="http://www.applelive.com.tw/livechannel/"  target="_blank"><img src="//img.appledaily.com.tw/appledaily/images/core/applelive.gif" alt="蘋果Live"  /></a>
+              <a href="http://applevr.appledaily.com.tw/" target="_blank"><img src="//img.appledaily.com.tw/appledaily/images/core/VRlogo87x40.png" alt=" 蘋果VR" width="83" height="30"/></a>
+              <a href="http://www.nextmag.com.tw/" target="_blank"><img src="//img.appledaily.com.tw/appledaily/images/core/ft_NextMag.png" alt="壹週刊"></a>
+              <a href="http://fashion.appledaily.com.tw/"  target="_blank"><img src="//img.appledaily.com.tw/appledaily/images/core/applefashion_website_head_39x30.png" alt="蘋果時尚" /></a>
+              <a href="http://www.tomonews.com/" style="border-right: none;" target="_blank"><img src="//img.appledaily.com.tw/appledaily/images/core/tomonews_blue.png" alt="Tomonews"   style="margin-top:9px"/></a>
+           </section>
+
+        <section id="ndgFooter_corpinfo" class="fillip">
+          <a href="https://tw.appledaily.com/index/aboutus" style="background: none;">了解蘋果日報</a>
+          <a href="https://tw.appledaily.com/index/contactus">聯絡我們</a>
+          <a href="https://tw.appledaily.com/adguide" target="_blank">廣告刊登</a>
+          <a href="https://tw.appledaily.com/index/faq">常見問題</a>
+          <a href="https://tw.appledaily.com/index/sitemap">網站導覽</a>
+          <a href="https://tw.appledaily.com/index/termofuse">使用條款</a>
+          <a href="https://tw.appledaily.com/index/authorization">授權申請程序</a>
+          <a href="https://tw.appledaily.com/index/privacy">隱私權說明</a>
+          <a href="https://tw.appledaily.com/index/disclaimer">免責與分級</a>
+          <a href="https://tw.appledaily.com/index/community">蘋果社群</a>
+          <a href="https://www.facebook.com/nextdigitalstudent/" target="_blank">校園培果計畫</a>
+          <a href="http://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=5e3a4326486c3e6a30323c1d1d1d1d5f2443a363189j01&jobsource=checkc"  target="_blank">蘋果徵才</a>
+          <a href="https://tw.appledaily.com/index/subscribe" >訂閱蘋果</a>
+          <a href="https://tw.appledaily.com/ethics/index.html" class="last">蘋果自律委員會</a>
+        </section>
+        <p id="ndgFooter_copyright">© 2019 APPLE ONLINE All rights reserved. 蘋果新聞網 版權所有 不得轉載</p>
+      </div>
+    </footer>
+    
+  <link rel="stylesheet" href="//img.appledaily.com.tw/appledaily/images/css/appledaily.backtotop.css" />
+  <script src="//img.appledaily.com.tw/appledaily/images/js/jquery.appledaily.backtotop.js"></script>
+  <div class="back-to-top-side"><a onclick="javascript:window.scroll(0,0)" class="back-to-top-btn overcooked">回到最上面</a></div><!-- .back-to-top-side -->
+  <script src="//img.appledaily.com.tw/appledaily/images/js/jquery.tools.dateinput.js"></script>
+  <link rel="stylesheet" href="//img.appledaily.com.tw/appledaily/images/css/dateinput_skin.css" />
+  <script>
+    $(".pushbtn").click(function () {
+    if($('#subSection').css('display')=='none'){
+       $('#subSection').css('display','block');
+       $('#subSection2').css('display','none');
+       $('#subSection3').css('display','none');
+    }
+    else{
+       $('#subSection').css('display','none');
+    }
+    });
+    $(".pushbtn2").click(function () {
+    if($('#subSection2').css('display')=='none'){
+       $('#subSection2').css('display','block');
+       $('#subSection').css('display','none');
+       $('#subSection3').css('display','none');
+    }
+    else{
+       $('#subSection2').css('display','none');
+    }
+    });
+    $(".pushbtn3").click(function () {
+    if($('#subSection3').css('display')=='none'){
+       $('#subSection3').css('display','block');
+       $('#subSection').css('display','none');
+       $('#subSection2').css('display','none');
+    }
+    else{
+       $('#subSection3').css('display','none');
+    }
+    });
+
+    //美蘋下拉
+    $(".pushbtnusa").click(function () {
+    if($('#subSectionusa').css('display')=='none'){
+       $('#subSectionusa').css('display','block');
+    }
+    else{
+       $('#subSectionusa').css('display','none');
+    }
+    });
+    $(document).ready(function() {
+        var opacity = 0.5,
+            toOpacity = 1,
+            duration = 250;
+        $('.opacity').css('opacity', opacity).hover(function() {
+            $(this).fadeTo(duration, toOpacity);
+        }, function() {
+            $(this).fadeTo(duration, opacity);
+        });
+        var $window = $(window);
+        var $extras = $('#extras');
+        var $corpfoot = $('#corpfoot');
+        var $door = $('#door');
+        var $doorLeft = $('#door-left');
+        var $doorRight = $('#door-right');
+        var doorMarginTop = ($door.css('margin-top')) ? parseInt($door.css('margin-top').replace('px',''), 10) : 0;
+        var scrollTargetTop = 130;
+
+        $(window).scroll(function() {
+          var bottomPos;
+          if ($extras.length && $corpfoot.length) {
+            bottomPos = Math.min($extras.offset().top, $corpfoot.offset().top);
+          } else if (!$extras.length && !$corpfoot.length) {
+            bottomPos = $(document).height();
+          } else {
+            bottomPos = ($extras.offset() || $corpfoot.offset()).top;
+          }
+
+          var scrollTop = $window.scrollTop();
+          var bannerHeight = Math.max($doorLeft.height(),$doorRight.height());
+          var checkPoint = scrollTop+bannerHeight;
+
+          if ((scrollTop>scrollTargetTop) && (checkPoint < bottomPos)) {
+            $door.css('position','fixed').css('top','-'+doorMarginTop+'px');
+          } else {
+            if (checkPoint >= bottomPos) {
+              $door.css('position','absolute').css('top',(bottomPos-bannerHeight-doorMarginTop)+'px');
+            } else {
+              $door.css('position','relative').css('top','0px');
+            }
+          }
+        }).trigger('scroll');
+
+        $.tools.dateinput.localize("tw", {
+            months:       '一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月',
+            shortMonths:  '一,二,三,四,五,六,七,八,九,十,十一,十二',
+            days:         '日,一,二,三,四,五,六',
+            shortDays:    '日,一,二,三,四,五,六'
+        });
+
+        $("#DailyDate").dateinput({lang: 'tw',selectors: true,format: 'yyyymmdd',trigger: true ,min:'2003-05-02',max:'2019-04-17',offset: [0,-50],speed: 'fast',yearRange:[-20,1]});
+        $("#DailyDate").change(function() {location.href="https://tw.appledaily.com/appledaily/archive/"+$("#DailyDate").val();});
+        $("#DailyDateusa").dateinput({lang: 'tw',selectors: true,format: 'yyyymmdd',trigger: true ,min:'2003-05-02',max:'2019-04-17',offset: [0,-50],speed: 'fast',yearRange:[-20,1]});
+        $("#DailyDateusa").change(function() {location.href="https://tw.appledaily.com/appledaily/archive/"+$("#DailyDateusa").val();});
+        /*$(".nbtn a.caltrigger").append("昔日新聞");*/
+        $(".ndgCal a.caltrigger").append("<img src='//img.appledaily.com.tw/appledaily/images/header/img/calendar_icon.png'/>");
+    });
+  </script>
+
+<div id="nxm_iframeDiv" style="display:none"></div>
+<div id="nxm_vtrk_iframeDiv" style="display:none"></div>
+<!--page idle-->
+<link href="//img.appledaily.com.tw/appledaily/images/adidle/css/Ted_fancybox.css"  rel="stylesheet" type="text/css">
+<script src="//img.appledaily.com.tw/appledaily/images/adidle/js/Ted_plugin.js" ></script>
+<script src="//img.appledaily.com.tw/appledaily/images/adidle/js/Ted_adidle.js" ></script>
+<script LANGUAGE="JavaScript">
+    var intRand = Math.floor((Math.random()*10));
+    strHtml = 'infographic';
+    document.write('<a class="pageidle" data-fancybox-type="iframe" href="//img.appledaily.com.tw/appledaily/data/'+strHtml+'_adidle.html#'+Math.random()+'"></a>');
+</script>
+<!--page idle-->
+<script>      
+     window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '244889285591923',
+          xfbml      : true,
+          version    : 'v2.8' 
+        });
+        FB.AppEvents.logPageView();
+      };
+      
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/zh_TW/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));     
+</script>
+<script>
+    // -----------Ad block logic ------------
+    var isAdBlocked = true;
+    googletag.cmd.push(function() {
+        googletag.pubads().addEventListener('impressionViewable', function(e) {
+            if (e.serviceName==='publisher_ads') {
+                isAdBlocked = false;
+            }
+        });
+    });
+    $(document).ready(function() {
+      window.setTimeout(function(){
+              var adblk = (isAdBlocked) ?'Y':'N';
+              document.cookie = "adisblk="+adblk+"; path=/;domain=.appledaily.com";
+        },8000);
+    });
+    // -----------Ad block logic ------------
+  </script>
+  </div>
+</div>
+<script type="text/javascript" src="//img.appledaily.com.tw/appledaily/images/js/jquery.pinable.js"></script>
+<script type="text/javascript" src="//img.appledaily.com.tw/appledaily/images/js/jquery.pinify.js"></script>
+<script type="text/javascript">
+    function changAnimation(count){
+            $.ajax({
+                url: "/index/videoajax/StartRow/"+count+"/201510271456",
+                dataType: 'html',
+                error: function(xhr){},
+                success: function(response) {$('#videolist').html(response);}
+              });
+    }
+    changAnimation(0);
+
+    $(function() {
+        $("#morenews").scrollable({circular:true,size:1});
+    });
+    $(document).ready(function($) {
+      /* main carousel */
+      $('#carousel').on('onInitAfter',function(e){
+        $(this).find('.owl-dots').append( '<span class="masker"></span>' );
+      }).owlCarousel({
+        mouseDrag:false,
+        touchDrag:true,
+        pullDrag:false,
+        navText:['下一則','上一則'],
+        nav:false,
+        navSpeed:500,
+        dotsSpeed:500,
+        dots:false,
+        items:1,
+        autoplay:true,
+        autoplayHoverPause:false,
+        autoplayTimeout: 5000,
+        lazyLoad:true,
+        info: (typeof getInfo == 'function') ? getInfo : {},
+        loop:true
+      }).mouseenter(function() {
+        $(this).addClass('on');
+        $(this).trigger('pause.owl');
+        $('#splash').addClass('on');
+      }).mouseleave(function() {
+        $(this).removeClass('on');
+        $(this).trigger('autoplay.owl');
+        $('#splash').removeClass('on');
+      });
+
+      $('.xPrev').click(function() {
+        $('#carousel').trigger('prev.owl');
+      });
+      $('.xNext').click(function() {
+        $('#carousel').trigger('next.owl');
+      });
+
+      $('.xPrev, .xNext').mouseenter(function() {
+        $('#carousel').addClass('on');
+        $('#carousel').trigger('pause.owl');
+        $('#splash').addClass('on');
+      }).mouseleave(function() {
+        $('#carousel').removeClass('on');
+        $('#carousel').trigger('autoplay.owl');
+        $('#splash').removeClass('on');
+      });
+
+
+    /* firewire */
+    $('#firewire').owlCarousel({
+      mouseDrag:false,
+      touchDrag:false,
+      pullDrag:false,
+      animateOut: 'slideOutDown-100',
+      animateIn: 'slideInDown-100',
+      nav:false,
+      navSpeed:1000,
+      dots:false,
+      items:1,
+      autoplay:true,
+      autoplayHoverPause:true,
+      autoplayTimeout: 6000,
+      lazyLoad:true,
+      loop:true
+    });
+
+    });
+
+    function getInfo(owlInfo){
+        $('#carousel').data('currentPosition', owlInfo['currentPosition']);
+    }
+
+    $( document ).ready(function() {
+      var mainImgs = $('#carousel').find('.owl-item').not('.cloned').find('.item').find('img');
+      var mainLinks = $('#carousel').find('.owl-item').not('.cloned').find('.item').find('a');
+
+      function isAD(imgAlt) {
+        return ((imgAlt) && (imgAlt.toUpperCase().substring(0,2)=="AD"));
+      }
+
+      function mainImgView(idx) {
+        var imgAlt = $(mainImgs[idx]).attr('tcode');
+        if(imgAlt.substring(0,3)=='AD:')
+        {
+            var url=$(mainImgs[idx]).parent().attr('href');
+            var dateTime = Date.now();
+            var timestamp = Math.floor(dateTime / 1000);
+            var CMPGObj={};
+            CMPGObj.ACTION='USER';
+            CMPGObj.CPREG='TW';
+            CMPGObj.CPID='1255';
+            CMPGObj.Platform='WEB';
+            CMPGObj.USRC='ADCLICK';
+            CMPGObj.URL=url;
+            CMPGObj.TS=timestamp;
+            nxmTrack.trackCMPG(CMPGObj);
+        }
+      }
+
+      function mainImgClick(e) {
+        var imgAlt = $(e.currentTarget).find('img').attr('tcode');
+        if (isAD(imgAlt)) trackHomeMainImg('clicks', imgAlt);
+      };
+
+      $('#carousel').on('onTransitionEnd', function(e) {
+        var idx = $('#carousel').data('currentPosition');
+        if ($.isNumeric(idx)) mainImgView(idx);
+      });
+
+      /* entry track */
+      if ($('#carousel')) mainImgView(0);
+
+      /* bind click event */
+      $('#carousel').find('.owl-item').find('.item').find('a').click(mainImgClick);
+    });
+</script>
+</body>
+</html>

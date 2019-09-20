@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <button id="saveData">Save Data to localStorage</button>
+    <button id="readData">Read Data by localStorage</button>
+    <script>
+        // localStorage 除非使用者清除瀏覽資料否則不會消失
+        // sessionStorage 瀏覽器關閉就消失
+        saveData.onclick = () => {
+            localStorage.setItem("firstName", "Jermy");
+        }
+        // 瀏覽器F12 -> Application -> localStorage
+
+        readData.onclick = () => {
+            if (localStorage.getItem("firstName")) {
+                            readData.innerText =
+                localStorage.getItem("firstName");
+            } else {
+                readData.innerText = "not found";
+            }
+        }
+    </script>
+</body>
+</html>

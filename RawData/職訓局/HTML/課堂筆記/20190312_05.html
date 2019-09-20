@@ -1,0 +1,52 @@
+<!-- 3.  this -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>function</title>
+</head>
+
+<body>
+    x: <input type="text" id="input_x" value="5">
+    <br>
+    y: <input type="text" id="input_y" value="3">
+
+    <br>
+    <!-- myCalculate(this)  this表示myCalculate()自身-->
+    <button id="btnPlus" onclick="myCalculate(this)">加法計算結果</button>
+    <br>
+    <button id="btnMinus" onclick="myCalculate(this)">減法計算結果</button>
+    <br>
+    <button id="btnTimes" onclick="myCalculate(this)">乘法計算結果</button>
+    <br>
+    <button id="btnDivide" onclick="myCalculate(this)">除法計算結果</button>
+    <br>
+
+    <script type="text/javascript">
+        //將自己丟進來成為元素obj
+        function myCalculate(obj) {
+            var result;
+            //處理數值型態
+            var x = parseFloat(document.getElementById("input_x").value);
+            var y = parseFloat(document.getElementById("input_y").value);
+
+            //呼叫元素的屬性
+            if (obj.id == "btnPlus") {
+                result = x + y;
+            } else if (obj.id == "btnMinus") {
+                result = x - y;
+            } else if (obj.id == "btnTimes") {
+                result = x * y;
+            } else if (obj.id == "btnDivide") {
+                result = x / y;
+            } else {
+                result = "error";
+            }
+
+            alert(result);
+        }
+
+    </script>
+</body>
+
+</html>

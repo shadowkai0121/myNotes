@@ -1,0 +1,40 @@
+<!-- on -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <p>Click or move the mouse pointer over this paragraph.</p>
+
+
+    <script>
+        $(document).ready(function() {
+            $("p").on("mouseover mouseout", function(){
+                $(this).css('color','red');
+            }
+                // 幫p掛上 mouseenter、mouseleave、click事件
+                
+
+            );
+
+
+//$('p').mouseenter(function() {
+//    $(this).css('background-color', 'red');
+//});
+//
+//$('p').mouseleave(function() {
+//    $(this).css('background-color', 'blue');
+//});
+//
+//$('p').click(function() {
+//    $(this).css('background-color', 'yellow');
+//});
+
+        });
+    </script>
+</body>
+
+</html>

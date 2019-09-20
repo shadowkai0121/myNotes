@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        var cnt = 5;
+        var starcnt = cnt * 2 - 1;
+
+        for (var j = 1; j <= cnt; j++) {
+            for (var i = 1; i <= starcnt; i++) {
+                if (i < (cnt - j + 1) || i > (cnt + j - 1)) {
+                    document.write("&nbsp;&nbsp;");
+                } else {
+                    document.write("*");
+                }
+            }
+            document.write("<br>");
+        }
+    </script>
+
+</body>
+
+</html>

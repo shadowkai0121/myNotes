@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <style type="text/css">
+        table,
+        td {
+            border: 1px solid #AC915D;
+        }
+
+    </style>
+</head>
+
+<body>
+    <table id="newtable"></table>
+    <script>
+        $(function() {
+            for (var row = 0; row <= 2; row++) {
+                $('#newtable').append('<tr id=' + "tr" + row + '>');
+                for (var cell = 0; cell <= 3; cell++) {
+                    $("#tr" + row).append("<td>" + row + "-" + cell + "</td>");
+                }
+                $('#newtable').append('</tr>');
+            }
+        })
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!-- 1. 移動吧，圖片 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>setInterval</title>
+</head>
+
+<body>
+    <img id="op" src="img/onepiece.png" style="width:1064px; height:599px; position: relative;">
+
+    <div id="log">initial content</div>
+
+    <script type="text/javascript">
+        var imgOP = document.getElementById("op");
+
+        function animate() {
+            
+            //  判斷條件 ? 當條件成立的時候 : 當條件不成立的時候 ;
+            var posLeft = parseInt(imgOP.style.left).toString() == "NaN" ? 0 : parseInt(imgOP.style.left);
+
+            var posLeft = imgOP.style.left; // 
+            var posLeft = parseInt(imgOP.style.left); //
+            var posLeft = parseInt(imgOP.style.left).toString(); //  "NaN"
+            
+            var posLeft;
+            if (parseInt(imgOP.style.left).toString() == "NaN") {
+                posLeft = 0;
+            } else {
+                posLeft = parseInt(imgOP.style.left);
+            }
+
+            imgOP.style.left = (posLeft - 1) + "px";
+
+    // 分解動作:
+    // imgOP.style.width  ==> 1064
+    // imgOP.style.width * -1  ==> -1064
+    // document.body.clientWidth  ==> 會出現螢幕的寬度
+    // ==> 把 style.left 設定成螢幕的寬度，圖片的左上角位置會被定位在螢幕的右邊
+            
+            if (posLeft == (parseInt(imgOP.style.width) * -1)) {
+                imgOP.style.left = document.body.clientWidth + "px";
+            }
+        }
+
+        // setInterval(指定的function, 指定的秒數)
+        setInterval("animate()", 10);
+    </script>
+</body>
+
+</html>

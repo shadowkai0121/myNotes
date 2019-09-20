@@ -1,0 +1,13 @@
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\DatabaseFirstSample\DatabaseFirstSample\bin\Debug\DatabaseFirstSample.exe.config
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\DatabaseFirstSample\DatabaseFirstSample\bin\Debug\DatabaseFirstSample.exe
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\DatabaseFirstSample\DatabaseFirstSample\bin\Debug\DatabaseFirstSample.pdb
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\DatabaseFirstSample\DatabaseFirstSample\bin\Debug\EntityFramework.dll
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\DatabaseFirstSample\DatabaseFirstSample\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\DatabaseFirstSample\DatabaseFirstSample\bin\Debug\EntityFramework.xml
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\DatabaseFirstSample\DatabaseFirstSample\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\DatabaseFirstSample\DatabaseFirstSample\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\DatabaseFirstSample\DatabaseFirstSample\obj\Debug\DatabaseFirstSample.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\DatabaseFirstSample\DatabaseFirstSample\obj\Debug\DatabaseFirstSample.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\DatabaseFirstSample\DatabaseFirstSample\obj\Debug\DatabaseFirstSample.csproj.CopyComplete
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\DatabaseFirstSample\DatabaseFirstSample\obj\Debug\DatabaseFirstSample.exe
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\DatabaseFirstSample\DatabaseFirstSample\obj\Debug\DatabaseFirstSample.pdb

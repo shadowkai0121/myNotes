@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>capoo</title>
+    <style type="text/css">
+        #cat {
+            position: absolute;
+            top: 200px;
+        }
+    </style>
+</head>
+
+<body onkeydown="movecapoo(event)">
+
+    <img id="cat" src="img/capoo.gif">
+
+    <!-- 關於邊界的補充說明：https://stackoverflow.com/questions/21064101/understanding-offsetwidth-clientwidth-scrollwidth-and-height-respectively?rq=1 -->
+
+    <script type="text/javascript">
+        var capoo = document.getElementById("cat");
+        capoo.style.top = "50px";
+        capoo.style.left = "50px";
+
+        function movecapoo(eve) {
+            // 1. 取得鍵盤上面的上下左右key code
+            // 2. 用switch case 包起來(點選上下左右的時候要做什麼事情?)
+            switch (eve.keyCode) {
+                case 37: // 左
+                    capoo.style.transform = "rotateY(0deg)";
+                    capoo.style.left = (parseInt(capoo.style.left)-10)+"px";
+                    break;
+                case 39: // 右邊
+                    capoo.style.transform = "rotateY(180deg)";
+                    
+//                    capoo.style.left              // "50px"
+//                    capoo.style.left + 10         // "50px10"
+//           parseInt(capoo.style.left)             // 50
+//           parseInt(capoo.style.left)+ 10         // 60
+//          (parseInt(capoo.style.left)+ 10) + "px" // "60px"      
+                    
+                    capoo.style.left = (parseInt(capoo.style.left)+10)+"px";
+                    
+                    break;
+                default:
+                    alert("請使用鍵盤上的上下左右按鍵");
+            }
+            // 3. 如果想要改變一個元素的位置，要先做什麼設定?
+
+            // 4. 點選滑鼠左鍵，就表示元素的left值要 增加 還是 減少?
+
+            // 5. 要增加減少的數值怎麼取得?
+
+            // 6. 翻轉一張圖片?
+        }
+    </script>
+</body>
+
+</html>

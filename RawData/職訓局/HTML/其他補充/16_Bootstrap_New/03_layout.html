@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <p>課本上面提到對於網格的描述：<a href="http://inspirationfeed.com/harnessing-the-power-of-the-grid-in-your-designs/" target="_blank">http://inspirationfeed.com/harnessing-the-power-of-the-grid-in-your-designs/</a></p>
+
+    <p>w3c資料：<a href="https://www.w3schools.com/bootstrap4/bootstrap_grid_basic.asp" target="_blank">https://www.w3schools.com/bootstrap4/bootstrap_grid_basic.asp</a></p>
+
+    <!-- 試試看，到w3c的網頁上，找到一份網格看看結果 -->
+    <!--.col-    (extra small devices - screen width less than 576px)-->
+    <!--.col-sm- (small devices - screen width equal to or greater than 576px)-->
+    <!--.col-md- (medium devices - screen width equal to or greater than 768px)-->
+    <!--.col-lg- (large devices - screen width equal to or greater than 992px)-->
+    <!--.col-xl- (xlarge devices - screen width equal to or greater than 1200px)-->
+
+    <div class="container-fluid">
+        <h1>Responsive Columns</h1>
+        <p>Resize the browser window to see the effect.</p>
+        <p>The columns will automatically stack on top of each other when the screen is less than 576px wide.</p>
+        <div class="row">
+            <div class="col-sm-6" style="background-color:lavender;">.col-sm-3</div>
+            <div class="col-sm-6" style="background-color:lavenderblush;">.col-sm-8</div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

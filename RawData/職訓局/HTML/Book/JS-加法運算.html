@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="showmessege()">click me!</button>
+
+    <script type="text/javascript">
+        function showmessege(){
+            var x=prompt("請輸入X","3");
+            var y=prompt("請輸入Y","5");
+            
+            //輸入的x為string形式的資料
+//            document.write(typeof(x));
+            //要轉換為數值 parseInt(),parseFloat(),Number()
+            var result=Number(x)+Number(y);
+            alert(result);
+        }
+
+    </script>
+
+</body>
+</html>

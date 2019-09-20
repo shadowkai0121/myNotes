@@ -1,0 +1,16 @@
+C:\Users\admin\Desktop\職訓局\ADOdotNET\test0419_EDM_EntityDataModel\整理\bin\Debug\整理.exe.config
+C:\Users\admin\Desktop\職訓局\ADOdotNET\test0419_EDM_EntityDataModel\整理\bin\Debug\整理.exe
+C:\Users\admin\Desktop\職訓局\ADOdotNET\test0419_EDM_EntityDataModel\整理\bin\Debug\整理.pdb
+C:\Users\admin\Desktop\職訓局\ADOdotNET\test0419_EDM_EntityDataModel\整理\bin\Debug\EntityFramework.dll
+C:\Users\admin\Desktop\職訓局\ADOdotNET\test0419_EDM_EntityDataModel\整理\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\職訓局\ADOdotNET\test0419_EDM_EntityDataModel\整理\bin\Debug\EntityFramework.xml
+C:\Users\admin\Desktop\職訓局\ADOdotNET\test0419_EDM_EntityDataModel\整理\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\職訓局\ADOdotNET\test0419_EDM_EntityDataModel\整理\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\admin\Desktop\職訓局\ADOdotNET\test0419_EDM_EntityDataModel\整理\obj\Debug\整理.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\職訓局\ADOdotNET\test0419_EDM_EntityDataModel\整理\obj\Debug\整理.Form1.resources
+C:\Users\admin\Desktop\職訓局\ADOdotNET\test0419_EDM_EntityDataModel\整理\obj\Debug\整理.Properties.Resources.resources
+C:\Users\admin\Desktop\職訓局\ADOdotNET\test0419_EDM_EntityDataModel\整理\obj\Debug\整理.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\職訓局\ADOdotNET\test0419_EDM_EntityDataModel\整理\obj\Debug\整理.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\職訓局\ADOdotNET\test0419_EDM_EntityDataModel\整理\obj\Debug\整理.csproj.CopyComplete
+C:\Users\admin\Desktop\職訓局\ADOdotNET\test0419_EDM_EntityDataModel\整理\obj\Debug\整理.exe
+C:\Users\admin\Desktop\職訓局\ADOdotNET\test0419_EDM_EntityDataModel\整理\obj\Debug\整理.pdb

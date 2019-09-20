@@ -1,0 +1,10 @@
+C:\Users\admin\Desktop\職訓局\C#\Datagridview綁定超連結\Datagridview綁定超連結\bin\Debug\Datagridview綁定超連結.exe.config
+C:\Users\admin\Desktop\職訓局\C#\Datagridview綁定超連結\Datagridview綁定超連結\bin\Debug\Datagridview綁定超連結.exe
+C:\Users\admin\Desktop\職訓局\C#\Datagridview綁定超連結\Datagridview綁定超連結\bin\Debug\Datagridview綁定超連結.pdb
+C:\Users\admin\Desktop\職訓局\C#\Datagridview綁定超連結\Datagridview綁定超連結\obj\Debug\Datagridview綁定超連結.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\職訓局\C#\Datagridview綁定超連結\Datagridview綁定超連結\obj\Debug\Datagridview綁定超連結.Form1.resources
+C:\Users\admin\Desktop\職訓局\C#\Datagridview綁定超連結\Datagridview綁定超連結\obj\Debug\Datagridview綁定超連結.Properties.Resources.resources
+C:\Users\admin\Desktop\職訓局\C#\Datagridview綁定超連結\Datagridview綁定超連結\obj\Debug\Datagridview綁定超連結.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\職訓局\C#\Datagridview綁定超連結\Datagridview綁定超連結\obj\Debug\Datagridview綁定超連結.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\職訓局\C#\Datagridview綁定超連結\Datagridview綁定超連結\obj\Debug\Datagridview綁定超連結.exe
+C:\Users\admin\Desktop\職訓局\C#\Datagridview綁定超連結\Datagridview綁定超連結\obj\Debug\Datagridview綁定超連結.pdb

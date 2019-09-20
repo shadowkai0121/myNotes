@@ -1,0 +1,32 @@
+ [上課資料](http://reurl.cc/DLK6m)
+
+### 直譯式語言
+
+- JavaScript、Python
+
+- 寫一行執行一行
+
+- 維護除錯容易
+
+- Python的直譯環境
+
+  ```
+  CMD/Terminal
+  >>>
+  // 無法儲存
+  ```
+
+
+### 編譯式語言
+
+- C#
+- 需要有編譯器翻譯
+- 速度較快
+
+### Python
+
+- 非英語支援很差
+  - Python2 = ASCII
+  - Python3 = UTF8 //還是爛
+    - Windows預設為Big5，很容易出現亂碼
+- 

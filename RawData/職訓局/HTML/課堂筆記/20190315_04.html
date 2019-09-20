@@ -1,0 +1,32 @@
+<!-- jQuery版 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <p>點選圖片變化人物~</p>
+    <img id="imgOP" src="img/01.jpg">
+    <script>
+        // 試著改寫看看
+        $(function() {
+            $('#imgOP').click(function() {
+                //alert('hi');
+                var temp = $('#imgOP').attr('src');
+                console.log(temp);
+                console.log("src=" + $('#imgOP').attr('src').indexOf('01'));
+
+                if ($('#imgOP').attr('src').indexOf('01') == -1) {
+                    $('#imgOP').attr('src', 'img/01.jpg');
+                } else {
+                    $('#imgOP').attr('src', 'img/04.jpg');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

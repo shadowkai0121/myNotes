@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 計算機 -->
+
+    <!-- 結果-->
+    <span>Result</span>
+    <p id="pResult"></p>
+
+    <!-- 按鈕-->
+    <button id="btn1" onclick="btnNumber(this)">1</button>
+    <button id="btn2" onclick="btnNumber(this)">2</button>
+    <button id="btn3" onclick="btnNumber(this)">3</button>
+    <button id="btn4" onclick="btnNumber(this)">4</button>
+    <button id="btn5" onclick="btnNumber(this)">5</button>
+    <button id="btn6" onclick="btnNumber(this)">6</button>
+    <button id="btn7" onclick="btnNumber(this)">7</button>
+    <button id="btn8" onclick="btnNumber(this)">8</button>
+    <button id="btn9" onclick="btnNumber(this)">9</button>
+    <button id="btn0" onclick="btnNumber(this)">0</button>
+
+    <hr>
+    <button id="btnAdd" onclick="btnChar('+')">+</button>
+    <button id="btnMinus" onclick="btnChar('-')">-</button>
+    <button id="btnMultiply" onclick="btnChar('*')">*</button>
+    <button id="btnDivide" onclick="btnChar('/')">/</button>
+
+    <hr>
+    <button id="btnResult" onclick="btnResult()">=</button>
+
+    <script>
+        var a = ""; // 
+        var strChar = ""; //運算符號
+        var firstNum = ""; // 當四則運算符號按下去以後，這個變數存放畫面上的第一組數值
+
+        function btnNumber(myObj) {
+            // alert(myObj.id);
+            // document.getElementById('pResult').innerHTML = myObj.id;
+            // document.getElementById('pResult').innerHTML = parseInt(myObj.id); //NaN
+            a = a + myObj.id.substring(3, myObj.id.length);
+            // a = "" + "3" ==> a = "3";
+            // a = "3" + "4" ==> a = "34";
+            document.getElementById('pResult').innerHTML = a;
+        }
+
+        function btnChar(myStr) {
+            // alert(myStr);
+            strChar = myStr; // 存放運算符號
+            firstNum = a; // 存放第一組數字
+            a = ""; // 把12清掉，為了等一下可以放34，不然就會變成1234
+        }
+
+        function btnResult() {
+            var result = 0;
+
+            switch (strChar) {
+                case '+':
+                    result = parseInt(firstNum) + parseInt(a);
+                    break;
+                case '-':
+                    result = parseInt(firstNum) - parseInt(a);
+                    break;
+                case '*':
+                    result = parseInt(firstNum) * parseInt(a);
+                    break;
+                case '/':
+                    result = parseInt(firstNum) / parseInt(a);
+                    break;
+                default:
+                    result = "error";
+                    break;
+            }
+
+            document.getElementById('pResult').innerHTML = firstNum + strChar + a + "=" + result;
+            
+            firstNum = "";
+            strChar = "";
+            a = "";
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+http://sdrv.ms/178960Y
+json editor
+
+ADO.NET
+	所有跟資料相關的處理
+	如何讀寫檔案
+	如何用C#跟資料庫連結
+	如何呼叫Web API
+	如何讓資料庫跟前端配合
+	工具箱內容可以自訂
+WinForm
+	選擇項目
+		SQLConnection
+			水管
+		SQLCommand
+			開關
+		SQLDateAdapter
+ADO.NET實體模型
+service.msc
+	本機所安裝的服務清單
+
+資料異動
+	異動整體視為一個單元
+	隔離 // 一次處理一個異動
+		begin transation
+		rollback transation
+		commit transation
+	All or Nothing
+	插隊問題處理
+		read uncommitted data
+			READ Lock = Shared Lock //分享鎖定
+				處理
+					1.SELECT (Share)
+					2.GET data
+					3.UNLOCK
+		non repeatable read
+			!!一直刷新資料會沒辦法相信資料可信度
+			WRITE Lock = Exclusive Lock //專屬鎖定
+				處理
+					1.UPDATE (exclusive lock)
+					2.CHANGE data
+					3.Lock until trans end
+
+===下周
+XML
+JSON
+LINQ

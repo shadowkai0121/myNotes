@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="debug"></div>
+
+    <script>
+        // 具名函式
+        //function displayTime() {
+        //    debug.innerText = Date();
+        //}
+        //setInterval(displayCount, 1000);
+
+        //setInterval(function () {
+        //    debug.innerText = date();
+        //}, 1000);
+
+        //setInterval(() => {
+        //    debug.innerText = date();
+        //}, 1000);
+
+        function display(what) {
+            debug.innerText = what;
+        }
+        display("Test");
+
+        function doDisplay(plan) {
+            plan("Test 2");
+        }
+
+        doDisplay(function (what) {
+            debug.innerText = what;
+        });
+        // 輸出 Test 2
+
+        doDisplay((what) => {
+            debug.innerText = what;
+        });
+        // 輸出 Test 2
+    </script>
+</body>
+</html>

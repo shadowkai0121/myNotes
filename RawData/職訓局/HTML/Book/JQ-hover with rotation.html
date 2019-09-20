@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <img  id="cat" style="position: relative;top: 200px;" class="img-fluid mx-auto d-block" src="img/cat_1.jpg" alt="">
+
+    <script>
+        $(function() {
+            //function名稱必須宣告在外面給clearInterval抓取
+            var turnarround;
+            var r = 0;
+            var s = 1.2;
+
+            $('#cat').hover(
+                //hover(function 旋轉(){},function 停止(){});
+                function() {
+                    console.log(this);
+                    turnarround = setInterval(function() {
+                        r += 20;
+                        $('#cat').css('transform', 'rotate(' + r.toString + 'deg)');
+                        //沒辦法共存???
+                        //s -= 0.1;
+                        //$('#cat').css('transform', 'scale(' + s + ')');
+
+                    }, 100);
+
+                function() {
+                    clearInterval(turnarround);
+                });
+        });
+
+    </script>
+</body>
+
+</html>

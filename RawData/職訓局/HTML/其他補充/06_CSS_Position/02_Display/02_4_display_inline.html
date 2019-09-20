@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>display</title>
+    <style type="text/css">
+        div {
+            background-color: #FF9933;
+            font-size: 20px;
+        }
+
+        div>div {
+            width: 100px;
+            height: 100px;
+        }
+
+        .demo {
+            background-color: #FF9933;
+        }
+
+        #divRedUp,
+        #divRedDown {
+            background-color: #FF0000;
+        }
+
+        #divGreenUp,
+        #divGreenDown {
+            background-color: #00FF00;
+        }
+
+        #divBlueUp,
+        #divBlueDown {
+            background-color: #0000FF;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h3> display:block 區塊，元素的寬度預設會撐到最大。</h3>
+    <div class="demo">
+        <div id="divRedUp">Red</div>
+        <div id="divGreenUp">Green</div>
+        <div id="divBlueUp">Blue</div>
+    </div>
+
+    <hr>
+
+    <h3> display:inline 直譯：一行。<br>
+        試試看，在在 Red、Green、Blue 的 div 裡面加上style="display:inline;"</h3>
+    <div class="demo">
+        <div id="divRedDown">Red</div>
+        <div id="divGreenDown">Green</div>
+        <div id="divBlueDown">Blue</div>
+    </div>
+
+</body>
+
+</html>

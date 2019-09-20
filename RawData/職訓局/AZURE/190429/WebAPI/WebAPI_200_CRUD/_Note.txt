@@ -1,0 +1,12 @@
+﻿Implementing CRUD Operations in ASP.NET Web API
+
+
+1. 開啟 PDF 檔，或連往網站:
+http://www.asp.net/web-api/overview/creating-web-apis/creating-a-web-api-that-supports-crud-operations
+
+2. 依照文件的操作說明進行練習。
+
+
+建議習作環境: VS Express 2012 for Web 
+           或 VS Express 2013 for Web
+

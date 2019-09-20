@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<a href="/Lab/TestQueryString?FirstName=Jermy&LastName=Lin">Test Query.</a>
+<br />
+<hr />
+
+@* id是客戶端 name是給server的 *@
+<form enctype="multipart/form-data" action="/Lab/TestInput" method="post">
+    FirstName: <input type="text" name="FirstName" value="" />
+    <br />
+    LastName:  <input type="text" name="LastName" value="" />
+    <br />
+    <br />
+    <input type="submit" name="OKorCancel" value="OK" />
+    <input type="submit" name="OKorCancel" value="Cancel" />
+</form>

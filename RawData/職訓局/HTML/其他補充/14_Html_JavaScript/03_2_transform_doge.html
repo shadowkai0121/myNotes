@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>doge</title>
+</head>
+
+<body onkeydown="moveDoge(event)">
+    <img id="dog" src="img/doge.gif" style="width:300px; height:300px; top:50px; left:250px;" >
+    <script type="text/javascript">
+    var doge = document.getElementById("dog");
+
+    var i = 0;
+    
+    // setInterval(指定的function, 指定的秒數)
+    setInterval("rotateDoge()", 100);
+
+    function rotateDoge()
+    {
+        i += 50;
+        doge.style.transform = "rotateZ(" + i.toString() + "deg)";
+    }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!-- 2. function進化了 -->
+<!--    a. function傳入參數 -->
+<!--    b. function呼叫function -->
+<!--    c. 可以有回傳值 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>function</title>
+</head>
+
+<body>
+
+    <input type="text" id="inputX" value="5">
+    <span>+</span>
+    <input type="text" id="inputY" value="3">
+
+    <button id="btnAdd" onclick="myCalculate('1')">1</button>
+    <button id="btnMinus" onclick="myCalculate('2')">2</button>
+
+    <script>
+        function myCalculate(funValue) {
+            var x = document.getElementById('inputX').value;
+            var y = document.getElementById('inputY').value;
+
+            if (funValue == "add") {
+                alert(parseInt(x) + parseInt(y));
+            }
+            if (funValue == "minus") {
+                alert(parseInt(x) - parseInt(y));
+            }
+        }
+    </script>
+
+    <!--
+    <input type="text" id="inputX" value="5">
+    <span>+</span>
+    <input type="text" id="inputY" value="3">
+
+    <button id="btnAdd"   onclick="myCalculate('add')">加法計算結果</button>
+    <button id="btnMinus" onclick="myCalculate('minus')">減法計算結果</button>
+
+    <script type="text/javascript">
+
+        function funAdd(inputX, inputY)
+        {
+            // 分解動作
+//             var temp = parseFloat(inputX) + parseFloat(inputY);
+//             return temp;
+
+            return parseFloat(inputX) + parseFloat(inputY);
+        }
+
+        function myCalculate(type)
+        {
+            var result;
+            var x = document.getElementById("inputX").value;
+            var y = document.getElementById("inputY").value;
+
+            if (type == "add")
+            {
+                result = funAdd(x, y);
+            }
+
+            alert(result);
+        }
+    </script>
+-->
+</body>
+</html>
+

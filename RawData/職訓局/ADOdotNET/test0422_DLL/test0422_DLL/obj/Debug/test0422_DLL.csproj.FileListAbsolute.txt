@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0422_DLL\test0422_DLL\bin\Debug\test0422_DLL.dll
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0422_DLL\test0422_DLL\bin\Debug\test0422_DLL.pdb
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0422_DLL\test0422_DLL\obj\Debug\test0422_DLL.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0422_DLL\test0422_DLL\obj\Debug\test0422_DLL.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0422_DLL\test0422_DLL\obj\Debug\test0422_DLL.dll
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0422_DLL\test0422_DLL\obj\Debug\test0422_DLL.pdb

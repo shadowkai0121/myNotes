@@ -1,0 +1,10 @@
+C:\Users\admin\Desktop\ADOdotNET\test0415_XML\test0415_XML\bin\Debug\test0415_XML.exe.config
+C:\Users\admin\Desktop\ADOdotNET\test0415_XML\test0415_XML\bin\Debug\test0415_XML.exe
+C:\Users\admin\Desktop\ADOdotNET\test0415_XML\test0415_XML\bin\Debug\test0415_XML.pdb
+C:\Users\admin\Desktop\ADOdotNET\test0415_XML\test0415_XML\obj\Debug\test0415_XML.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\ADOdotNET\test0415_XML\test0415_XML\obj\Debug\test0415_XML.Form1.resources
+C:\Users\admin\Desktop\ADOdotNET\test0415_XML\test0415_XML\obj\Debug\test0415_XML.Properties.Resources.resources
+C:\Users\admin\Desktop\ADOdotNET\test0415_XML\test0415_XML\obj\Debug\test0415_XML.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\ADOdotNET\test0415_XML\test0415_XML\obj\Debug\test0415_XML.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\ADOdotNET\test0415_XML\test0415_XML\obj\Debug\test0415_XML.exe
+C:\Users\admin\Desktop\ADOdotNET\test0415_XML\test0415_XML\obj\Debug\test0415_XML.pdb

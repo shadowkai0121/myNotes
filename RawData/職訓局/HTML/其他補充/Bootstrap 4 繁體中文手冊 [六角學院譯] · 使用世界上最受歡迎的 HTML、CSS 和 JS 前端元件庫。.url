@@ -1,0 +1,9 @@
+[DEFAULT]
+BASEURL=https://bootstrap.hexschool.com/
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,11
+[InternetShortcut]
+URL=https://bootstrap.hexschool.com/
+IDList=
+IconFile=https://bootstrap.hexschool.com/docs/4.2/assets/img/favicons/favicon-32x32.png
+IconIndex=1

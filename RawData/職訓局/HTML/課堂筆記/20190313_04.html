@@ -1,0 +1,64 @@
+<!-- 4-2. 加總mary的成績 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FlowControl</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        var result = 0;
+        //宣告主陣列放置姓名
+        var classScore = new Array(3);
+        //主陣列底下宣告陣列紀錄成績
+        classScore[0] = new Array(6);
+        classScore[1] = new Array(6);
+        classScore[2] = new Array(6);
+
+        classScore[0][0] = "mary";
+        classScore[0][1] = 100;
+        classScore[0][2] = 100;
+        classScore[0][3] = 50;
+        classScore[0][4] = 88;
+        classScore[0][5] = 76;
+
+        classScore[1][0] = "john";
+        classScore[1][1] = 88;
+        classScore[1][2] = 75;
+        classScore[1][3] = 80;
+        classScore[1][4] = 95;
+        classScore[1][5] = 90;
+
+        classScore[2][0] = "emma";
+        classScore[2][1] = 90;
+        classScore[2][2] = 92;
+        classScore[2][3] = 88;
+        classScore[2][4] = 77;
+        classScore[2][5] = 96;
+
+        // 加總 mary 的成績
+
+        for (var i = 1; i <= 5; i++) {
+            //在視窗輸入之後才開始抓數據??
+            document.write("累加=" + classScore[0][i] + "<br>")
+            result = result + classScore[0][i];
+            //同時輸出科目名稱??
+            document.write(classScore[0][i] + "<br>");
+        }
+        document.write("⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯" + "<br>");
+        document.write("總分=" + result);
+
+        // 想想看，這種時候如果你不是用陣列還有迴圈這件事情的話...
+
+        // var mary1 = 100;
+        // var mary2 = 100;
+        // var mary3 = 50;
+        // var mary4 = 88;
+        // var mary5 = 76;
+
+        // var result = mary1 + mary2 + mary3 + mary4 + mary5;
+    </script>
+</body>
+
+</html>

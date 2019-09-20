@@ -1,0 +1,45 @@
+<!-- 2. 透過javascript增加事件 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <button id="btnShowMsg"> 點我提示訊息(addEvent) </button>
+    <button id="btn_mouseenter"> 點我提示訊息(addEvent) </button>
+
+
+    <script type="text/javascript">
+        //        document.getElementById("btnShowMsg").addEventListener("click", showMessage);
+        //
+        //        function showMessage() {
+        //            alert("Hello JavaScript(記得（）是立即執行啊)!!!");
+        //        }
+
+
+        $(document).ready(function() {
+            $("#btnShowMsg").click(function() {
+                alert("hi");
+            });
+
+        });
+        $(function() {
+            $("btn_mouseenter").mouseenter(function() {
+                alert("hi,you enter me!");
+            });
+            
+            $("")
+        });
+
+
+        // 匿名寫法
+        // document.getElementById("btnShowMsg").addEventListener("click", function() {
+        //     alert("Hello JavaScript(addEvent)!!!");
+        // });  
+    </script>
+</body>
+
+</html>

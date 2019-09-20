@@ -1,0 +1,34 @@
+<!-- 2. onmousedown()、onmouseup() 假裝自己是按鈕-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Event</title>
+    <style type="text/css">
+    #div1 {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: #C2EBFF;
+        box-shadow: 2px 2px 12px #888888;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="div1" onmousedown="divMouseDown()" onmouseup="divMouseUp()"></div>
+
+    <script type="text/javascript">
+    function divMouseDown() {
+        var myDiv = document.getElementById("div1");
+        myDiv.style.boxShadow = "-2px -2px 12px #888888 inset";
+    }
+
+    function divMouseUp() {
+        var myDiv = document.getElementById("div1");
+        myDiv.style.boxShadow = "2px 2px 12px #888888";
+    }
+    </script>
+</body>
+
+</html>

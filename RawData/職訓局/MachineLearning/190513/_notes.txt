@@ -1,0 +1,68 @@
+﻿A Neural Network Playground
+https://playground.tensorflow.org/
+
+Machine Learning in 5 Minutes with brain.js!
+https://www.linkedin.com/pulse/machine-learning-5-minutes-brainjs-anthony-krivonos
+
+How Machines Learn
+https://www.youtube.com/watch?v=R9OHn5ZF4Uo
+
+臉部 API 文件
+https://docs.microsoft.com/zh-tw/azure/cognitive-services/face/
+
+快速入門：使用 REST API 和 JavaScript 偵測影像中的人臉
+https://docs.microsoft.com/zh-tw/azure/cognitive-services/Face/quickstarts/javascript
+
+快速入門：使用 Face REST API 和 C# 偵測影像中的臉部
+https://docs.microsoft.com/zh-tw/azure/cognitive-services/Face/quickstarts/csharp
+
+--------------------------------------------------------------------------------
+
+Lab: Get to know TensorFlow.js in 7 minutes
+https://medium.freecodecamp.org/get-to-know-tensorflow-js-in-7-minutes-afcd0dfd3d2f
+
+社群翻譯的 TensorFlow.js 中文指南
+https://github.com/NoobTW/tfjs-tutorials
+
+TensorFlow.js 的核心概念
+https://github.com/NoobTW/tfjs-tutorials/blob/master/tutorials/core-concepts.md
+
+Lab: 從合成數據中訓練曲線
+https://github.com/NoobTW/tfjs-tutorials/blob/master/tutorials/fit-curve.md
+
+什麼是卷積神經網路
+https://www.youtube.com/watch?v=hMIZ85t9r9A
+// 卷積 取特徵
+// 池化 找最明顯的特徵
+
+使用卷積神經網路辨識手寫數字
+https://github.com/NoobTW/tfjs-tutorials/blob/master/tutorials/mnist.md
+
+初探卷積神經網路
+https://chtseng.wordpress.com/2017/09/12/%E5%88%9D%E6%8E%A2%E5%8D%B7%E7%A9%8D%E7%A5%9E%E7%B6%93%E7%B6%B2%E8%B7%AF/
+
+
+A Beginner's Guide To Understanding Convolutional Neural Networks
+https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner's-Guide-To-Understanding-Convolutional-Neural-Networks/
+https://adeshpande3.github.io/A-Beginner%27s-Guide-To-Understanding-Convolutional-Neural-Networks-Part-2/
+
+
+--------------------------------------------------------------------------------
+
+Lab: 以卷積神經網路辨識手寫數字
+操作步驟: Lab_CNN\_LabSteps.txt
+
+
+Lab: 儲存和載入 tf.Model
+
+1. 完成前一個 Lab (以卷積神經網路辨識手寫數字)
+
+2. 閱讀下列教學文件:
+   https://github.com/NoobTW/tfjs-tutorials/blob/master/tutorials/model-save-load.md
+
+3. 試著完成下列任務:
+a) 將 model 存入 localstorage
+b) 從 localstorage 載入 model，不經訓練程序，直接進入預測應用
+c) 寫一個 ASP.NET 的伺服器程式，接收 client 上傳過來的一對 model 檔案。
+d) 類似 b)，但改成到 ASP.NET 網站下載 model
+

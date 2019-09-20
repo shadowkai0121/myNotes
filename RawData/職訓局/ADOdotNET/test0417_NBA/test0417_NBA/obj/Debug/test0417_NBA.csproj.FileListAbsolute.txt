@@ -1,0 +1,14 @@
+C:\Users\admin\Desktop\SMIT09\test0417_NBA\test0417_NBA\obj\Debug\test0417_NBA.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\SMIT09\test0417_NBA\test0417_NBA\obj\Debug\test0417_NBA.Form1.resources
+C:\Users\admin\Desktop\SMIT09\test0417_NBA\test0417_NBA\obj\Debug\test0417_NBA.Properties.Resources.resources
+C:\Users\admin\Desktop\SMIT09\test0417_NBA\test0417_NBA\obj\Debug\test0417_NBA.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\SMIT09\test0417_NBA\test0417_NBA\obj\Debug\test0417_NBA.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\SMIT09\test0417_NBA\test0417_NBA\bin\Debug\test0417_NBA.exe.config
+C:\Users\admin\Desktop\SMIT09\test0417_NBA\test0417_NBA\bin\Debug\test0417_NBA.exe
+C:\Users\admin\Desktop\SMIT09\test0417_NBA\test0417_NBA\bin\Debug\test0417_NBA.pdb
+C:\Users\admin\Desktop\SMIT09\test0417_NBA\test0417_NBA\obj\Debug\test0417_NBA.exe
+C:\Users\admin\Desktop\SMIT09\test0417_NBA\test0417_NBA\obj\Debug\test0417_NBA.pdb
+C:\Users\admin\Desktop\SMIT09\test0417_NBA\test0417_NBA\bin\Debug\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\SMIT09\test0417_NBA\test0417_NBA\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\admin\Desktop\SMIT09\test0417_NBA\test0417_NBA\bin\Debug\Newtonsoft.Json.xml
+C:\Users\admin\Desktop\SMIT09\test0417_NBA\test0417_NBA\obj\Debug\test0417_NBA.csproj.CopyComplete

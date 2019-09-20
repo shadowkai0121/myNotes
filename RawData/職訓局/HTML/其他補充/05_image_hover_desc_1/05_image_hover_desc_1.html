@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>image hover</title>
+    <style type="text/css">
+        img {
+            width: 477px;            
+        }
+        .desc {
+            border: 8px solid #FF9966;
+            /*1. 試試看用visibility: hidden;*/
+            visibility: hidden;            
+            /*4. 要怎麼樣跳脫現有的元素流找到定位?*/
+            position: absolute;
+            bottom: 0px;
+            }
+        img:hover+.desc {
+            /*2. 試試看用visibility: hidden;*/
+            visibility: visible;
+            }
+        #divMainBag {
+            /*3. 這裡要先變成?底下的元素才能依附上來*/
+            position:relative;
+            }
+    </style>
+</head>
+ 
+<body>
+
+    <!-- figure & figcaption 語意化：表示帶標題的圖片 -->
+<!--
+    <figure id="figMain";id="#content1">
+        <img src="sunny.jpg">
+        <figcaption class="desc">千陽號海上行</figcaption>
+    </figure>
+-->
+     <div id="#divMainBag">
+         <img src="sunny.JPG">
+         <p class="desc">千陽號海上行</p>
+     </div>
+
+</body>
+
+</html>

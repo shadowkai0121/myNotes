@@ -1,0 +1,218 @@
+<!--5. 屬性(attribute)、CSS(style)-->
+<!--http://www.w3schools.com/html/html_attributes.asp-->
+<!--http://www.w3schools.com/cssref/-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> HTML - Basic </title>
+</head>
+
+<body>
+    <!--一份HTML文件中，id屬性是唯一值-->
+    <div id="apple">Apple</div>
+    <div id="banana">Banana</div>
+    <div id="orange">Orange</div>
+    <div id="kind">以上是水果種類</div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+<!--5-1. 顏色、字型大小-->
+<!--https://www.w3schools.com/colors/colors_picker.asp-->
+<!--https://www.w3schools.com/colors/colors_hex.asp->
+
+
+
+
+
+
+<!--5-1-1. 目標：改變文字顏色 -->
+<!--5-1-2. 目標：加入背景底色 -->
+<!--5-1-3. 目標：更改文字大小 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> HTML - Basic </title>
+</head>
+
+<body>
+    <div id="apple">Apple</div>
+    <div id="banana">Banana</div>
+    <div id="orange">Orange</div>
+    <div id="kind">以上是水果種類</div>
+</body>
+
+</html>
+
+
+
+
+
+
+<!--5-2. 將CSS部分獨立撰寫-->
+<!--a. CSS會區分文字大小寫，不能以數字開頭-->
+<!--b. CSS註解方式為/**/-->
+<!--c. 如果屬性值包含空白，記得將屬性值前後加上雙引號或者單引號-->
+<!--w3c：The <style> tag is used to define style information for an HTML document.-->
+
+
+
+
+
+<!--5-2-1. 在 <style> 標籤裡面 以 HTML標籤名稱當作選擇器-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> HTML - Basic </title>
+
+    <style type="text/css">
+
+        /*=======在這裡加入程式碼=======*/
+        /*將所有 <div> 元素 的字體調整為100px*/
+
+    </style>
+
+</head>
+
+<body>
+    <div>Apple</div>
+    <div>Banana</div>
+    <div>Orange</div>
+    <div>以上是水果種類</div>
+</body>
+</html>
+
+
+
+
+
+<!--5-2-2. 以 id 當作選擇器-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> HTML - Basic </title>
+
+    <style type="text/css">
+
+        /*=======在這裡加入程式碼=======*/
+        /*幫 各個水果 元素 給定一個id，並個別設定顏色 */
+
+    </style>
+
+</head>
+
+<body>
+    <div id="appleID">Apple</div>
+    <div>Banana</div>
+    <div>Orange</div>
+    <div>以上是水果種類</div>
+</body>
+
+</html>
+
+
+
+
+
+<!--5-2-3. 以 類別 (class) 當作選擇器-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> HTML - Basic </title>
+
+    <style type="text/css">
+
+        /*=======在這裡加入程式碼=======*/
+        /*幫 水果 類別 設定顏色 */
+
+    </style>
+
+</head>
+
+<body>
+    <div id="appleID"  class="fruit">Apple</div>
+    <div id="bananaID" class="fruit">Banana</div>
+    <div id="orangeID" class="fruit">Orange</div>
+    <div>以上是水果種類</div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+<!--5-2-4. 權重：多種不同的設定，會以誰為主?-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> HTML - Basic </title>
+
+    <style type="text/css">
+        /* 試著在這裡設定底下css樣式 */
+        /* 1. 元素div的背景顏色為 #4286F3 */
+        /* 2. 類別fruit的背景顏色設定為 #EB4537 */
+        /* 3. id 為 bananaID的背景顏色設定為 #FAC230 */
+        /* 4. id 為 orangeID 的背景顏色設定為 #FAC230 */
+    </style>
+
+</head>
+
+<body>
+    <div id="appleID"  class="fruit">Apple</div>
+    <div id="bananaID" class="fruit">Banana</div>
+    
+    <!-- 5. 請針對底下這個元素，透過style的方式，背景顏色設定為 #55AF7B -->
+    <div id="orangeID" class="fruit" >Orange</div>
+    
+    <div>以上是水果種類</div>
+</body>
+
+</html>
+
+
+
+
+
+
+<!--6. 將CSS獨立為一個檔案，使用link元素連結至HTML檔案-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> HTML - Basic </title>
+    <link rel="stylesheet" type="text/css" href="fruit_style.css">
+</head>
+
+<body>
+    <div id="appleID"  class="fruit">Apple</div>
+    <div id="bananaID" class="fruit">Banana</div>
+    <div id="orangeID" class="fruit">Orange</div>
+    <div style="font-size: 20px">以上是水果種類</div>
+</body>
+
+</html>
+
+
+
+
+
+
+<!-- 7. 一起複習一下01_HelloHTML資料夾所練習到的頁籤 -->
+
+<!-- 8. 再看看網路上的資料加強印象：https://www.w3schools.com/css/css_syntax.asp-->
+

@@ -1,0 +1,271 @@
+<!-- 複製先前用結構標籤寫好的html，加入圖片及影音!! -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title> HTML Image And Media </title>
+</head>
+
+<body>
+    <article>
+        <header>
+            我的日本縱貫旅行~日本好好玩!!
+        </header>
+
+        <section>
+            <h1>豪斯登堡</h1>
+            <p>看到千陽號在海上航行是一件很感人的事情。</p>
+        </section>
+
+        <section>
+            <h1>宮島</h1>
+            <p>海中鳥居很厲害~</p>
+            <p>很多鹿，鹿的毛其實刺刺的一點也不好摸 XD</p>
+        </section>
+
+    </article>
+
+    <footer>
+        我是作者，這是版本v2.0
+    </footer>
+</body>
+</html>
+
+
+
+
+<!--1-1. <img> 加入圖片-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title> HTML Image And Media </title>
+</head>
+
+<body>
+    <article>
+        <header>
+            我的日本縱貫旅行~日本好好玩!!
+        </header>
+
+        <section>
+            <h1>豪斯登堡</h1>
+            <!-- 在這裡加入huistenbosch圖片 -->
+            <p>看到千陽號在海上航行是一件很感人的事情。</p>
+        </section>
+
+        <section>
+            <h1>宮島</h1>
+            <!-- 在這裡加入itsukushima圖片 -->
+            <p>海中鳥居很厲害~</p>
+            <p>很多鹿，鹿的毛其實刺刺的一點也不好摸 XD</p>
+        </section>
+
+    </article>
+
+    <footer>
+        我是作者，這是版本v2.0
+    </footer>
+</body>
+</html>
+
+
+
+
+
+<!--1-2. <iframe> 加入影音-->
+<!--http://www.w3schools.com/tags/tag_video.asp-->
+<!--http://www.w3schools.com/tags/tag_iframe.asp-->
+
+<!--https://www.youtube.com/watch?v=GfEWmHPYGA0-->
+<!--http://www.w3schools.com/html/html_youtube.asp-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title> HTML Image And Media </title>
+</head>
+
+<body>
+    <article>
+        <header>
+            我的日本縱貫旅行~日本好好玩!!
+        </header>
+
+        <section>
+            <h1>豪斯登堡</h1>
+            <!-- 在這裡加入 sunny.mp4 影片 -->
+            <img src="">
+            <img src="">
+            <p>看到千陽號在海上航行是一件很感人的事情。</p>
+        </section>
+
+        <section>
+            <h1>宮島</h1>
+            <!-- 在這裡加入youtube影片 -->
+            <img src="">
+            <img src="">
+            <p>海中鳥居很厲害~</p>
+            <p>很多鹿，鹿的毛其實刺刺的一點也不好摸 XD</p>
+        </section>
+
+    </article>
+
+    <footer>
+        我是作者，這是版本v2.0
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+<!--2. 改變圖片大小-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title> HTML Image And Media </title>
+</head>
+
+<body>
+    <article>
+        <header>
+            我的日本縱貫旅行~日本好好玩!!
+        </header>
+
+        <section>
+            <h1>豪斯登堡</h1>
+
+            <!-- <img> 是 HTML 標籤，定義網頁內容；要定義網頁內容的外表，就要想到要用? -->
+
+            <img src="huistenbosch1.jpg" style="">
+            <img src="huistenbosch2.jpg" style="">
+            <p>看到千陽號在海上航行是一件很感人的事情。</p>
+        </section>
+
+        <section>
+            <h1>宮島</h1>
+            <img src="itsukushima1.jpg">
+            <img src="itsukushima2.jpg">
+            <p>海中鳥居很厲害~</p>
+            <p>很多鹿，鹿的毛其實刺刺的一點也不好摸 XD</p>
+        </section>
+
+    </article>
+
+    <footer>
+        我是作者，這是版本v2.0
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+<!--3. 圖片效果-->
+<!--3-1. 透明度 (opacity) + 虛擬類別選擇器 -->
+<!--https://www.w3schools.com/css/css_image_transparency.asp-->
+<!--https://www.w3schools.com/css/css_pseudo_classes.asp-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> HTML Image And Media </title>
+    <style type="text/css">
+    img {
+        width: 30%;
+        height: 30%;
+    }
+    
+    img:hover {
+        /*在這裡試試看透明度的效果*/
+    }
+    </style>
+</head>
+
+<body>
+    <article>
+        <header>
+            我的日本縱貫旅行~日本好好玩!!
+        </header>
+        <section>
+            <h1>豪斯登堡</h1>
+            <img src="huistenbosch1.jpg">
+            <img src="huistenbosch2.jpg">
+            <p>看到千陽號在海上航行是一件很感人的事情。</p>
+        </section>
+        <section>
+            <h1>宮島</h1>
+            <img src="itsukushima1.jpg">
+            <img src="itsukushima2.jpg">
+            <p>海中鳥居很厲害~</p>
+            <p>很多鹿，鹿的毛其實刺刺的一點也不好摸 XD</p>
+        </section>
+    </article>
+    <footer>
+        我是作者，這是版本v2.0
+    </footer>
+</body>
+
+</html>
+
+
+
+
+
+
+<!--3-2. 圖片濾鏡(調整亮度、飽和度、對比度) 屬性前綴詞  -webkit- -moz- -o- -->
+<!-- http://html5-demos.appspot.com/static/css/filters/index.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> HTML Image And Media </title>
+    <style type="text/css">
+    img {
+        width: 30%;
+    }
+    
+    #img1 {}
+    
+    #img2 {}
+    
+    #img3 {}
+    
+    #img4 {}
+    </style>
+</head>
+
+<body>
+    <article>
+        <header>
+            我的日本縱貫旅行~日本好好玩!!
+        </header>
+        <section>
+            <h1>豪斯登堡</h1>
+            <img src="huistenbosch1.jpg" id="img1">
+            <img src="huistenbosch2.jpg" id="img2">
+            <p>看到千陽號在海上航行是一件很感人的事情。</p>
+        </section>
+        <section>
+            <h1>宮島</h1>
+            <img src="itsukushima1.jpg" id="img3">
+            <img src="itsukushima2.jpg" id="img4">
+            <p>海中鳥居很厲害~</p>
+            <p>很多鹿，鹿的毛其實刺刺的一點也不好摸 XD</p>
+        </section>
+    </article>
+    <footer>
+        我是作者，這是版本v2.0
+    </footer>
+</body>
+
+</html>
+
+
+
+
+
+

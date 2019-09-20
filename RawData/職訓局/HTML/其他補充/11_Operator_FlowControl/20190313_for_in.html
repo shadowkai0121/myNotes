@@ -1,0 +1,34 @@
+<!-- 5. for in -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FlowControl</title>
+</head>
+
+<body>
+
+    <script type="text/javascript">
+        var mary = {
+            chinese: 100,
+            english: 100,
+            math: 50,
+            history: 88,
+            geography: 76
+        };
+
+        var result = 0;
+
+        for (var scoreName in mary) {
+            // 先巡覽變數，再以變數名稱取得陣列值
+            document.write(scoreName + "<br>");
+
+            result = result + parseInt(mary[scoreName]);
+        }
+
+        document.write(result);
+    </script>
+
+</body>
+
+</html>

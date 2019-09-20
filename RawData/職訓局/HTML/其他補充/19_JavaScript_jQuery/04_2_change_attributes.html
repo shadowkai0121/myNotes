@@ -1,0 +1,56 @@
+ㄜ<!-- javascript版 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Change HTML Attributes</title>
+</head>
+
+<body>
+
+    <p>點選圖片變化人物~</p>
+
+    <img id="imgOP" onclick="changeImage()" src="../02_Table/img/01.jpg">
+
+    <script type="text/javascript">
+    function changeImage() {
+        var image = document.getElementById('imgOP');
+
+        if (image.src.indexOf("01") > -1) {
+            image.src = "../02_Table/img/09.jpg";
+        } else {
+            image.src = "../02_Table/img/01.jpg";
+        }
+    }
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+<!-- jQuery版 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <p>點選圖片變化人物~</p>
+    <img id="imgOP" src="../02_Table/img/01.jpg">
+    <script>
+        // 試著改寫看看
+        // 1. 設定屬性 attr
+        // 2. 改用三元運算子寫看看？
+
+    </script>
+</body>
+

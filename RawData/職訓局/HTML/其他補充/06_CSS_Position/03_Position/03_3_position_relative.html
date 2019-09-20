@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>position</title>
+    <style type="text/css">
+        .demo {
+            background-color: #FF9933;
+        }
+
+        #divRed {
+            background-color: #FF0000;
+            width: 200px;
+            height: 200px;
+        }
+
+        #divGreen {
+            background-color: #00FF00;
+            width: 150px;
+            height: 300px;
+            
+            /* 在這裡將元素的設定position: relative;，並透過top、bottom、left、right觀察綠色元素的移動位置 */
+            position: relative;
+            top:50px;
+        }
+
+        #divBlue {
+            background-color: #0000FF;
+            width: 300px;
+            height: 700px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>position：relative；如果沒有設定 top、bottom、left、right；表現會和 static 一樣</h3>
+    <h3>relative 相對位置，相對於前一個元素的位置</h3>
+    
+    <div class="demo">
+        <div id="divRed">Red 200*200</div>
+        <div id="divGreen">
+            Green 150*300；
+            <br>position: relative;
+        </div>
+        <div id="divBlue">Blue 300*700</div>
+    </div>
+</body>
+
+</html>

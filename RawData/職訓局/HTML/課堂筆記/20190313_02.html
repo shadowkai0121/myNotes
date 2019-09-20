@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>switch case</title>
+</head>
+
+<body>
+    <input type="text" id="input_x" value="3">
+    <input type="text" id="input_y" value="5">
+    <hr>
+
+    <button id="btn_plus" onclick="calculate(this)">+</button>
+    <button id="btn_minus" onclick="calculate(this)">-</button>
+    <button id="btn_multipy" onclick="calculate(this)">*</button>
+    <button id="btn_divided" onclick="calculate(this)">/</button>
+    <button id="btn_broken" onclick="calculate(this)">弄壞他</button>
+
+    <script>
+        function calculate(type) {
+            var result;
+            var x = parseFloat(document.getElementById('input_x').value);
+            var y = parseFloat(document.getElementById('input_y').value);
+            switch (type.id) {
+                case "btn_plus":
+                    result = x + y;
+                    break;
+                case "btn_minus":
+                    result = x - y;
+                    break;
+                case "btn_multipy":
+                    result = x * y;
+                    break;
+                case "btn_divided":
+                    result = x / y;
+                    break;
+                default:
+                    alert("壞掉了");
+                    break;
+            }
+            if (result != undefined) {
+                alert(result);
+            }
+
+        }
+    </script>
+
+
+
+</body>
+
+</html>

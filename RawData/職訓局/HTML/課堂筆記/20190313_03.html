@@ -1,0 +1,46 @@
+<!-- 4. for  -->
+<!-- 4-1. 印出海賊團成員 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FlowControl</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        var onepiece = ["魯夫", "索隆", "娜美", "騙人布", "香吉士", "喬巴", "羅賓", "布魯克", "佛朗基"];
+
+        // document.write(onepiece[0] + "<br>");
+        // document.write(onepiece[1] + "<br>");
+        // document.write(onepiece[2] + "<br>");
+        // document.write(onepiece[3] + "<br>");
+        // document.write(onepiece[4] + "<br>");
+        // document.write(onepiece[5] + "<br>");
+        // document.write(onepiece[6] + "<br>");
+        // document.write(onepiece[7] + "<br>");
+        // document.write(onepiece[8] + "<br>");
+
+        document.write("<hr>");
+        // i++意思是第一次進來是0等同於i=i+1;
+        //之後開始+1+1
+        for (var i = 0; i < 9; i++) {
+            document.write(onepiece[i] + "<br>");
+        }
+
+        document.write("<hr>");
+        //使用for計算1+2+...+10=??
+        var result = 0;
+        for (var i = 1; i <= 10; i++) {
+            document.write("當前結果 = " + result + "<br>")
+            document.write("+" + i + "<br>");
+            // 0 = 0 + 1;
+            // 1 = 1 + 2;
+            result = result + i;
+        }
+        document.write("⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯" + "<br>");
+        document.write("最終結果 = " + result);
+    </script>
+</body>
+
+</html>

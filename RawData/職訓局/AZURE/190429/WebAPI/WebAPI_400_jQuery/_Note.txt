@@ -1,0 +1,21 @@
+﻿Calling a Web API by jQuery
+
+
+0. 請先完成（或開啟） WebAPI_200_CRUD 的習作專案
+
+1. 複製貼上 Client 資料夾到 WebAPI_200_CRUD 的習作專案
+
+2. 分別以瀏覽器檢視 NewProduct.html 與 ListProduct.html
+
+3. 開啟 ListProduct.html，針對文件最後一段 JavaScript 寫作註解。
+
+4. 開啟 NewProduct.html，針對文件最後一段 JavaScript 寫作註解。
+
+
+
+建議習作環境: VS Express 2012 for Desktop
+           或 VS Express 2013 for Desktop
+
+
+
+

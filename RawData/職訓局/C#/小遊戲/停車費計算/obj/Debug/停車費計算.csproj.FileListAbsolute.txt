@@ -1,0 +1,14 @@
+C:\Users\admin\Desktop\C#\停車費計算\bin\Debug\停車費計算.exe.config
+C:\Users\admin\Desktop\C#\停車費計算\bin\Debug\停車費計算.exe
+C:\Users\admin\Desktop\C#\停車費計算\bin\Debug\停車費計算.pdb
+C:\Users\admin\Desktop\C#\停車費計算\obj\Debug\停車費計算.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\C#\停車費計算\obj\Debug\停車費計算.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\C#\停車費計算\obj\Debug\停車費計算.exe
+C:\Users\admin\Desktop\C#\停車費計算\obj\Debug\停車費計算.pdb
+C:\Users\admin\Desktop\職訓局\C#\停車費計算\bin\Debug\停車費計算.exe.config
+C:\Users\admin\Desktop\職訓局\C#\停車費計算\bin\Debug\停車費計算.exe
+C:\Users\admin\Desktop\職訓局\C#\停車費計算\bin\Debug\停車費計算.pdb
+C:\Users\admin\Desktop\職訓局\C#\停車費計算\obj\Debug\停車費計算.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\職訓局\C#\停車費計算\obj\Debug\停車費計算.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\職訓局\C#\停車費計算\obj\Debug\停車費計算.exe
+C:\Users\admin\Desktop\職訓局\C#\停車費計算\obj\Debug\停車費計算.pdb

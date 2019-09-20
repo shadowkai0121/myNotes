@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        z {
+            background-color: limegreen;
+            color: red;
+        }
+
+        x {
+            color: skyblue;
+        }
+
+        y {
+            background-color: skyblue;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>christmas tree</title>
+</head>
+
+<body>
+    <!--
+    <pre>
+              123456789
+            1 0000*0000
+            2 000***000
+            3 00*****00
+            4 0*******0
+            5 *********
+    </pre>
+-->
+    <script type="text/javascript">
+        var y = prompt("行數", "5")
+        //        var y = 5;
+
+
+        for (var q = 1; q <= y; q++) {
+
+            for (var w = q; w <= y - 1; w++) {
+                document.write("<x>0</x>")
+            }
+            
+            var x = q * 2 - 1;
+            for (var e = x; e >= 1; e--) {
+                document.write("<z>*</z>");
+            }
+            
+            for (var w = q; w <= y - 1; w++) {
+                document.write("<x>0</x>")
+            }
+
+            document.write("<br>");
+        }
+
+        document.write("<hr>");
+
+        for (var q = 1; q <= y; q++) {
+            var x = q * 2 - 1;
+            for (var w = q; w <= y - 1; w++) {
+                //                document.write("&nbsp;")
+                document.write("<x>M</x>");
+            }
+            for (var e = x; e >= 1; e--) {
+                document.write("<z>*</z>");
+            }
+            for (var w = q; w <= y - 1; w++) {
+                document.write("<x>M</x>");
+            }
+            document.write("<br>");
+        }
+
+        document.write("<hr>");
+
+        for (var q = 1; q <= y; q++) {
+            var x = q * 2 - 1;
+            for (var w = q; w <= y - 1; w++) {
+                document.write("<y>&nbsp;</y>");
+            }
+            for (var e = x; e >= 1; e--) {
+                document.write("<z>*</z>");
+            }
+            for (var w = q; w <= y - 1; w++) {
+                document.write("<y>&nbsp;</y>");
+            }
+
+            document.write("<br>");
+        }
+    </script>
+</body>
+
+</html>

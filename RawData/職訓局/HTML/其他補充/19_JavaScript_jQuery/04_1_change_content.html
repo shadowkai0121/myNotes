@@ -1,0 +1,49 @@
+<!-- javascript版 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Change HTML Content</title>
+</head>
+
+<body>
+    <p id="demo">JavaScript can change HTML content.</p>
+
+    <button onclick="changeMsg()">Click Me!</button>
+
+    <script type="text/javascript">
+    function changeMsg()
+    {
+        document.getElementById('demo').innerHTML = 'GoGo OnePiece!!';
+    }
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+<!-- jQuery版 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <p id="demo">JavaScript can change HTML content.</p>
+    <button id="btnMsg" onclick="changeMsg()">Click Me!</button>
+    <script>
+        // 改寫試試看，只是在jQuery的世界裡面，改成呼叫html()方法去改變網頁內容 
+    </script>
+</body>
+
+</html>

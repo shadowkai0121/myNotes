@@ -1,0 +1,74 @@
+﻿利用 Fiddler 工具程式觀察並且參與 Web API 的 HTTP 活動
+
+
+
+1.	執行 fiddler4setup.exe 安裝 Fiddler Web Debugger
+	<Note> Fiddler 官網可下載最新版軟體，網址: 
+	http://www.telerik.com/download/fiddler
+
+
+
+2.	請先完成（或開啟） WebAPI_200_CRUD 的習作專案
+
+
+
+3.	觀察 Web API 傳回的內容
+
+3.1	點按 Visual Studio 的 F5 (開始除錯)，
+
+3.2	將瀏覽器的網址改成:
+	http://localhost:埠號/api/products
+	例如: http://localhost:52121/api/products
+
+3.3	在 Fiddler 點兩下 URL 網址是 /api/products 的那項，
+	然後在 Inspectors 頁籤觀察回應的 XML 內容。
+	<Note> 分別點按 TextView, JSON, XML
+
+3.4	點一下 Fiddler 的 Composer 頁籤，將 Accept 修改成:
+	Accept: json
+	然後點按「Execute」按鈕。
+
+3.5	在 Inspectors 頁籤觀察最後回應的 JSON 內容。
+
+
+
+
+4.	新增一筆資料
+
+4.1	點一下 Fiddler 的 Composer 頁籤
+	網址改成:
+	http://localhost:埠號/api/products
+	例如: http://localhost:52121/api/products
+	http://localhost:52121/api/products
+
+4.2	指令下拉式選項請改成：POST
+
+4.3	Header 的內容改成: 
+	Content-type: text/json
+	<Note> 其他例如 Content-length 稍後會由 Fiddler 補上。
+
+4.4	Request Body的內容改成下列 JSON 格式:
+	{"Name":"Tomato soup","Category":"Groceries","Price":1.39}
+
+4.5	點按「Execute」按鈕。
+
+4.6	在 Inspectors 頁籤觀察最後一項 Response 的 JSON 內容。
+
+
+
+5.	刪除一筆資料
+
+5.1	點一下 Fiddler 的 Composer 頁籤，
+
+5.2	指令下拉式選項請改成：DELETE
+
+5.3	網址改成 http://localhost:埠號/api/products/4
+	例如: http://localhost:52121/api/products/4
+
+5.4	清除 Request Body 的內容。
+
+5.5	點按「Execute」按鈕。
+
+5.6	在 Inspectors 頁籤觀察最後一項 Response 的內容。
+
+

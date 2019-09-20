@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>map</title>
+</head>
+
+<body>
+
+    <!-- shape="rect"         coords="x1, y1, x2, y2" -->
+    <!-- shape="circle"       coords="x, y, 半徑" -->
+    <!-- shape="polygon"      coords="x1, y1, x2, y2, x3, y3, x4, y4..." -->
+
+    <img src="img/japanmap.jpg" usemap="#jp">
+
+    <map name="jp">
+        
+        <area id="okinawa" shape="rect" coords="65,1152,134,1239" onmouseover="showID(this)">
+        
+    </map>
+
+    <script type="text/javascript">
+        // 1. 在area標籤裡面增加href屬性；滑鼠點選區域的時候，連結到相關網頁 (http://www.w3schools.com/tags/tag_area.asp)
+
+        // 2. 試著框出富士山 (http://imagemap-generator.dariodomi.de/)
+
+        // 3. 滑鼠移動過去區域的時候，顯示該區域的id (onmouseover)
+        function showID(obj) {
+            alert(obj.id);
+        }
+    </script>
+</body>
+
+</html>

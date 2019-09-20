@@ -1,0 +1,9 @@
+C:\Users\USER\Desktop\WebSocketServerSample\WebSocketServerSample\bin\Debug\WebSocketServerSample.exe.config
+C:\Users\USER\Desktop\WebSocketServerSample\WebSocketServerSample\bin\Debug\WebSocketServerSample.exe
+C:\Users\USER\Desktop\WebSocketServerSample\WebSocketServerSample\bin\Debug\WebSocketServerSample.pdb
+C:\Users\USER\Desktop\WebSocketServerSample\WebSocketServerSample\bin\Debug\Fleck.dll
+C:\Users\USER\Desktop\WebSocketServerSample\WebSocketServerSample\obj\Debug\WebSocketServerSample.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\WebSocketServerSample\WebSocketServerSample\obj\Debug\WebSocketServerSample.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\WebSocketServerSample\WebSocketServerSample\obj\Debug\WebSocketServerSample.csproj.CopyComplete
+C:\Users\USER\Desktop\WebSocketServerSample\WebSocketServerSample\obj\Debug\WebSocketServerSample.exe
+C:\Users\USER\Desktop\WebSocketServerSample\WebSocketServerSample\obj\Debug\WebSocketServerSample.pdb

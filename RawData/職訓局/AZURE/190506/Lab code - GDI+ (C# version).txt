@@ -1,0 +1,137 @@
+1. Create a Windows Application Project
+2. Put a Button on Form1
+3. Write Button1's Click Event...
+
+
+________________________________________
+顏色
+
+this.BackColor = Color.Gray;
+this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+this.BackColor = Color.FromArgb(192, 192, 192);
+
+
+________________________________________
+座標 / 位置
+
+button1.Location = new Point(10, 100);
+
+
+________________________________________
+Graphics
+Graphics = Canvas
+Control.CreateGraphics
+Paint 事件 e.Graphics 
+
+' Exam A
+            Graphics g = this.CreateGraphics();
+            Pen p = new Pen(Color.Red, 7);
+            g.DrawLine(p, 1, 1, 100, 100);
+
+
+' Exam B
+            Graphics g = this.CreateGraphics();
+            Pen p = new Pen(Color.MediumPurple, 2);
+
+            Point[] points = new Point[] {new Point(10, 10), 
+                                          new Point(10, 100), 
+                                          new Point(50, 65), 
+                                          new Point(100, 100), 
+                                          new Point(85, 40)};
+            g.DrawPolygon(p, points);
+
+
+________________________________________
+畫線
+Pen.DashStyle
+Pen.StartCap
+Pen.EndCap
+
+
+________________________________________
+畫刷
+- Brush 是基底類別，衍生出 SolidBrush、LinearGradientBrush, TextureBrush 等類別。
+- 要填入的一個「面」
+
+' Exam A
+            Graphics g = this.CreateGraphics();
+            Point[] points = new Point[] {new Point(10, 10), 
+                                          new Point(10, 100), 
+                                          new Point(50, 65), 
+                                          new Point(100, 100), 
+                                          new Point(85, 40)};
+            Brush b = new SolidBrush(Color.Maroon);
+            g.FillPolygon(b, points);
+
+
+' Exam B
+            Graphics g = this.CreateGraphics();
+
+            Pen p = new Pen(Color.Maroon, 2);
+
+            Point[] points = new Point[] {new Point(10, 10), 
+                                          new Point(10, 100), 
+                                          new Point(50, 65), 
+                                          new Point(100, 100), 
+                                          new Point(85, 40)};
+            Brush b = new System.Drawing.Drawing2D.LinearGradientBrush(
+                new Point(1, 1), new Point(100, 100), Color.White, Color.Red);
+
+            g.FillPolygon(b, points); // 這是面
+            g.DrawPolygon(p, points); // 這是線
+
+
+
+
+________________________________________
+圖片
+- System.Drawing.Image
+- 利用 Image.FromFile 或 Image.FromStream 讀取檔案並傳回 Image 物件
+- Image 是基底類別，衍生出 System.Drawing.Bitmap 等類別
+
+' Exam A
+            Image I = Image.FromFile(@"c:\temp\test.jpg");
+            this.BackgroundImage = I;
+
+' Exam B
+            Bitmap Bm = new Bitmap(110, 110);
+            Graphics G = Graphics.FromImage(Bm);
+            G.FillRectangle(new SolidBrush(Color.Wheat), 0, 0, 110, 110);
+
+            Point[] points = new Point[] {new Point(10, 10), 
+                                          new Point(10, 100), 
+                                          new Point(50, 65), 
+                                          new Point(100, 100), 
+                                          new Point(85, 40)};
+            Brush b = new System.Drawing.Drawing2D.LinearGradientBrush(
+                new Point(1, 1), new Point(100, 100), Color.White, Color.Red);
+
+            G.FillPolygon(b, points);
+            Bm.Save(@"c:\temp\test2.jpg", System.Drawing.Imaging.ImageFormat.Jpeg);
+
+________________________________________
+字型
+
+' Exam A
+            Graphics G = this.CreateGraphics();
+            Font F = new Font("Arial", 40, FontStyle.Bold);
+            G.DrawString("Hello, World!", F, Brushes.Blue, 10, 10);
+
+' Exam B
+            Graphics G = this.CreateGraphics();
+
+            Rectangle R = new Rectangle(new Point(40, 40), new Size(80, 80));
+
+            StringFormat F1 = new StringFormat(StringFormatFlags.NoClip);
+            StringFormat F2 = new StringFormat(F1);
+            F1.LineAlignment = StringAlignment.Near;
+            F1.Alignment = StringAlignment.Center;
+            F2.LineAlignment = StringAlignment.Center;
+            F2.Alignment = StringAlignment.Far;
+            F2.FormatFlags = StringFormatFlags.DirectionVertical;
+
+            G.DrawRectangle(Pens.Black, R);
+            G.DrawString("Format1", this.Font, Brushes.Red, R, F1);
+            G.DrawString("Format2", this.Font, Brushes.Red, R, F2);
+
+

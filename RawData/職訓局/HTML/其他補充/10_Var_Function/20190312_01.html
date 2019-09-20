@@ -1,0 +1,39 @@
+<!-- 2. valueOf()、toString()、join("x")-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript</title>
+</head>
+
+<body>
+
+    <script>
+        var onepiece = ["魯夫", "索隆", "娜美", "騙人布", "香吉士", "喬巴", "羅賓", "布魯克", "佛朗基"];
+
+        // 把陣列裡面的元素用 document.write顯示在畫面上看看
+        document.write(onepiece[0] + ",");
+        document.write(onepiece[1] + ",");
+        document.write(onepiece[2] + ",");
+        document.write(onepiece[3] + ",");
+        document.write(onepiece[4] + ",");
+        document.write(onepiece[5] + ",");
+        document.write(onepiece[6] + ",");
+        document.write(onepiece[7] + ",");
+        document.write(onepiece[8]);
+
+        // 試試看， 底下三種屬於陣列的函式
+        // 1. 陣列.valueOf()
+        document.write("<hr>");
+        document.write("onepiece.valueOf()==>" + onepiece.valueOf());
+        // 2. 陣列.toString()
+        document.write("<hr>");
+        document.write("onepiece.toString()==>" + onepiece.toString());
+        // 3. 陣列.join("#")
+        document.write("<hr>");
+        document.write("onepiece.join()==>" + onepiece.join("~"));
+    </script>
+
+</body>
+
+</html>

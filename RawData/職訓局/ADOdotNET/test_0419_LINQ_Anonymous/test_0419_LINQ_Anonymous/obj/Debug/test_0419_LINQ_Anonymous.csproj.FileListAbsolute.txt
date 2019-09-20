@@ -1,0 +1,10 @@
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test_0419_LINQ_Anonymous\test_0419_LINQ_Anonymous\obj\Debug\test_0419_LINQ_Anonymous.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test_0419_LINQ_Anonymous\test_0419_LINQ_Anonymous\obj\Debug\test_0419_LINQ_Anonymous.Properties.Resources.resources
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test_0419_LINQ_Anonymous\test_0419_LINQ_Anonymous\obj\Debug\test_0419_LINQ_Anonymous.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test_0419_LINQ_Anonymous\test_0419_LINQ_Anonymous\obj\Debug\test_0419_LINQ_Anonymous.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test_0419_LINQ_Anonymous\test_0419_LINQ_Anonymous\bin\Debug\test_0419_LINQ_Anonymous.exe.config
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test_0419_LINQ_Anonymous\test_0419_LINQ_Anonymous\bin\Debug\test_0419_LINQ_Anonymous.exe
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test_0419_LINQ_Anonymous\test_0419_LINQ_Anonymous\bin\Debug\test_0419_LINQ_Anonymous.pdb
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test_0419_LINQ_Anonymous\test_0419_LINQ_Anonymous\obj\Debug\test_0419_LINQ_Anonymous.exe
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test_0419_LINQ_Anonymous\test_0419_LINQ_Anonymous\obj\Debug\test_0419_LINQ_Anonymous.pdb
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test_0419_LINQ_Anonymous\test_0419_LINQ_Anonymous\obj\Debug\test_0419_LINQ_Anonymous.Form1.resources

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 電影時刻表 -->
+    <!-- 全省威秀影城隔週電影新場次公布於每週二晚間23:59(假設週二整天只能查到：週二 週三 週四) -->
+    <!-- 會開放未來一週(週三會查到：今天到下星期四)之場次 -->
+
+    <!-- 1. 讓使用者輸入日期 -->
+    <input type="date" id="inputDate">
+    <!-- 2. 點下按鈕開始查詢 -->
+    <button onclick="setDate()">查詢</button>
+    <!-- 3. 顯示可以查詢的日期區間 -->
+    <p>顯示可以查詢的日期區間</p>
+    <p id="pResult"></p>
+
+    <script type="text/javascript">
+        function setDate() {
+            // 4. 取得畫面上輸入的日期
+            var strDate = document.getElementById('inputDate').value;
+            // alert(document.getElementById('inputDate').value);
+
+            var d = new Date(strDate);
+            // var week = d.getDay(); // 取得輸入的日期是星期幾
+            // 判斷條件 ? 條件真 : 條件假
+            var week = d.getDay() == "0" ? "7" : d.getDay(); // 取得輸入的日期是星期幾
+
+            // 星期一 可以查 1234
+            // 星期二 可以查  234
+            // 星期三 可以查 345671234
+            // 星期四 可以查  45671234
+            // 星期五 可以查   5671234
+
+            if (week == 1 || week == 2) {
+                d.setDate(d.getDate() + (4 - week));
+            } else {
+                d.setDate(d.getDate() + (11 - week));
+            }
+        }
+    </script>
+</body>
+
+</html>

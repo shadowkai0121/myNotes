@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.12.0"></script>
+</head>
+<body>
+    <script>
+        // sequential是一種一層接一層的神經網路
+        const model = tf.sequential();
+        // 設置隱藏層
+        const config_hidden = {
+            inputShape: [3],
+            activation: 'sigmoid',
+            units: 4
+        }
+        // 設置輸出層
+        const config_output = {
+            units: 2,
+            activation: 'sigmoid'
+        }
+        // 定義隱藏層及輸出層
+        // tf.layers.dense(設定);
+        const hidden = tf.layers.dense(config_hidden);
+        const output = tf.layers.dense(config_output);
+        // 將 layer 輸入至 model
+        model.add(hidden);
+        model.add(output);
+
+        // 定義最佳化引擎
+        // tf.train.sgd 為梯度下降計算
+        const optimize = tf.train.sgd(0.1);
+        // 模型設定
+        const config = {
+            optimizer: optimize,
+            loss: 'meanSquaredError'
+        }
+        // 編譯模型
+        model.compile(config);
+        console.log('Model Successfully Compiled');
+        //Dummy training data
+        const x_train = tf.tensor([
+            [0.1, 0.5, 0.1],
+            [0.9, 0.3, 0.4],
+            [0.4, 0.5, 0.5],
+            [0.7, 0.1, 0.9]
+        ])
+        //Dummy training labels
+        const y_train = tf.tensor([
+            [0.2, 0.8],
+            [0.9, 0.10],
+            [0.4, 0.6],
+            [0.5, 0.5]
+        ])
+        //Dummy testing data
+        const x_test = tf.tensor([
+            [0.9, 0.1, 0.5]
+        ])
+
+        train_data().then(function () {
+            console.log('Training is Complete');
+            console.log('Predictions :');
+            model.predict(x_test).print();
+        })
+        async function train_data() {
+            for (let i = 0; i < 10; i++) {
+                const res = await model.fit(x_train, y_train, epoch = 1000, batch_size = 10);
+                console.log(res.history.loss[0]);
+            }
+        }
+    </script>
+</body>
+</html>

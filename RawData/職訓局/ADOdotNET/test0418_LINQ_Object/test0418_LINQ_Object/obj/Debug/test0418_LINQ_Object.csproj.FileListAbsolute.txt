@@ -1,0 +1,10 @@
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0418_LINQ_Object\test0418_LINQ_Object\bin\Debug\test0418_LINQ_Object.exe.config
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0418_LINQ_Object\test0418_LINQ_Object\bin\Debug\test0418_LINQ_Object.exe
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0418_LINQ_Object\test0418_LINQ_Object\bin\Debug\test0418_LINQ_Object.pdb
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0418_LINQ_Object\test0418_LINQ_Object\obj\Debug\test0418_LINQ_Object.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0418_LINQ_Object\test0418_LINQ_Object\obj\Debug\test0418_LINQ_Object.Form1.resources
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0418_LINQ_Object\test0418_LINQ_Object\obj\Debug\test0418_LINQ_Object.Properties.Resources.resources
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0418_LINQ_Object\test0418_LINQ_Object\obj\Debug\test0418_LINQ_Object.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0418_LINQ_Object\test0418_LINQ_Object\obj\Debug\test0418_LINQ_Object.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0418_LINQ_Object\test0418_LINQ_Object\obj\Debug\test0418_LINQ_Object.exe
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0418_LINQ_Object\test0418_LINQ_Object\obj\Debug\test0418_LINQ_Object.pdb

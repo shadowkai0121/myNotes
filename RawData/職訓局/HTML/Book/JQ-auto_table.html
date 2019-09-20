@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <style>
+        table,
+        td {
+            border: 1px solid blue;
+            border-collapse: collapse;
+            padding: 30px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="new_table"></table>
+
+    <script>
+        $(function() {
+            $('body').append('<button id="btn">click</button>');
+            $('#btn').click(function() {
+                for (var row = 0; row <= 3; row++) {
+                    $('#new_table').append('<tr id=tr' + row + '>');
+                    for (var col = 0; col <= 3; col++) {
+                        $('#tr' + row).append('<td>' + row + '~' + col + '</td>');
+                    }
+                    $('new_table').append('</tr>');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

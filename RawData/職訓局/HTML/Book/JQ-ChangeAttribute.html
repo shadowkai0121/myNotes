@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+    </style>
+</head>
+
+<body>
+    <div id="carousel" class="mx-auto d-block">
+        <img id="cat" class="img-fluid " src="img/cat_2.png">
+    </div>
+
+    <script>
+        //圖片置換
+        $(function() {
+            console.log("I'm ready");
+            //setInterval(function(){},milisecond);
+            setInterval(function() {
+                $('#cat').fadeOut('fast', function() {
+                    switch ($('#cat').attr('src')) {
+                        //如果路徑是img/cat_2.png則將src改為img/cat_5.jpg
+                        case 'img/cat_2.png':
+                            $('#cat').attr('src', 'img/cat_5.jpg');
+                            break;
+                        case 'img/cat_5.jpg':
+                            $('#cat').attr('src', 'img/cat_3.gif');
+                            break;
+                        case 'img/cat_3.gif':
+                            $('#cat').attr('src', 'img/cat_9.png');
+                            break;
+                        case 'img/cat_9.png':
+                            $('#cat').attr('src', 'img/cat_4.png');
+                            break;
+                        default:
+                            $('#cat').attr('src', 'img/cat_2.png');
+                            break;
+                    }
+                    $('#cat').fadeIn('fast');
+                });
+
+            }, 1500);
+        });
+    </script>
+</body></html>

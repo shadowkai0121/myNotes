@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body style="width: 30%;">
+    <!--改變文字-->
+    <p id="test1" style="background-color:  red;color: white;">Apple</p>
+    <button onclick="change_msg()">click me to change!</button>
+
+    <hr>
+    <script type="text/javascript">
+        function change_msg() {
+            //調整test1的style內的各屬性值
+            document.getElementById("test1").style.backgroundColor = "black";
+            document.getElementById("test1").style.color = "yellow";
+            document.getElementById("test1").style.fontSize = "50px";
+            //更改文字為Banana
+            document.getElementById("test1").innerHTML = "Banana";
+        }
+    </script>
+
+    <!--點圖改圖-->
+    <p>點擊圖片</p>
+    <!--使用onclick產生事件-->
+    <img id="test2" onclick="change_img()" src="img/cat_1.jpg">
+
+    <script type="text/javascript">
+        function change_img() {
+            var img = document.getElementById("test2");
+            //img.src.indexOf("01") 搜尋img.src位置裡面是否有字串"01"存在
+            //如果變數img的src值經過indexOf("01")回傳不等於-1 (不存在)
+            //也就是當前圖片為1時則變為2
+            //否則2變為1
+            if (img.src.indexOf("_1") > -1) {
+                //修改變數img內的src值
+                img.src = "img/cat_2.png";
+                //修改變數img的style的width值
+                img.style.width = "100%";
+            } else {
+                img.src = "img/cat_1.jpg";
+                img.style.width = "50%";
+            }
+        }
+    </script>
+
+    <!--重整鈕-->
+    <button onclick="re()">reload</button>
+    <script>
+        function re() {
+            location.reload();
+        }
+    </script>
+</body>
+</html>

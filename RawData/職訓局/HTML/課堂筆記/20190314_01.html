@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function changename() {
+            var name = "book";
+        }
+        //document.write(changename() + "<br>"); 帶小括號表示要執行;
+        document.write(changename + "<br>");
+        document.write(typeof(changename) + "<br>");
+
+        var ar = new Array();
+        document.write(ar + "<br>");
+        document.write(typeof(ar) + "<br>");
+
+        document.write("<hr>");
+
+        //JQuery在head引用完之後在網頁內是一個function
+        document.write(jQuery + "<br>");
+        document.write(typeof(jQuery) + "<br>");
+        //JQuery等於$
+        document.write($ + "<br>");
+        document.write(typeof($) + "<br>");
+        //等同於
+        function $() {
+            //幾萬行
+        }
+    </script>
+</body>
+
+</html>

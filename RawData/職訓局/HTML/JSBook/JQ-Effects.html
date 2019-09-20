@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Document</title>
+    <style>
+        div,
+        img {
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <img id="cat_1" src="img/cat_6.jpg" alt=""><br>
+    </div>
+    <div>
+        <img id="cat_2" src="img/cat_7.png" alt="">
+    </div>
+    <script>
+        $(function() {
+            console.log("I'm alive");
+
+            //show&hidden
+            setInterval(function() {
+            $("#cat_1").hide('slow');
+            $('#cat_1').show('slow');
+            }, 1000);
+
+            //fadeIn&fadeOut
+            setInterval(function x() {
+                $('#cat_2').fadeOut(3000, function() {
+                    var change = $('#cat_2').attr('src').indexOf('7') == -1 ? $('#cat_2').attr('src', "img/cat_7.png") : $('#cat_2').attr('src', "img/cat_8.png");
+                    $('#cat_2').fadeIn(3000);
+                });
+                return x;
+            }(), 7000);
+
+
+            //有沒有辦法合併?
+            //setInterval(function x() {
+            //    $('#cat_2').fadeOut(3000);
+            //    $('#cat_2').fadeIn(3000);
+            //    return x;
+            //}(), 6000);
+            //setTimeout(function() {
+            //    setInterval(function x() {
+            //        if ($('#cat_2').attr('src').indexOf('7') == -1) {
+            //            $('#cat_2').attr('src', "img/cat_7.png");
+            //        } else {
+            //            $('#cat_2').attr('src', "img/cat_8.png");
+            //        }
+            //        return x;
+            //    }(), 6000);
+            //}, 3000);
+
+
+        });
+    </script>
+</body>
+</html>

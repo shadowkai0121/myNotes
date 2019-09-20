@@ -1,0 +1,81 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using HtmlAgilityPack;
+
+namespace test0922_JSON {
+    public partial class Form1 : Form {
+        public Form1() {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e) {
+            // Newtonsoft.Json.JsonConvert.se
+            TLocation obj = new TLocation {
+                X = 100, Y = 200, Name = "Some where"
+            };
+
+            textBox1.Text = JsonConvert.SerializeObject(obj);
+        }
+
+        private void button2_Click(object sender, EventArgs e) {
+            string JsonString = textBox1.Text;
+            TLocation obj = JsonConvert.DeserializeObject<TLocation>(JsonString);
+            button2.Text = obj.Name;
+        }
+
+        private void button3_Click(object sender, EventArgs e) {
+            System.Net.WebClient objWebClient = new System.Net.WebClient();
+            objWebClient.DownloadFile("http://data.nba.com/json/cms/noseason/scoreboard/20160302/games.json",
+                @"c:\temp\nba.txt");
+            button3.Text = "OK";
+
+                
+        }
+
+        private void button4_Click(object sender, EventArgs e) {
+            System.IO.StreamReader objStreamReader = new System.IO.StreamReader(@"c:\temp\nba.txt");
+            string NbaJsonString =  objStreamReader.ReadToEnd();
+            objStreamReader.Close();
+
+            JObject objJObject = JObject.Parse(NbaJsonString);
+            JToken objToken = objJObject.SelectToken("sports_content.sports_meta.season_meta.calendar_date");
+            if (objToken == null) {
+                button4.Text = "not found";
+                return;
+            }
+            textBox1.Text += objToken.Value<string>() + "\r\n";
+
+            JToken gameList = objJObject.SelectToken("sports_content.games.game");
+            foreach (JToken game in gameList) {
+                string line = string.Format("{0}@{1}",
+                    game.SelectToken("visitor").Value<string>("team_key"),
+                    game.SelectToken("home").Value<string>("team_key"));
+
+                textBox1.Text += line + "\r\n";
+            }
+
+            button4.Text = "OK2";
+        }
+    }
+
+    public class TLocation {
+        public int X { set; get; }
+        public int Y { set; get; }
+        public string Name { set; get; }
+    }
+
+}
+
+
+
+
+

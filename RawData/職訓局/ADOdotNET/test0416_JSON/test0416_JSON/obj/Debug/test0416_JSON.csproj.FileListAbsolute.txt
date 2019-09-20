@@ -1,0 +1,14 @@
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0416_JSON\test0416_JSON\bin\Debug\test0416_JSON.exe.config
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0416_JSON\test0416_JSON\bin\Debug\test0416_JSON.exe
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0416_JSON\test0416_JSON\bin\Debug\test0416_JSON.pdb
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0416_JSON\test0416_JSON\obj\Debug\test0416_JSON.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0416_JSON\test0416_JSON\obj\Debug\test0416_JSON.Form1.resources
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0416_JSON\test0416_JSON\obj\Debug\test0416_JSON.Properties.Resources.resources
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0416_JSON\test0416_JSON\obj\Debug\test0416_JSON.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0416_JSON\test0416_JSON\obj\Debug\test0416_JSON.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0416_JSON\test0416_JSON\obj\Debug\test0416_JSON.exe
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0416_JSON\test0416_JSON\obj\Debug\test0416_JSON.pdb
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0416_JSON\test0416_JSON\bin\Debug\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0416_JSON\test0416_JSON\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0416_JSON\test0416_JSON\bin\Debug\Newtonsoft.Json.xml
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0416_JSON\test0416_JSON\obj\Debug\test0416_JSON.csproj.CopyComplete

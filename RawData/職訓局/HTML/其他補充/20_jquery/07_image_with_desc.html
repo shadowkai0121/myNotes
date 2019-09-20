@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>hahaha</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <style type="text/css">
+    div {
+        float: left;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="picset">
+        <img src="http://www.toei-anim.co.jp/tv/onep/character/mugiwara/01.jpg">
+        <p>魯夫</p>
+    </div>
+    <div class="picset">
+        <img src="http://www.toei-anim.co.jp/tv/onep/character/mugiwara/02.jpg">
+        <p>我就是喜歡海賊王。 </p>
+    </div>
+    <div class="picset">
+        <img src="http://www.toei-anim.co.jp/tv/onep/character/mugiwara/03.jpg">
+        <p>下午三點肚子會有點餓 </p>
+    </div>
+    <div class="picset">
+        <img src="http://www.toei-anim.co.jp/tv/onep/character/mugiwara/04.jpg">
+        <p>11/20 出了新的單行本 </p>
+    </div>
+    <div class="picset">
+        <img src="http://www.toei-anim.co.jp/tv/onep/character/mugiwara/05.jpg">
+        <p>這星期有寒流 </p>
+    </div>
+    <script type="text/javascript">
+    $(function() {
+        $("p").css("visibility", "hidden");
+
+        $(".picset").on({
+            mouseenter: function() {
+                $(this).find("p").css("visibility", "visible");
+            },
+            mouseleave: function() {
+                $(this).find("p").css("visibility", "hidden");
+            },
+        });
+    });
+    </script>
+</body>
+
+</html>

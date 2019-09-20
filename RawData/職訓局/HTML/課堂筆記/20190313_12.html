@@ -1,0 +1,39 @@
+<!-- 3. 移動吧，圖片 - 分解動作 - 試試看能不能完整地寫出來 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>setInterval</title>
+</head>
+
+<body>
+    <img id="op" src="img/onepiece.png" style="width:1064px; height:599px;position: relative;">
+
+    <script type="text/javascript">
+        // 1. 想要圖片浮動起來的關鍵字是什麼
+        // 2. 在javaScript抓到那張圖片
+        var img = document.getElementById("op");
+        // 3. 想讓圖片平行往左邊移動，需要使用到的屬性是?
+
+        function anime() {
+            
+            var posleft = parseInt(img.style.left).toString == "NaN" ? 0 : parseInt(img.style.left);
+            
+            img.style.left = (posleft - 1) + "px";
+
+        }
+
+        // 4. 想讓圖片不斷反覆相同的動作，關鍵字是?                                                setInterval
+        setInterval("anime()", 10);
+        // 5. 要把重複的動作包成一個function，function裡面做了哪些事?
+
+        //      a. 改變座標值
+
+        //      b. 當圖片跑出瀏覽器時，要從另外一邊再跑出來
+
+        // 6. 如果要加上開始、暫停、重新啟動，關鍵字是?                                            clearInterval
+
+    </script>
+</body>
+
+</html>

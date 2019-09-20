@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Product App</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div>
+        <h2>All Products</h2>
+        <ul id="products" />
+    </div>
+    <div>
+        <h2>Search by ID</h2>
+        <input type="text" id="prodId" size="5" />
+        <input type="button" value="Search" onclick="find();" />
+        <p id="product"></p>
+    </div>
+
+
+    <script>
+        // http通訊協定
+        // 用甚麼方式傳到哪裡丟甚麼格式的資料
+        //$.ajax({
+        //    type: "get", //post, delete, put
+        //    url: "/api/products",
+        //    contentType: "application/json", //指定內容格式
+        //    data: JSON.stringify({ test: 3, name: "Hello" })
+        //});
+
+        $.ajax({
+            type: "get",
+            url: "/api/product",
+            contentType: "Application/json",
+            dataType: "json", //Accept: application/json
+            data: JSON.stringify({})
+        }).then(function (prodList) {
+
+        })
+
+        //$.getJSON("/api/products", function (e) {
+        //    $("#product").text(JSON.stringify(e));
+        //})
+
+        var uri = 'api/products';
+
+        $(document).ready(function () {
+            // Send an AJAX request
+            $.getJSON(uri)
+                .done(function (data) {
+                    // On success, 'data' contains a list of products.
+                    $.each(data, function (key, item) {
+                        // Add a list item for the product.
+                        $('<li>', { text: formatItem(item) }).appendTo($('#products'));
+                        // var LiProd = $(<li></li>").text("item.name +":$"+"prod.price);
+                        // $("#products").append(liPod);
+                    });
+                });
+        });
+
+        function formatItem(item) {
+            return item.Name + ': $' + item.Price;
+        }
+
+        function find() {
+            var id = $('#prodId').val();
+            $.getJSON(uri + '/' + id)
+                .done(function (data) {
+                    $('#product').text(formatItem(data));
+                })
+                .fail(function (jqXHR, textStatus, err) {
+                    $('#product').text('Error: ' + err);
+                });
+        }
+    </script>
+</body>
+</html>

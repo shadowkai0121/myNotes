@@ -1,0 +1,12 @@
+﻿Entity Framework - Database First
+
+
+1. 開啟 PDF 檔，或連往網站:
+http://msdn.microsoft.com/en-us/data/jj206878
+
+2. 依照文件的操作說明進行練習。
+
+
+建議習作環境: VS Express 2012 for Desktop
+           或 VS Express 2013 for Desktop
+

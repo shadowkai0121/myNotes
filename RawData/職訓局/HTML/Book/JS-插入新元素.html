@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>點圖增加說明文字</p>
+    <img id="test1" src="img/cat.gif" onclick="creat_text()">
+    <script>
+        function creat_text() {
+            //            alert("creat_text()生命檢測");
+            var newDiv = document.createElement("div");
+            var newContent = document.createTextNode("拉拉拉拉拉");
+            
+            newDiv.appendChild(newContent);
+            var placeDiv = document.getElementById("test1");
+            //insertAfter用途??? 怎麼接在後面?
+            document.body.insertBefore(newDiv, placeDiv);
+            //生成一個div元素
+            //生成一個字串 ----插入其他東西? img? function?
+            //將元素與字串合併 元素.appendChild("字串");
+            //取得參照物(placeDiv)的位置
+            //在網頁的<body>下的placeDiv前插入新元素newDiv
+        }
+    </script>
+</body>
+</html>

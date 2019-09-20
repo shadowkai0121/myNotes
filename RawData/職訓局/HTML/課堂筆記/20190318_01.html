@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <button id="btn1">1</button>
+    <p id="p1">1</p>
+
+
+
+    <script>
+        //直接呼叫function;
+        //$(document).ready(test);
+        //
+        //function test() {
+        //console.log('document ready from function test()')
+        //}
+
+        //不同元素click時呼叫同一個function;
+        //轉換成obj取得所有訊息
+        $('button').click({
+            obj: this
+        }, test);
+
+        $('p').click({
+            obj: this
+        }, test);
+
+        function test(myPara) {
+            //指定參數
+            console.log(myPara.currentTarget.id);
+        }
+    </script>
+</body>
+
+</html>

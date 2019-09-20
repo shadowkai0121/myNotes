@@ -1,0 +1,12 @@
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\obj\Debug\CodeFirstNewDatabaseSample.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\obj\Debug\CodeFirstNewDatabaseSample.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\bin\Debug\CodeFirstNewDatabaseSample.exe.config
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\bin\Debug\CodeFirstNewDatabaseSample.exe
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\bin\Debug\CodeFirstNewDatabaseSample.pdb
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\bin\Debug\EntityFramework.dll
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\bin\Debug\EntityFramework.xml
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\obj\Debug\CodeFirstNewDatabaseSample.csproj.CopyComplete
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\obj\Debug\CodeFirstNewDatabaseSample.exe
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\obj\Debug\CodeFirstNewDatabaseSample.pdb

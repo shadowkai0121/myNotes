@@ -1,0 +1,37 @@
+<!-- 5. for in -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FlowControl</title>
+</head>
+
+<body>
+
+    <script type="text/javascript">
+        var mary = {
+            chinese: 100,
+            english: 100,
+            math: 50,
+            history: 88,
+            geography: 76
+        };
+
+        // var mary = [100,100,50,88,76]
+
+        var result = 0;
+
+            //in 尋找一個陣列裡面的東西
+        for (var score in mary) {
+            document.write(score+"<br>");
+
+            result = result + parseInt(mary[score]);
+        }
+
+        document.write(result+"<br>");
+
+    </script>
+
+</body>
+
+</html>

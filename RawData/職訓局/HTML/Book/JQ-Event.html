@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <style>
+        {}
+    </style>
+</head>
+
+<body>
+    <p>Click or move the mouse pointer over this paragraph.</p>
+
+
+    <script>
+        $(function() {
+            console.log("I'm ready.");
+
+            $('p').on({
+                mouseenter: function() {
+                    //console.log('mouseenter');
+                    $(this).css('color','blue');
+                },
+                mouseleave: function() {
+                    //console.log('mouseleave');
+                    $(this).css('color', 'green');
+                },
+                click: function() {
+                    //console.log('click');
+                    $(this).css('color', 'red');
+                },
+            });
+        });
+    </script>
+</body>
+</html>

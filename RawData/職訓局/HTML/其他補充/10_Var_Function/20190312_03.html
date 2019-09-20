@@ -1,0 +1,32 @@
+<!-- 5. sort() + reverse() -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript</title>
+</head>
+
+<body>
+
+    <script>
+        var lotto = ["37", "13", "25", "06", "18", "30"];
+        document.write("lotto === > " + lotto.valueOf() + "<hr>");
+        // 陣列.sort()：從小到大排序
+        lotto.sort();
+        document.write("lotto.sort() === > " + lotto.valueOf() + "<hr>");
+        
+        var supperLotto = ["34", "3", "13", "18", "1", "29"];
+        document.write("supperLotto ===> " + supperLotto.valueOf() + "<hr>");    
+        // 陣列.reverse()：必須要先透過 陣列.sort() 從小到大排序後，再透過陣列.reverse()反轉才是大到小排序jh 
+//        supperLotto.reverse();
+//        document.write("supperLotto.reverse() ===> " + supperLotto.valueOf() + "<hr>");  
+        supperLotto.sort();
+        document.write("supperLotto.sort() ===> " + supperLotto.valueOf() + "<hr>");  
+        supperLotto.reverse();
+        document.write("supperLotto.sort() => supperLotto.reverse() ===> " + supperLotto.valueOf() + "<hr>"); 
+        
+    </script>
+
+</body>
+
+</html>

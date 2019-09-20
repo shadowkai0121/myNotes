@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="https://www.w3schools.com/jsref/jsref_match.asp" style="font-size: 2em;">.match() method</a>
+    <hr>
+
+    <script>
+        var str = "Example:Finding a Apple in a String";
+        document.write(str);
+        document.write("<br>");
+        document.write("字串長度：" + str.length);
+
+        document.write("<hr>");
+
+        //.match()找出a
+        document.write(".match(/a/g)==>" + str.match(/a/g) + "<br>");
+        document.write(".match(/a/i)==>" + str.match(/a/i) + "<br>");
+        document.write(".match(/a/gi)==>" + str.match(/a/gi) + "<br>");
+        document.write(".match(/a/m)==>" + str.match(/a/m) + "<br>");
+        document.write(".match(/a/mg)==>" + str.match(/a/mg) + "<br>");
+
+        document.write("<hr>");
+
+        //
+    </script>
+
+</body>
+</html>

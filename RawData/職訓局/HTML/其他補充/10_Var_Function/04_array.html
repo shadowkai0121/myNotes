@@ -1,0 +1,316 @@
+<!-- 陣列(array) -->
+<!-- http://www.w3schools.com/js/js_arrays.asp -->
+
+
+
+
+
+<!-- 1. 為什麼要用陣列：利用索引值（Index）可以快速的存取資料 + 程式碼簡化 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript</title>
+</head>
+
+<body>
+
+    <script>
+        // 陣列使用時機：相同的資料型態（雖然javascript可以不需要相同，但還是盡量避免）、具有一致的意義、需要參與同樣的運算
+        // 陣列就像置物櫃一樣，可以存放物品，可以取出
+
+        // 1. 假設需要紀錄人物名稱，如果採用變數個別宣告的話：
+        var onepiece1 = "魯夫";
+        var onepiece2 = "索隆";
+        var onepiece3 = "娜美";
+        var onepiece4 = "騙人布";
+        var onepiece5 = "香吉士";
+        var onepiece6 = "喬巴";
+        var onepiece7 = "羅賓";
+        var onepiece8 = "布魯克";
+        var onepiece9 = "佛朗基";
+
+        // 2. 宣告陣列時，指定陣列長度
+        var onepieceByLen = new Array(9);
+        onepieceByLen[0] = "魯夫";
+        onepieceByLen[1] = "索隆";
+        onepieceByLen[2] = "娜美";
+        onepieceByLen[3] = "騙人布";
+        onepieceByLen[4] = "香吉士";
+        onepieceByLen[5] = "喬巴";
+        onepieceByLen[6] = "羅賓";
+        onepieceByLen[7] = "布魯克";
+        onepieceByLen[8] = "佛朗基";
+
+        // 3. 宣告陣列時，不指定陣列長度
+        var onepieceByItem = new Array();
+        onepieceByItem[0] = "魯夫";
+        onepieceByItem[1] = "索隆";
+        onepieceByItem[2] = "娜美";
+        onepieceByItem[3] = "騙人布";
+        onepieceByItem[4] = "香吉士";
+        onepieceByItem[5] = "喬巴";
+        onepieceByItem[6] = "羅賓";
+        onepieceByItem[7] = "布魯克";
+        onepieceByItem[8] = "佛朗基";
+
+        // 4. 宣告陣列時，直接設定陣列的值
+        var onepieceA = new Array("魯夫", "索隆", "娜美", "騙人布", "香吉士", "喬巴", "羅賓", "布魯克", "佛朗基");
+
+        // 5. 用[]宣告陣列
+        var onepieceB = ["魯夫", "索隆", "娜美", "騙人布", "香吉士", "喬巴", "羅賓", "布魯克", "佛朗基"];
+
+        // 補充資料：What’s the difference between “Array()” and “[]” while declaring a JavaScript array?
+        // https://stackoverflow.com/questions/931872/what-s-the-difference-between-array-and-while-declaring-a-javascript-ar
+
+    </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+<!-- 2. valueOf()、toString()、join("x")-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript</title>
+</head>
+
+<body>
+
+    <script>
+        var onepiece = ["魯夫", "索隆", "娜美", "騙人布", "香吉士", "喬巴", "羅賓", "布魯克", "佛朗基"];
+
+        // 把陣列裡面的元素用 document.write顯示在畫面上看看
+        document.write(onepiece[0] + ",");
+        document.write(onepiece[1] + ",");
+        document.write(onepiece[2] + ",");
+        document.write(onepiece[3] + ",");
+        document.write(onepiece[4] + ",");
+        document.write(onepiece[5] + ",");
+        document.write(onepiece[6] + ",");
+        document.write(onepiece[7] + ",");
+        document.write(onepiece[8]);
+
+        // 試試看， 底下三種屬於陣列的函式
+        // 1. 陣列.valueOf()
+        // 2. 陣列.toString()
+        // 3. 陣列.join("#")
+
+    </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+<!-- 3. 陣列裡面的型態可以不固定 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript</title>
+</head>
+
+<body>
+    
+    <img id="imgOP" src="../02_Table/img/01.jpg" alt="">
+    <br>
+
+    <script>
+        var obj = new Array(3);
+        obj[0] = "魯夫";
+        obj[1] = document.getElementById('imgOP');
+        obj[2] = 1000000;
+
+        document.write(obj[0] + "<br>");
+        document.write(obj[1] + "<br>");
+        document.write(obj[2] + "<br>");
+    </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+<!-- 4. 宣告後加入、移除陣列item的方法-->
+<!-- http://www.w3schools.com/js/js_array_methods.asp -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript</title>
+</head>
+
+<body>
+
+    <script>
+        var obj = new Array();
+        obj[0] = "黑糖珍奶";
+        obj[1] = "蜂蜜檸檬";
+        obj[2] = "原萃金萱";
+
+        document.write("陣列長度為：" + obj.length + "<hr>");
+
+        // 1. 試試看有哪三種方法可以加入元素?
+        
+        // 2. 移除第一個元素
+        
+        // 3. 移除最後一個元素
+        
+    </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+<!-- 5. sort() + reverse() -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript</title>
+</head>
+
+<body>
+
+    <script>
+        var lotto = ["37", "13", "25", "06", "18", "30"];
+        document.write(lotto.valueOf() + "<hr>");
+        // 陣列.sort()：從小到大排序
+        
+        var supperLotto = ["34", "3", "13", "18", "1", "29"];
+        document.write(supperLotto.valueOf() + "<hr>");    
+        // 陣列.reverse()：必須要先透過 陣列.sort() 從小到大排序後，再透過 陣列.reverse() 反轉，才是大到小排序jh 
+
+    </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+<!-- 6. 二維陣列 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript</title>
+</head>
+
+<body>
+
+    <script>
+        // 棋盤狀：ＯＸ遊戲、九九乘法表、翻牌遊戲、踩地雷遊戲
+        
+        // 35名學生，5門課程
+        var arRow = new Array(35);
+        arRow[0] = new Array(6);
+        arRow[1] = new Array(6);
+        arRow[2] = new Array(6);
+        arRow[3] = new Array(6);
+        
+        // 試著把mary的成績放上去吧
+        arRow[0][0] = "Kathy";
+        arRow[0][1] = "100";
+        arRow[0][2] = "100";
+        arRow[0][3] = "50";
+        arRow[0][4] = "88";
+        arRow[0][5] = "76";
+        
+        arRow[1][0] = "Eric";
+        arRow[1][1] = "88";
+        arRow[1][2] = "75";
+        arRow[1][3] = "80";
+        arRow[1][4] = "95";
+        arRow[1][5] = "90";
+        
+        arRow[2][0] = "Allen";
+        arRow[2][1] = "90";
+        arRow[2][2] = "92";
+        arRow[2][3] = "88";
+        arRow[2][4] = "77";
+        arRow[2][5] = "96";
+
+    </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+<!-- 7. Objects use names   to access its "members". -->
+<!--    Arrays  use numbers to access its "elements". -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript</title>
+</head>
+
+<body>
+
+    <script>
+        // 一個陣列
+        // 成績表
+        var kathy = [100, 100, 50, 88, 76];
+
+        // 一個物件
+        // 一個物件是一些屬性的集合，而屬性是鍵與值之間的關聯。
+        var mary = {
+            chinese: 100,
+            english: 100,
+            math: 50,
+            history: 88,
+            geography: 76
+        };
+
+        document.write(mary.chinese);
+
+        document.write("<hr>");
+
+        document.write(mary["chinese"]);
+
+        document.write("<hr>");
+
+        document.write(mary[0]);
+
+    </script>
+
+</body>
+
+</html>

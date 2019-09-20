@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="jquery.zoom.min.js"></script>
+
+    <style>
+        .row {
+            width: 80%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container well">
+        <div class="row">
+            <div class="col-md-4">
+                <img src='../img/cat_9.png' width='320' height='320'/>
+            </div>
+
+            <div class="col-md-4">
+                <img src='../img/cat_9.png' width='320' height='320'/>
+            </div>
+
+            <div class="col-md-4">
+                <img src='../img/cat_9.png' width='320' height='320'/>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        //$(document).ready(function() {
+        //在DOM元素加载完毕之后，通过zoom()方法来初始化该插件
+        //$('img').zoom({
+        //url: '../img/cat_9.png'
+        //});
+        //});
+
+        // 或者通过 Colorbox 来放大图片
+        //$(document).ready(function() {
+        //$('a.photo').zoom({
+        //url: 'photo-big.jpg',
+        //callback: function() {
+        //$(this).colorbox({
+        //href: this.src
+        //});
+        //}
+        //});
+        //});
+
+        //要使图片可以被放大，必须将图片包裹在一个容器中
+        $(document).ready(function() {
+            $('img')
+                .wrap('<span style="display: inline-block;"></span>')
+                .css('display', 'block')
+                .parent()
+                .zoom();
+        });
+
+        $('#ex1').zoom(); // 添加图片放大效果
+        $('#ex1').trigger('zoom.destroy'); // 移除图片放大效果
+    </script>
+</body></html>

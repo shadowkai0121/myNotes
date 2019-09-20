@@ -1,0 +1,17 @@
+﻿@model List<test0426_Employee_hw.Models.employee>
+
+<img src="~/images/@Model[0].picture" class="employee-pic" width="100" />
+<div class="employee-details">
+    <h3>@Model[0].firstName @Model[0].lastName</h3>
+    <p>@Model[0].title</p>
+    <p>@Model[0].city</p>
+</div>
+
+<ul data-role="listview" data-inset="true" class="action-list">
+    <li><h4>Call office</h4><p>@Model[0].officePhone</p></li>
+    <li><h4>Call cell</h4><p>@Model[0].cellPhone</p></li>
+    <li><h4>SMS</h4><p>@Model[0].cellPhone</p></li>
+    <li><h4>Email</h4><p>@Model[0].email</p></li>
+</ul>
+
+<a href="/Home/Update">編輯</a>

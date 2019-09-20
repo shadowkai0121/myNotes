@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>example from w3cschool</title>
+
+    <!-- 1. 把 js 檔案抓到本機 -->
+    <script src="js/jquery-3.3.1.js"></script>
+
+    <!-- CDN (Content Delivery Network) -->
+    <!-- 2. 從 網路 載入檔案 (jquery) -->
+    <!--    相對URL protocol-relative URL，相關標準在RFC 3986 Section 4.2 -->
+    <!--    瀏覽器遇到相對URL，則會根據當前的網頁協議；在本地查看，協議就會變成file://。 -->
+    <!-- <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script> -->
+
+    <!-- 3. 從 網路 載入檔案 (googleapis) -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.js"></script> -->
+
+    <!-- 4. 從 網路 載入檔案 (Microsoft) -->
+    <!-- <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script> -->
+
+</head>
+
+<body>
+    <p>If you click on me, I will disappear.</p>
+    <p>Click me away!</p>
+    <p>Click me too!</p>
+
+    <script>
+        // 如果寫的是一個事件的話，使用的方法：$("選擇網頁上面的元素").事件(function(){ 這裡放要執行的事項 })
+        $(document).ready(function() {
+            $("p").click(function() {
+                $(this).hide();
+            });
+        });
+    </script>
+</body>
+
+</html>

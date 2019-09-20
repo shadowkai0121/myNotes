@@ -1,0 +1,12 @@
+﻿@model test0506_Controller.Models.Employee
+@{
+    ViewBag.Title = "Hello";
+}
+
+<h2>Hello</h2>
+
+<form method="post" action="">
+    First name: <input type="text" name="FirstName" value="@Model.FirstName"  /> <br />
+    Last name: <input type="text" name="LastName" value="@Model.LastName" /> <br />
+    <input type="submit" name="OK" value="OK" />
+</form>

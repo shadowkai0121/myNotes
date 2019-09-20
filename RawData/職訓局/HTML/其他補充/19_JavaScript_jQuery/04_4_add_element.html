@@ -1,0 +1,57 @@
+<!-- javascript版 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>add HTML element</title>
+</head>
+
+<body>
+    <p>增加說明文字</p>
+    <img id="imgOP" src="../02_Table/img/01.jpg">
+    
+    <script>
+    // createElement 增加一個元素 (div)
+    var newDiv = document.createElement("div");
+
+    // createTextNode 新增一串文字
+    var newContent = document.createTextNode("這是魯夫啦，我是被新增出來的元素");
+    
+    // appendChild 將文字附加到div去
+    newDiv.appendChild(newContent); 
+
+    // 在誰的附近增加這個元素，得要先取得那一個元素
+    var currentDiv = document.getElementById("imgOP");
+    document.body.insertBefore(newDiv, currentDiv);
+
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+<!-- jQuery版 -->
+<!-- http://www.w3schools.com/jquery/jquery_dom_add.asp -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <p id="memo">增加說明文字~</p>
+    <img id="imgOP" src="../02_Table/img/01.jpg">
+    <script>
+    // 試著改寫看看
+    </script>
+</body>
+
+</html>

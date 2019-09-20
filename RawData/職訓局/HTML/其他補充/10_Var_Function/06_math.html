@@ -1,0 +1,39 @@
+<!-- 數學函式庫(Math) -->
+<!-- http://www.w3schools.com/js/js_math.asp -->
+
+<!-- Math 是靜態的函式庫，所以不需要生成物件 (new Math())-->
+<!-- 具有唯一值的概念，只佔著那一組記憶體空間。 -->
+
+<!-- 到w3c看看有哪些函式可以使用吧 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript</title>
+</head>
+
+<body>
+    <script>
+        // 取亂數是哪一個?
+        document.write("Math.random() ===> " + Math.random() + "<hr>");
+
+        // 四捨五入是哪個
+        document.write("Math.round(4.6) ===> " + Math.round(4.6) + "<hr>");
+
+        // 無條件捨棄是哪個
+        document.write("Math.floor(4.6) ===> " + Math.floor(4.6) + "<hr>");
+
+        // 無條件進位是哪個
+        document.write("Math.ceil(4.6) ===> " + Math.ceil(4.6) + "<hr>");
+
+        // 9開根號
+
+        // 取 0-10 的亂數該怎麼做?
+
+        // 取得特定範圍區間的亂數數值 ex 撲克牌：Math.floor(Math.random() * (最大 - 最小 + 1)) + 最小 ;
+        var result = Math.floor(Math.random() * (52 - 1 + 1)) + 1;
+        document.write("1-52 ===> " + result + "<hr>");
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+﻿@echo on
+
+git add --all
+
+git commit -m "js"
+
+git push
+
+@echo finish

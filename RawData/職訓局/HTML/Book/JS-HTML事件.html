@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        table,td{
+            margin-left: 10%;
+            padding: 10px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td:first-child{
+            text-align: center;
+        }
+        h6 {
+            text-align: center
+        }
+    </style>
+    <title></title>
+</head>
+
+<body onload="showmessage()">
+
+    <a href="http://www.w3schools.com/js/js_events.asp">w3c事件清單</a>
+    <table>
+        <tr>
+            <td>
+                <h6>事件名稱</h6>
+            </td>
+            <td>
+                <h6>功能敘述</h6>
+            </td>
+        </tr>
+        <tr>
+            <td><button onclick="showmessage()">onclick</button></td>
+            <td>按下去</td>
+        </tr>
+        <tr>
+            <td><button onmouseover="showmessage()">onmouseover</button></td>
+            <td>滑到上方</td>
+        </tr>
+        <tr>
+            <td><button onmouseout="showmessage()">onmouseout</button></td>
+            <td>滑開的時候</td>
+        </tr>
+        <tr>
+            <td><input id="inputbox" type="text" onkeypress="showmessage()" value="onkeypress"></td>
+            <!--指定按鍵呢?-->
+            <td>按下任何按鍵觸發</td>
+        </tr>
+        <tr>
+            <td>onload</td>
+            <!--如何顯示畫面之後再彈窗?-->
+            <td>讀取完成時觸發，請按F5</td>
+        </tr>
+    </table>
+    <!--button是一顆按鈕-->
+    <!--onclick是HTML事件-->
+    <button onclick="showmessage()">click me!</button>
+    <!--召喚JS-->
+    <script type="text/javascript">
+        function showmessage() {
+            //alert彈出的是瀏覽器的警告視窗
+            alert("Hello! JavaScript!!");
+        }
+    </script>
+</body>
+
+</html>

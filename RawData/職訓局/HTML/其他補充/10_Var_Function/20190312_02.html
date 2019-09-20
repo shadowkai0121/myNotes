@@ -1,0 +1,42 @@
+<!-- 4. 宣告後加入、移除陣列item的方法-->
+<!-- http://www.w3schools.com/js/js_array_methods.asp -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript</title>
+</head>
+
+<body>
+
+    <script>
+        var obj = new Array();
+        obj[0] = "黑糖珍奶";
+        obj[1] = "蜂蜜檸檬";
+        obj[2] = "原萃金萱";
+
+        document.write("陣列長度為：" + obj.length + "<hr>");
+        document.write("原始陣列:" + obj.toString() + "<hr>");
+
+        // 1. 試試看有哪三種方法可以加入元素?
+        obj[obj.length] = "紅茶拿鐵";
+        document.write("採用obj[obj.length]加入===>" + obj.toString() + "<hr>");
+
+        obj.push("豆漿紅茶");
+        document.write("採用obj.push()加入===>" + obj.toString() + "<hr>");
+
+        obj.unshift("桂圓紅棗茶");
+        document.write("採用obj.unshift()加入===>" + obj.toString() + "<hr>");
+
+        // 2. 移除第一個元素
+        obj.shift();
+        document.write("採用obj.shift()===>" + obj.toString() + "<hr>");
+
+        // 3. 移除最後一個元素
+        obj.pop();
+        document.write("採用obj.pop()===>" + obj.toString() + "<hr>");
+    </script>
+
+</body>
+
+</html>

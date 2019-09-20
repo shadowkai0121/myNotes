@@ -1,0 +1,57 @@
+﻿use master
+go
+
+create database DrinkDB
+go
+
+use DrinkDB
+go
+
+
+create table Products
+(
+  ProductID int not null primary key,
+  ProductName nvarchar(20),
+  Price money
+)
+go
+
+insert into Products values (1, N'紅茶', 15)
+insert into Products values (2, N'烏龍茶', 30)
+insert into Products values (3, N'可樂', 20)
+go
+
+select * from Products
+go
+
+
+create table Orders
+(
+  OrderID varchar(20) not null primary key,
+  CustomerName nvarchar(20),
+  Phone nvarchar(20),
+  memo nvarchar(30),
+)
+go
+
+-- drop table OrderDetails
+create table OrderDetails
+(
+  OrderDetailsID int identity primary key,
+  OrderID varchar(20),
+  ProductID int,
+  ProductName nvarchar(20),
+  Price money,
+  Quantity int,
+  Ice nvarchar(10),
+  Sugar nvarchar(10)
+)
+go
+
+-- select * from orders
+-- select * from orderDetails
+
+
+
+
+

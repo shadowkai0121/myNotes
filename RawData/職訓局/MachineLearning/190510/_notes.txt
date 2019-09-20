@@ -1,0 +1,32 @@
+﻿什麼是機器學習? What is machine learning?
+https://www.youtube.com/watch?v=YY7-VKXybjc
+
+The 7 Steps of Machine Learning (AI Adventures)
+https://www.youtube.com/watch?v=nKW8Ndu7Mjw
+
+究竟神經網路是什麼？ l 第一章 深度學習
+https://www.youtube.com/watch?v=aircAruvnKk
+
+梯度下降，神經網絡如何學習
+https://www.youtube.com/watch?v=IHZwWFHWa-w
+
+什麼是反向傳播演算法？
+https://www.youtube.com/watch?v=Ilg3gGewQ5U
+
+A Neural Network Playground
+https://playground.tensorflow.org/
+
+Machine Learning in 5 Minutes with brain.js!
+https://www.linkedin.com/pulse/machine-learning-5-minutes-brainjs-anthony-krivonos
+
+How Machines Learn
+https://www.youtube.com/watch?v=R9OHn5ZF4Uo
+
+臉部 API 文件
+https://docs.microsoft.com/zh-tw/azure/cognitive-services/face/
+
+快速入門：使用 REST API 和 JavaScript 偵測影像中的人臉
+https://docs.microsoft.com/zh-tw/azure/cognitive-services/Face/quickstarts/javascript
+
+快速入門：使用 Face REST API 和 C# 偵測影像中的臉部
+https://docs.microsoft.com/zh-tw/azure/cognitive-services/Face/quickstarts/csharp

@@ -1,0 +1,56 @@
+<!-- 2. 移動吧，圖片 - 加上開始暫停 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>setInterval</title>
+</head>
+
+<body>
+    <img id="op" src="img/onepiece.png" style="width:1064px; height:599px; position: relative;">
+
+    <div>
+        <button onclick="start()">start</button>
+        <button onclick="pause()">pause</button>
+        <button onclick="again()">again</button>
+    </div>
+
+    <script type="text/javascript">
+        var imgOP = document.getElementById("op");
+        //跨不同function
+        var gameflag;
+
+        function start() {
+            // setInterval會回傳一個參數，紀錄被啟動
+            gameflag = setInterval("animate()", 10);
+        }
+
+        function pause() {
+            // 暫停，就是清空原本啟動時的參數，中止setInterval再繼續執行
+            clearInterval(gameflag);
+        }
+
+        function again() {
+            clearInterval(gameflag);
+            //回原點
+            imgOP.style.top = "0px";
+            imgOP.style.left = "0px";
+        }
+
+        function animate() {
+
+            // imgOP.style.left 會回傳 → NaN，如果imgOP.style.left沒有初始化的話
+            // imgOP.style.left → "0px"
+
+            var posLeft = parseInt(imgOP.style.left).toString() == "NaN" ? 0 : parseInt(imgOP.style.left);
+
+            imgOP.style.left = (posLeft - 1) + "px";
+
+            if (posLeft == (parseInt(imgOP.style.width) * -1)) {
+                imgOP.style.left = document.body.clientWidth + "px";
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+﻿<form class="form-horizontal" method="post" action="">
+    <fieldset>
+        <!-- Form Name -->
+        <legend>新增資料</legend>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="PersionID">編號</label>
+            <div class="col-md-4">
+                <input id="PersonId" name="PersonId" type="text" placeholder="placeholder" class="form-control input-md">
+            </div>
+        </div>
+
+        <!-- Multiple Radios (inline) -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="BloodType">血型</label>
+            <div class="col-md-4">
+                <label class="radio-inline" for="BloodType-0">
+                    <input type="radio" name="BloodType" id="BloodType-0" value="A" checked="checked">
+                    A
+                </label>
+                <label class="radio-inline" for="BloodType-1">
+                    <input type="radio" name="BloodType" id="BloodType-1" value="B">
+                    B
+                </label>
+                <label class="radio-inline" for="BloodType-2">
+                    <input type="radio" name="BloodType" id="BloodType-2" value="AB">
+                    AB
+                </label>
+                <label class="radio-inline" for="BloodType-3">
+                    <input type="radio" name="BloodType" id="BloodType-3" value="O">
+                    O
+                </label>
+            </div>
+        </div>
+
+        <!-- Select Basic -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="CityId">城市</label>
+            <div class="col-md-4">
+                <select id="CityId" name="CityId" class="form-control">
+                    <option value="1">台北</option>
+                    <option value="2">台中</option>
+                    <option value="3">台南</option>
+                    <option value="4">海外</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Button (Double) -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="btnOK"></label>
+            <div class="col-md-8">
+                <button id="btnOK" name="btnOK" class="btn btn-success">OK</button>
+                <button id="btnCancel" name="btnCancel" class="btn btn-danger">Cancel</button>
+            </div>
+        </div>
+
+    </fieldset>
+</form>
+

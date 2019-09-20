@@ -1,0 +1,103 @@
+﻿# Microsoft Azure 課堂練習
+
+
+1. 什麼是「雲端運算」，一些影片
+
+IaaS vs. PaaS vs. SaaS
+https://www.youtube.com/watch?v=KgL3BfAc9Cs
+
+
+TEDxTaipeiChange 2012 - Ben Jai (翟本喬) - 要上雲端，先換腦袋
+https://www.youtube.com/watch?v=92AClPNP_gY
+
+
+(Optional)
+雲端運算的發展歷程
+https://www.youtube.com/watch?v=b96xG42XlEE
+
+
+
+
+
+
+2. 練習發佈專案
+
+
+2.1  在 Visual Studio 發佈專案時，一併建立 App Service
+使用 Visual Studio 將 ASP.NET Web 應用程式部署至 Azure App Service
+https://docs.microsoft.com/zh-tw/azure/app-service/app-service-web-get-started-dotnet
+
+
+2.2  另一個方法，先在 Azure Portal 建立 App Service，再將 Web 專案發佈出去
+     (這作法請參閱本文件之「MVC5 + 資料庫 + Azure」)
+
+
+
+
+
+
+3. Azure 資料庫
+
+
+3.1 使用 Azure 入口網站在 Azure SQL Database 中建立單一資料庫
+https://docs.microsoft.com/zh-tw/azure/sql-database/sql-database-single-database-get-started?WT.mc_id=gallery
+
+<Note> Azure 入口網站
+https://portal.azure.com/
+
+<Note> 文件有許多畫面與最新版本的Azure操作畫面不符，你能克服嗎?
+
+<Note> 先不忙著依文件刪除資源群組，如何用 SQL Server Management Studio 連接以便管理呢? 
+
+<Note> 如果連不到，請參考下列文件進行設定:
+3.2 使用 Azure 入口網站為單一和集區資料庫建立伺服器層級防火牆規則
+https://docs.microsoft.com/zh-tw/azure/sql-database/sql-database-server-level-firewall-rule
+
+
+
+
+
+
+4. MVC5 + 資料庫 + Azure
+
+
+4.1  在上述步驟三的伺服器新建一個資料庫: directory
+
+
+4.2  匯出本課程常用的本地端 directory 資料庫到 4.1 的遠端資料庫
+
+
+4.3  建立一個 MVC5 的網站 CRUD 本地端 directory 資料庫
+
+
+4.4  測試 4.3 的網站
+
+
+4.5  修改 web.config 的連線字串，變更 Data Source 為步驟三的伺服器
+
+
+4.6  修改 web.config 的連線字串，變更為 SQL 認證，帳號密碼一併增訂
+
+
+4.7  發佈網站到 Azure
+
+
+4.8  測試發佈後的網站
+
+
+
+
+
+
+5.  虛擬機器
+
+
+在 Azure 入口網站中建立第一個 Windows 虛擬機器
+https://docs.microsoft.com/zh-tw/azure/virtual-machines/windows/quick-create-portal
+
+
+Deploy Web App In Azure VM Using Visual Studio
+https://www.c-sharpcorner.com/article/deploy-web-app-in-azure-vm-using-visual-studio/
+
+
+

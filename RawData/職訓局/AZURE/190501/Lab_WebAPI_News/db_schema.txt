@@ -1,0 +1,23 @@
+CREATE DATABASE newsDB
+GO
+
+USE newsDB
+GO
+
+CREATE TABLE news (
+  newsId IDENTITY(1,1) NOT NULL PRIMARY KEY,
+  ymd char(10),
+  title nvarchar(50)
+)
+GO
+
+INSERT news (newsId, ymd, title) VALUES (1, N'2017-05-01', N'News A')
+GO
+INSERT news (newsId, ymd, title) VALUES (1, N'2017-05-02', N'News B')
+GO
+INSERT news (newsId, ymd, title) VALUES (1, N'2017-05-03', N'News C')
+GO
+INSERT news (newsId, ymd, title) VALUES (1, N'2017-05-04', N'News D')
+GO
+INSERT news (newsId, ymd, title) VALUES (1, N'2017-05-05', N'News E')
+GO

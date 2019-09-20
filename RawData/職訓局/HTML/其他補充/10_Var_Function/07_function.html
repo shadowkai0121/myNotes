@@ -1,0 +1,197 @@
+<!-- 函式(function) -->
+<!-- http://www.w3schools.com/js/js_functions.asp -->
+
+
+
+
+<!-- 將功能獨立出來，提高程式的可用性 -->
+
+
+
+
+
+<!-- 在其他語言裡面你會看到的function -->
+
+<!-- c#：public int myCalculate(int x, int y) -->
+
+<!-- vb：Function myCalculate(ByVal x As Integer, ByVal y As Integer) As Integer -->
+
+
+
+
+<!-- 1. 複習一下我們之前用過的function -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript</title>
+</head>
+
+<body>
+
+    <button onclick="showMessage()">點我會提示訊息喔!!(function)</button>
+
+    <!-- 試試看，這個按鈕按下去的結果是? -->
+    <button onclick="javascript:alert('Hello JavaScript!!! inline')">點我會提示訊息喔!!(inline)</button>	
+
+    <script type="text/javascript">
+    function showMessage() {
+        alert("Hello JavaScript!!!");
+    }
+    </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+<!-- 2. function進化了 -->
+<!--    a. function傳入參數 -->
+<!--    b. function呼叫function -->
+<!--    c. 可以有回傳值 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>function</title>
+</head>
+<body>
+
+    <input type="text" id="inputX" value="5">
+    <span>+</span>
+    <input type="text" id="inputY" value="3">
+
+    <button id="btnAdd"   onclick="myCalculate('add')">加法計算結果</button>
+    <button id="btnMinus" onclick="myCalculate('minus')">減法計算結果</button>
+
+    <script type="text/javascript">
+
+        function funAdd(inputX, inputY)
+        {
+            // 分解動作
+            // var temp = parseFloat(inputX) + parseFloat(inputY);
+            // return temp;
+
+            return parseFloat(inputX) + parseFloat(inputY);
+        }
+
+        function myCalculate(type)
+        {
+            var result;
+            var x = document.getElementById("inputX").value;
+            var y = document.getElementById("inputY").value;
+
+            if (type == "add")
+            {
+                result = funAdd(x, y);
+            }
+
+            alert(result);
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!-- 3.  this -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>function</title>
+</head>
+
+<body>
+    x: <input type="text" id="inputX" value="5">
+    <br>
+    y: <input type="text" id="inputY" value="3">
+
+    <br>
+    <button id="btnAdd" onclick="myCalculate(this)">加法計算結果</button>
+    <br>
+    <button id="btnMinus" onclick="myCalculate(this)">減法計算結果</button>
+    <br>
+    <button id="btnTimes" onclick="myCalculate(this)">乘法計算結果</button>
+    <br>
+    <button id="btnDivide" onclick="myCalculate(this)">除法計算結果</button>
+    <br>
+
+    <script type="text/javascript">
+    function myCalculate(obj) {
+        var result;
+
+        var x = parseFloat(document.getElementById("inputX").value);
+        var y = parseFloat(document.getElementById("inputY").value);
+
+        if (obj.id == "btnAdd") {
+            result = x + y;
+        } else if (obj.id == "btnMinus") {
+            result = x - y;
+        } else if (obj.id == "btnTimes") {
+            result = x * y;
+        } else if (obj.id == "btnDivide") {
+            result = x / y;
+        } else {
+            result = "你按到的不是+-*/按鈕";
+        }
+
+        alert(result);
+    }
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!-- 4.拿前面的範例來說 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>head or body</title>
+    <script>
+    function changeRed() {
+        var p = document.getElementById('pJuly');
+        p.style.fontSize = "3em";
+        p.style.color = "red";
+    }
+    </script>
+</head>
+
+<body>
+
+    <p id="pJuly" onclick="changeRed()">七月的日本有花火節。</p>
+
+    <p id="pAugust" onclick="javascript:  
+            var p = document.getElementById('pAugust');
+            p.style.fontSize = '3em';
+            p.style.color = 'blue';">八月的日本還是在花火節。</p>
+
+    <script>
+    
+    </script>
+</body>
+
+</html>
+
+
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Responsive Web Design </title>
+    <style type="text/css">
+    /*隨著裝置(media)畫面(screen)不同，網頁會自動對應不同的css*/
+    /*min-width 是最小寬度；max-width 是最大寬度*/
+    
+    @media screen and (max-width: 500px) {
+        /* < 499px，會載入這裡的 CSS。*/
+        img {
+            width: 500px;
+        }
+    }
+
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+        img {
+            width: 200px;
+        }
+    }
+    
+    @media screen and (min-width: 1000px) {
+        /*>= 1000px，會載入這裡的 CSS。*/
+        img {
+            width: 100px;
+        }
+    }
+
+
+    </style>
+</head>
+
+<body>
+    <a href="https://www.thinkwithgoogle.com/" target="_blank">響應式網頁</a>
+    <br>
+    <a href="http://design2u.me/blog/example/mediaquery/index.html" target="_blank">網路參考範例(以顏色區分)</a>
+    <br>
+    <p>只做一個版本的設計就能通吃所有大小的螢幕，讓網頁適應不同大小的解析度自動調整排版。RWD</p>
+    <img src="../05_Image_Media/huistenbosch1.jpg">
+    <img src="../05_Image_Media/huistenbosch2.jpg">
+    <img src="../05_Image_Media/itsukushima1.jpg">
+    <img src="../05_Image_Media/itsukushima2.jpg">
+</body>
+
+</html>

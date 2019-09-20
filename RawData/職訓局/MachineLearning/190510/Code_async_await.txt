@@ -1,0 +1,51 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace test0317_await {
+    public partial class Form1 : Form {
+        public Form1() {
+            InitializeComponent();
+        }
+
+        private void DisplayTimeButton_Click(object sender, EventArgs e) {
+            DisplayTimeButton.Text = DateTime.Now.ToString();
+        }
+
+        private void button1_Click(object sender, EventArgs e) {
+            this.Text = LongTimeWork(5).ToString();
+            button1.Text = "Done";
+        }
+
+        private long LongTimeWork(int howHeavy) {
+            // 假設程式會跑很久...            
+            System.Threading.SpinWait.SpinUntil(() => false, 1000 * howHeavy);
+            return howHeavy;
+        }
+
+        private async void button2_Click(object sender, EventArgs e) {
+            var result = await Task.Run(() => LongTimeWork(6));
+            this.Text = result.ToString();
+            button2.Text = "Done";
+        }
+
+        private Task<long> LongTimeWorkAsync(int howHeavy) {
+            return Task.Run(() => LongTimeWork(howHeavy));
+        }
+
+        private async void button3_Click(object sender, EventArgs e) {
+            var result = await LongTimeWorkAsync(3);
+            this.Text = result.ToString();
+            button3.Text = "Done";
+        }
+
+
+    }
+}

@@ -1,0 +1,14 @@
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0422_HtmlAgility\test0422_HtmlAgility\bin\Debug\test0422_HtmlAgility.exe.config
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0422_HtmlAgility\test0422_HtmlAgility\bin\Debug\test0422_HtmlAgility.exe
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0422_HtmlAgility\test0422_HtmlAgility\bin\Debug\test0422_HtmlAgility.pdb
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0422_HtmlAgility\test0422_HtmlAgility\bin\Debug\HtmlAgilityPack.dll
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0422_HtmlAgility\test0422_HtmlAgility\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0422_HtmlAgility\test0422_HtmlAgility\bin\Debug\HtmlAgilityPack.xml
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0422_HtmlAgility\test0422_HtmlAgility\obj\Debug\test0422_HtmlAgility.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0422_HtmlAgility\test0422_HtmlAgility\obj\Debug\test0422_HtmlAgility.Form1.resources
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0422_HtmlAgility\test0422_HtmlAgility\obj\Debug\test0422_HtmlAgility.Properties.Resources.resources
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0422_HtmlAgility\test0422_HtmlAgility\obj\Debug\test0422_HtmlAgility.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0422_HtmlAgility\test0422_HtmlAgility\obj\Debug\test0422_HtmlAgility.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0422_HtmlAgility\test0422_HtmlAgility\obj\Debug\test0422_HtmlAgility.csproj.CopyComplete
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0422_HtmlAgility\test0422_HtmlAgility\obj\Debug\test0422_HtmlAgility.exe
+C:\Users\admin\Desktop\SMIT09\ADOdotNET\test0422_HtmlAgility\test0422_HtmlAgility\obj\Debug\test0422_HtmlAgility.pdb

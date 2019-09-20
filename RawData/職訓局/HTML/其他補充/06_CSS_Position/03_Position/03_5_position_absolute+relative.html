@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>position</title>
+    <style type="text/css">
+    .demo {
+        background-color: #FF9933;
+        
+        /* 2. 在這裡將元素的設定position: relative;*/
+    }
+    
+    #divRed {
+        background-color: #FF0000;
+        width: 200px;
+        height: 200px;
+    }
+    
+    #divGreen {
+        background-color: #00FF00;
+        width: 150px;
+        height: 300px;
+        
+        /* 1. 在這裡將元素的設定position: absolute; top: 50px; */
+    }
+    
+    #divBlue {
+        background-color: #0000FF;
+        width: 300px;
+        height: 700px;
+    }
+    </style>
+</head>
+
+<body>
+    <h3>position：absolute 絕對位置</h3>
+    <h3>絕對位置，會去找【父元素(最近的一個) position: relative ; 沒有的話才會找到 body 】</h3>
+
+    <div class="demo">
+        <div id="divRed">Red 200*200</div>
+        <div id="divGreen">
+            Green 150*300；
+            <br>position: absolute;
+            <br>top: 50px;
+        </div>
+        <div id="divBlue">Blue</div>
+    </div>
+</body>
+
+</html>

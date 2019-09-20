@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <title>Document</title>
+    <style>
+        table,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px 20px;
+        }
+
+        .row {
+            width: 80%;
+        }
+
+        .card {
+            width: 300px;
+            height: 300px;
+        }
+
+        .order_control {
+            width: 30px;
+            height: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="mx-auto">
+        <table>
+                <tr id="order_form">
+                    <td>品項</td>
+                    <td>數量</td>
+                    <td>operator</td>
+                </tr>
+
+        </table>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 card card-body">
+            <img class="img-fluid" src="../JSBook/img/cat_1.jpg" alt="">
+            <button class="menu btn btn-warning" value="cat1">111</button>
+        </div>
+
+        <div class="col-md-4 card card-body">
+            <img class="img-fluid" src="../JSBook/img/cat_9.png" alt="">
+            <button class="menu btn btn-warning" value="cat2">222</button>
+        </div>
+
+        <div class="col-md-4 card card-body">
+            <img class="img-fluid" src="../JSBook/img/cat_6.jpg" alt="">
+            <button class="menu btn btn-warning" value="cat3">333</button>
+        </div>
+    </div>
+    <button id="add_order1" class="order_control btn-light"><img class="img-fluid" src="img/icon-multiply_burned.png" alt=""></button>
+    <button id="min_order1" class="order_control btn-light"><img class="img-fluid" src="img/icon_minus_burned.png" alt=""></button>
+    <button id="del_order1" class="order_control btn-light"><img class="img-fluid" src="img/icon-delete_burned.png" alt=""></button>
+
+    <script>
+        //<tr> 
+        //    <td class="order_form(i)">commodity.value</td>
+        //    <td class="order_form(i)"><input id="order1" type="text" value="1"></tr>
+        //    <td class="order_form(i)"><img +><img -><img D></td>
+        //<tr>
+
+        $(function() {
+            //自動增加對應的ID跟CLASS
+            var order_number = 0;
+            $('.menu').click(function() {
+                order_number++;
+                //console.log(order_number);
+
+                $('#order_form').after('<tr class="order_form' + order_number + '"><td>' + this.value + '</td>                                           <td><input id="order' + order_number + '" type="text" value="1"></td>                                               <td><button id="add_order' + order_number + '" class="order_control btn-light"><img class="img-fluid" src="img/icon-multiply_burned.png" alt=""></button>                             <button id="min_order' + order_number + '" class="order_control btn-light"><img class="img-fluid" src="img/icon_minus_burned.png" alt=""></button>            <button id="del_order' + order_number + '" class="order_control btn-light"><img class="img-fluid" src="img/icon-delete_burned.png" alt=""></button></td></tr>');
+
+            });
+
+            //<img +> onclick order(i).value += 1
+            //<img -> onclick order(i).value -= 1
+            //<img D> onclick $('.order_form(i)).remove();
+            //button class=order_control click return id= order1+,order1-,order1D
+            //on+switch case;
+            //變數宣告→#order被插入   還沒生的抓不到?!
+            //var order_amount = parseInt($('#order1').attr('value'));
+
+            $(document).on('click', '.order_control', function() {
+                //console.log(this);
+                //<button id="add_order1" class="order_control btn-light"><img class="img-fluid" src="img/icon/icon-multiply_burned.png" alt=""></button>
+
+                var obj = this.id.substr(0, 3);
+                var obj_number = this.id.substr(9, this.length);
+                //console.log(obj);
+                //console.log(obj_number);
+                var order_amount = parseInt($('#order' + obj_number).attr('value'));
+                switch (obj) {
+                    case 'add':
+                        order_amount++;
+                        //console.log(order_amount);
+                        $('#order' + obj_number).attr('value', order_amount);
+                        break;
+                    case 'min':
+                        order_amount--;
+                        $('#order' + obj_number).attr('value', order_amount);
+                        break;
+                    case 'del':
+                        $('.order_form' + obj_number).remove();
+                }
+
+            });
+
+        });
+
+
+
+        //if order.value < 0 then $('.order_form(i)').remove();
+
+        //如果有相同名字 order(i).value +=1
+
+    </script>
+</body>
+
+</html>

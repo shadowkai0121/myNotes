@@ -1,0 +1,50 @@
+﻿@model List<test0426_Person.Models.Person>
+<style>
+    .table-hover tbody tr:hover td {
+        background-color: lime;
+    }
+
+    .table-hover tbody tr td select option {
+        background-color: aqua;
+    }
+</style>
+
+<h1>
+    人員清單<br />
+    <a class="col-md-2 btn btn-info glyphicon-plus" href="/Home/Create">新增</a>
+</h1>
+<table class="table table-hover table-bordered ">
+    <thead>
+        <tr>
+            <th class="col-md-1">編號</th>
+            <th class="col-md-1">血型</th>
+            <th class="col-md-2">城市</th>
+            <th class="col-md-4">&nbsp;</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var p in Model)
+            {
+                <tr>
+                    <td>@p.PersonId</td>
+                    <td>@p.BloodType</td>
+                    <td>
+                        <select>
+                            <option value="1" @(p.CityId == 1 ? "selected" : "")>台北</option>
+                            <option value="2" @(p.CityId == 2 ? "selected" : "")>台中</option>
+                            <option value="3" @(p.CityId == 3 ? "selected" : "")>台南</option>
+                            <option value="4" @(p.CityId == 4 ? "selected" : "")>海外</option>
+                        </select>
+                    </td>
+                    <td>
+                        <span class="pull-right">
+                            <a class="btn btn-info" href="/Home/Edit?id=@p.PersonId"><span class="glyphicon glyphicon-pencil">修改</span></a>
+                            <a class="btn btn-danger" href="/Home/Delete?id=@p.PersonId"><span class="glyphicon glyphicon-remove">刪除</span></a>
+                        </span>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

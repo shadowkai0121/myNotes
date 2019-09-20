@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <!--https://css-tricks.com/anythingzoomer-jquery-plugin/-->
+    <!--https://thdoan.github.io/magnify/-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>jquery仿京东商城产品详细效果,京东图片放大效果</title>
+    <link href="base.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="fdj.js"></script>
+    <script type="text/javascript" src="base.js"></script>
+</head>
+
+<body>
+    <div class="right-extra" style="margin:100px;">
+        <!--产品参数开始-->
+        <div id="preview" class="spec-preview">
+            <span class="jqzoom"><img jqimg="images/01-datu.jpg" src="images/01-zhongtu.jpg" /></span>
+        </div>
+        <!--缩图开始-->
+        <div class="spec-scroll"> <a class="prev">&lt;</a> <a class="next">&gt;</a>
+            <div class="items">
+                <ul>
+                    <li><img alt="佳能" bimg="images/01-datu.jpg" src="images/01-zhongtu.jpg" onmousemove="preview(this);"></li>
+                    <li><img alt="佳能" bimg="images/02-datu.jpg" src="images/02-zhongtu.jpg" onmousemove="preview(this);"></li>
+                    <li><img alt="佳能" bimg="images/03-datu.jpg" src="images/03-zhongtu.jpg" onmousemove="preview(this);"></li>
+                    <li><img alt="佳能" bimg="images/04-datu.jpg" src="images/04-zhongtu.jpg" onmousemove="preview(this);"></li>
+                    <li><img alt="佳能" bimg="images/05-datu.jpg" src="images/05-zhongtu.jpg" onmousemove="preview(this);"></li>
+                    <li><img alt="佳能" bimg="images/01-datu.jpg" src="images/01-zhongtu.jpg" onmousemove="preview(this);"></li>
+                    <li><img alt="佳能" bimg="images/02-datu.jpg" src="images/02-zhongtu.jpg" onmousemove="preview(this);"></li>
+                    <li><img alt="佳能" bimg="images/03-datu.jpg" src="images/03-zhongtu.jpg" onmousemove="preview(this);"></li>
+                    <li><img alt="佳能" bimg="images/04-datu.jpg" src="images/04-zhongtu.jpg" onmousemove="preview(this);"></li>
+                    <li><img alt="佳能" bimg="images/05-datu.jpg" src="images/05-zhongtu.jpg" onmousemove="preview(this);"></li>
+                </ul>
+            </div>
+        </div>
+        <!--缩图结束-->
+    </div>
+</body></html>

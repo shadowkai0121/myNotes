@@ -1,0 +1,22 @@
+<!-- jQuery版 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <p id="demo">JavaScript can change HTML content.</p>
+    <button id="btnMsg" onclick="changeMsg()">Click Me!</button>
+    <script>
+        $(function() {
+            $("#btnMsg").click(function() {
+                $("#demo").html("GoGo OnePiece!!");
+            });
+        });
+    </script>
+</body>
+
+</html>

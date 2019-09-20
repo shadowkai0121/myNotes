@@ -1,0 +1,90 @@
+<!-- Mouse Events -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <img id="dog" src="img/doge.gif" style="width:200px; height:200px; position:relative; top:50px; left:250px;">
+    <script>
+    // 試試看，加上setInterval
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+<!-- hover -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <img id="dog" src="img/doge.gif" style="width:200px; height:200px; position:relative; top:50px; left:250px;">
+    <script>
+    $(function() {
+        var flag;
+        var i = 0;
+
+        $("#dog").hover(function() {
+            flag = setInterval(function() {
+                i += 5;
+                $("#dog").css("transform", "rotateZ(" + i.toString() + "deg)");
+            }, 100);
+        }, function() {
+            clearInterval(flag);
+        });
+    });
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+<!-- on -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <p>Click or move the mouse pointer over this paragraph.</p>
+
+    
+    <script>
+    $(document).ready(function() {
+        $("p").on({
+            // 幫p掛上 mouseenter、mouseleave、click事件
+            
+        });
+    });
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+

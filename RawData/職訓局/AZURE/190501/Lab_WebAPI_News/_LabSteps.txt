@@ -1,0 +1,10 @@
+design_0
+
+    Task:
+    表單畫面初步完成，請將之改成如圖 news_list.jpg 的那個樣子
+
+
+design_1
+
+    Task:
+    表單畫面與程式皆已完成，就等我們伺服端的 Web API 完工，即可運作。

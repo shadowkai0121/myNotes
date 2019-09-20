@@ -1,0 +1,13 @@
+﻿@model text0425_input_output.Models.Employee
+@{
+    ViewBag.Title = "Hello";
+}
+
+<h2>Hello</h2>
+
+<form action="/Lab/Hello" method="post">
+    Your name: <input type="text" name="FirstName" value="@Model.FirstName" />
+    <input type="submit" name="OK" value="OK" />
+    @ViewBag.why<br />
+    @*TempData:@TempData["ErrorMessage"]*@
+</form>

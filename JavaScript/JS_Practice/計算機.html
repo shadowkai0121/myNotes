@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 7px;
+        }
+
+        #display {
+            text-align: right;
+        }
+    </style>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <table id="calculator">
+        <tr>
+            <td colspan="5"><input type="text" id="display" disabled></td>
+        </tr>
+        <tr>
+            <td onclick="calculate('c')">C</td>
+            <td onclick="calculate('/')">/</td>
+            <td onclick="calculate('*')">*</td>
+            <td onclick="calculate('-')">-</td>
+        </tr>
+        <tr>
+            <td onclick="calculate('7')">7</td>
+            <td onclick="calculate('8')">8</td>
+            <td onclick="calculate('9')">9</td>
+            <td onclick="calculate('+')"rowspan="3">+</td>
+        </tr>
+        <tr>
+            <td onclick="calculate('4')">4</td>
+            <td onclick="calculate('5')">5</td>
+            <td onclick="calculate('6')">6</td>
+        </tr>
+        <tr>
+            <td onclick="calculate('1')">1</td>
+            <td onclick="calculate('2')">2</td>
+            <td onclick="calculate('3')">3</td>
+        </tr>
+        <tr>
+            <td onclick="calculate('0')" colspan="2">0</td>
+            <td onclick="calculate('.')">.</td>
+            <td onclick="answer()">=</td>
+        </tr>
+    </table>
+
+    <script>
+        var box = document.getElementById("display");
+
+        function calculate(obj) {
+            if (obj == 'c') {
+                box.value = '';
+            } else {
+                box.value += obj;
+            }
+        }
+        
+        function answer(){
+            var ans = box.value;
+            box.value = eval(ans);
+        }
+    </script>
+</body>
+</html>
